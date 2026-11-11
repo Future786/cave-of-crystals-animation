@@ -1,0 +1,449 @@
+{
+  "preset": "abyss",
+  "width": 1080,
+  "height": 1920,
+  "fps": 24,
+  "grain": 0.04,
+  "tokens": {
+    "top": "#1e3a2b",
+    "bottom": "#06120b",
+    "hl": "#3ecf6a",
+    "pill": "#0c2416"
+  },
+  "audio": "/home/antigravity/Future786/cave-of-crystals-animation/audio/06_tardigrades_final_audio.mp3",
+  "shots": [
+    {
+      "start": 0.0,
+      "end": 7.42,
+      "bg": {
+        "depth": 0.4,
+        "rays": true,
+        "particleCount": 45
+      },
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.14,
+        "x": 540,
+        "y": 960,
+        "panX": -25
+      },
+      "fadeIn": 0.35,
+      "fadeOut": 0,
+      "elements": [
+        {
+          "type": "tag",
+          "text": "MICRO-METAZOA \u2022 0.5MM",
+          "x": 80,
+          "y": 180,
+          "size": 34,
+          "box": true
+        },
+        {
+          "type": "bignumber",
+          "from": 0,
+          "to": 0.5,
+          "suffix": " mm",
+          "x": 540,
+          "y": 780,
+          "size": 140,
+          "color": "#3ecf6a",
+          "dur": 2.0,
+          "t0": 0.3
+        },
+        {
+          "type": "pill",
+          "text": "MICROSCOPIC WATER BEAR",
+          "x": 320,
+          "y": 880,
+          "size": 24,
+          "t0": 0.6
+        },
+        {
+          "type": "caption",
+          "text": "Measuring half a millimeter long,\n*Tardigrades* are Earth's most indestructible animals.",
+          "y": 1680,
+          "size": 42,
+          "t0": 0.5,
+          "t1": 7.37,
+          "fade": 0.22,
+          "box": true
+        }
+      ]
+    },
+    {
+      "start": 7.42,
+      "end": 14.52,
+      "bg": {
+        "depth": 0.48,
+        "rays": true,
+        "particleCount": 45
+      },
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.14,
+        "x": 540,
+        "y": 960,
+        "panX": 25
+      },
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "elements": [
+        {
+          "type": "tag",
+          "text": "MICRO-METAZOA \u2022 0.5MM",
+          "x": 80,
+          "y": 180,
+          "size": 34,
+          "box": true
+        },
+        {
+          "type": "stamp",
+          "text": "CRYPTOBIOSIS INITIATED",
+          "color": "#ffd166",
+          "x": 540,
+          "y": 850,
+          "size": 52,
+          "rotate": -5,
+          "t0": 1.2
+        },
+        {
+          "type": "caption",
+          "text": "They survived *all five mass extinction events*\nover 600 million years of Earth history.",
+          "y": 1680,
+          "size": 42,
+          "t0": 0.15,
+          "t1": 7.05,
+          "fade": 0.22,
+          "box": true
+        }
+      ]
+    },
+    {
+      "start": 14.52,
+      "end": 21.65,
+      "bg": {
+        "depth": 0.56,
+        "rays": false,
+        "particleCount": 45,
+        "spotlight": {
+          "x": 540,
+          "w": 420
+        }
+      },
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.14,
+        "x": 540,
+        "y": 960,
+        "panX": -25
+      },
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "elements": [
+        {
+          "type": "tag",
+          "text": "MICRO-METAZOA \u2022 0.5MM",
+          "x": 80,
+          "y": 180,
+          "size": 34,
+          "box": true
+        },
+        {
+          "type": "meter",
+          "x": 160,
+          "y": 820,
+          "w": 760,
+          "value": 0.01,
+          "number": 0.01,
+          "unit": " %",
+          "title": "METABOLIC ACTIVITY RATE",
+          "dur": 2.2,
+          "t0": 0.3
+        },
+        {
+          "type": "caption",
+          "text": "In deadly conditions, they enter *cryptobiosis*,\nexpelling 99% of their body water.",
+          "y": 1680,
+          "size": 42,
+          "t0": 0.15,
+          "t1": 7.08,
+          "fade": 0.22,
+          "box": true
+        }
+      ]
+    },
+    {
+      "start": 21.65,
+      "end": 29.95,
+      "bg": {
+        "depth": 0.64,
+        "rays": false,
+        "particleCount": 45
+      },
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.14,
+        "x": 540,
+        "y": 960,
+        "panX": 25
+      },
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "elements": [
+        {
+          "type": "tag",
+          "text": "MICRO-METAZOA \u2022 0.5MM",
+          "x": 80,
+          "y": 180,
+          "size": 34,
+          "box": true
+        },
+        {
+          "type": "pill",
+          "text": "CELLULAR BIOLOGICAL GLASS",
+          "x": 280,
+          "y": 820,
+          "size": 24,
+          "t0": 0.6
+        },
+        {
+          "type": "caption",
+          "text": "In this 'tun' state, their metabolism slows,\n*virtually stopping biological time*.",
+          "y": 1680,
+          "size": 42,
+          "t0": 0.15,
+          "t1": 8.25,
+          "fade": 0.22,
+          "box": true
+        }
+      ]
+    },
+    {
+      "start": 29.95,
+      "end": 38.46,
+      "bg": {
+        "depth": 0.71,
+        "rays": false,
+        "particleCount": 45
+      },
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.14,
+        "x": 540,
+        "y": 960,
+        "panX": -25
+      },
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "elements": [
+        {
+          "type": "tag",
+          "text": "MICRO-METAZOA \u2022 0.5MM",
+          "x": 80,
+          "y": 180,
+          "size": 34,
+          "box": true
+        },
+        {
+          "type": "pill",
+          "text": "-272\u00b0C TO +150\u00b0C",
+          "tone": "red",
+          "x": 360,
+          "y": 760,
+          "size": 26,
+          "t0": 0.4
+        },
+        {
+          "type": "stamp",
+          "text": "SPACE VACUUM SURVIVOR",
+          "color": "#3ecf6a",
+          "x": 540,
+          "y": 880,
+          "size": 50,
+          "t0": 1.5
+        },
+        {
+          "type": "caption",
+          "text": "Proteins turn their cellular interior into\n*protective biological glass* in stasis.",
+          "y": 1680,
+          "size": 42,
+          "t0": 0.15,
+          "t1": 8.46,
+          "fade": 0.22,
+          "box": true
+        }
+      ]
+    },
+    {
+      "start": 38.46,
+      "end": 48.39,
+      "bg": {
+        "depth": 0.79,
+        "rays": false,
+        "particleCount": 45
+      },
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.14,
+        "x": 540,
+        "y": 960,
+        "panX": 25
+      },
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "elements": [
+        {
+          "type": "tag",
+          "text": "MICRO-METAZOA \u2022 0.5MM",
+          "x": 80,
+          "y": 180,
+          "size": 34,
+          "box": true
+        },
+        {
+          "type": "bignumber",
+          "from": 1,
+          "to": 1000,
+          "suffix": "x",
+          "x": 540,
+          "y": 780,
+          "size": 140,
+          "color": "#ff3b30",
+          "dur": 2.2,
+          "t0": 0.3
+        },
+        {
+          "type": "pill",
+          "text": "HUMAN LETHAL RADIATION DOSE",
+          "x": 260,
+          "y": 890,
+          "size": 24,
+          "t0": 0.6
+        },
+        {
+          "type": "caption",
+          "text": "They survive *-272\u00b0C absolute zero*,\n150\u00b0C boiling heat, and the vacuum of space.",
+          "y": 1680,
+          "size": 42,
+          "t0": 0.15,
+          "t1": 9.88,
+          "fade": 0.22,
+          "box": true
+        }
+      ]
+    },
+    {
+      "start": 48.39,
+      "end": 62.96,
+      "bg": {
+        "depth": 0.87,
+        "rays": true,
+        "particleCount": 45
+      },
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.14,
+        "x": 540,
+        "y": 960,
+        "panX": -25
+      },
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "elements": [
+        {
+          "type": "tag",
+          "text": "MICRO-METAZOA \u2022 0.5MM",
+          "x": 80,
+          "y": 180,
+          "size": 34,
+          "box": true
+        },
+        {
+          "type": "stamp",
+          "text": "IMMORTAL MICRO-METAZOA",
+          "color": "#3ecf6a",
+          "x": 540,
+          "y": 860,
+          "size": 52,
+          "rotate": -4,
+          "t0": 1.2
+        },
+        {
+          "type": "caption",
+          "text": "They survive *1,000x human lethal radiation*,\nrapidly repairing their shattered DNA.",
+          "y": 1680,
+          "size": 42,
+          "t0": 0.15,
+          "t1": 7.33,
+          "fade": 0.22,
+          "box": true
+        },
+        {
+          "type": "caption",
+          "text": "A protein called *Dsup* wraps around their DNA\nlike a bulletproof armor shield.",
+          "y": 1680,
+          "size": 42,
+          "t0": 7.46,
+          "t1": 14.52,
+          "fade": 0.22,
+          "box": true
+        }
+      ]
+    },
+    {
+      "start": 62.96,
+      "end": 72.12,
+      "bg": {
+        "depth": 0.95,
+        "rays": false,
+        "particleCount": 45
+      },
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.14,
+        "x": 540,
+        "y": 960,
+        "panX": 25
+      },
+      "fadeIn": 0,
+      "fadeOut": 0.4,
+      "elements": [
+        {
+          "type": "tag",
+          "text": "MICRO-METAZOA \u2022 0.5MM",
+          "x": 80,
+          "y": 180,
+          "size": 34,
+          "box": true
+        },
+        {
+          "type": "reticle",
+          "x": 540,
+          "y": 850,
+          "r": 120,
+          "t0": 0.4
+        },
+        {
+          "type": "circle",
+          "x": 540,
+          "y": 850,
+          "rx": 260,
+          "ry": 260,
+          "color": "#3ecf6a",
+          "width": 4,
+          "t0": 0.8
+        },
+        {
+          "type": "caption",
+          "text": "Add a single drop of water after 30 years,\n*and they rehydrate and walk away unharmed*.",
+          "y": 1680,
+          "size": 42,
+          "t0": 0.15,
+          "t1": 7.81,
+          "fade": 0.22,
+          "box": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "topic_id": "05_darvaza_crater",
+  "audio_path": "/home/antigravity/Future786/cave-of-crystals-animation/audio/05_darvaza_crater_final_audio.mp3",
+  "vo_path": "/home/antigravity/Future786/cave-of-crystals-animation/audio/05_darvaza_crater/05_darvaza_crater_vo.wav",
+  "bed_path": "/home/antigravity/Future786/cave-of-crystals-animation/audio/05_darvaza_crater/05_darvaza_crater_bed.wav",
+  "duration": 72.27,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "In the heart of the Karakum Desert,\na giant *flaming crater* burns day and night.",
+      "spoken": "In the heart of the Karakum Desert in Turkmenistan, a giant flaming crater burns like an open portal into the underworld.",
+      "start": 0.5,
+      "end": 7.42,
+      "dur": 6.92,
+      "shot": 0
+    },
+    {
+      "index": 1,
+      "text": "Known as the *Door to Hell*,\nthis 70m pit has burned non-stop since 1971.",
+      "spoken": "Known as the Door to Hell, this fiery pit measures seventy meters across and thirty meters deep, burning incessantly since nineteen seventy-one.",
+      "start": 7.7,
+      "end": 15.63,
+      "dur": 7.93,
+      "shot": 1
+    },
+    {
+      "index": 2,
+      "text": "A Soviet drilling rig punctured a gas cavern,\ncausing the ground to *violently collapse*.",
+      "spoken": "It began when a Soviet drilling rig accidentally punctured a subterranean natural gas cavern, causing the ground to violently collapse.",
+      "start": 15.91,
+      "end": 23.33,
+      "dur": 7.42,
+      "shot": 2
+    },
+    {
+      "index": 3,
+      "text": "The rig fell into the sinkhole,\n*unleashing an uncontrollable methane blowout*.",
+      "spoken": "The entire drilling rig and camp plunged into the crater, miraculously without loss of life, but exposing a massive methane blowout.",
+      "start": 23.61,
+      "end": 31.03,
+      "dur": 7.42,
+      "shot": 2
+    },
+    {
+      "index": 4,
+      "text": "To stop poisonous fumes, engineers lit the gas,\n*expecting it to burn out in weeks*.",
+      "spoken": "To prevent toxic methane gas from poisoning nearby villages, engineers ignited the crater, estimating it would burn out in a few weeks.",
+      "start": 31.31,
+      "end": 38.89,
+      "dur": 7.58,
+      "shot": 3
+    },
+    {
+      "index": 5,
+      "text": "Over 50 years later, roaring flames\nstill erupt from *hundreds of pressurized vents*.",
+      "spoken": "Over fifty years later, roaring flames still erupt from hundreds of pressurized vents, fed by vast untapped underground gas reserves.",
+      "start": 39.17,
+      "end": 47.27,
+      "dur": 8.1,
+      "shot": 4
+    },
+    {
+      "index": 6,
+      "text": "Temperatures reach *over 400\u00b0C*,\nglowing like a beacon across the desert.",
+      "spoken": "Temperatures at the bottom reach over four hundred degrees Celsius, visible at night for miles across the pitch black desert dunes.",
+      "start": 47.55,
+      "end": 54.58,
+      "dur": 7.02,
+      "shot": 4
+    },
+    {
+      "index": 7,
+      "text": "In 2013, an explorer rappelled to the floor,\n*collecting samples inside the 400\u00b0C inferno*.",
+      "spoken": "In two thousand thirteen, explorer George Kourounis rappelled to the bottom wearing a heat-reflective suit, collecting soil samples from the inferno.",
+      "start": 54.86,
+      "end": 63.13,
+      "dur": 8.28,
+      "shot": 5
+    },
+    {
+      "index": 8,
+      "text": "Scientists discovered *extremophile bacteria*\nliving happily inside the burning soil.",
+      "spoken": "Astonishingly, scientists discovered rich colonies of extremophile bacteria living happily inside the burning high-temperature soil.",
+      "start": 63.41,
+      "end": 70.77,
+      "dur": 7.36,
+      "shot": 6
+    }
+  ]
+}

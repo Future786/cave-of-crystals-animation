@@ -1,0 +1,81 @@
+{
+  "topic_id": "07_wow_signal",
+  "audio_path": "/home/antigravity/Future786/cave-of-crystals-animation/audio/07_wow_signal_final_audio.mp3",
+  "vo_path": "/home/antigravity/Future786/cave-of-crystals-animation/audio/07_wow_signal/07_wow_signal_vo.wav",
+  "bed_path": "/home/antigravity/Future786/cave-of-crystals-animation/audio/07_wow_signal/07_wow_signal_bed.wav",
+  "duration": 64.88,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "On August 15, 1977, the *Big Ear telescope*\nwas scanning the constellation Sagittarius.",
+      "spoken": "On August fifteenth, nineteen seventy-seven, Ohio State University's Big Ear radio telescope was scanning the constellation Sagittarius.",
+      "start": 0.5,
+      "end": 8.6,
+      "dur": 8.1,
+      "shot": 0
+    },
+    {
+      "index": 1,
+      "text": "Earth's rotation swept the sky, giving\n*exactly 72 seconds* to observe any point.",
+      "spoken": "The telescope had no moving parts, relying on Earth's rotation to sweep across the sky, observing any point for exactly seventy-two seconds.",
+      "start": 8.88,
+      "end": 16.77,
+      "dur": 7.88,
+      "shot": 1
+    },
+    {
+      "index": 2,
+      "text": "Suddenly, it picked up a powerful radio spike\n*30 times stronger* than deep space noise.",
+      "spoken": "Suddenly, the receiver picked up an intensely powerful narrowband radio spike thirty times stronger than deep space background noise.",
+      "start": 17.05,
+      "end": 24.37,
+      "dur": 7.33,
+      "shot": 2
+    },
+    {
+      "index": 3,
+      "text": "Astronomer Jerry Ehman spotted the sequence\n*6-E-Q-U-J-5* on the computer printout.",
+      "spoken": "When astronomer Jerry Ehman reviewed the computer printout, he spotted the alphanumerical intensity sequence 6-E-Q-U-J-5.",
+      "start": 24.65,
+      "end": 32.48,
+      "dur": 7.83,
+      "shot": 3
+    },
+    {
+      "index": 4,
+      "text": "Stunned by its strength, he circled the code\nin red ink and wrote *'Wow!' in the margin*.",
+      "spoken": "Stunned by its perfect bell curve and strength, he grabbed a red pen, circled the characters, and wrote the word Wow in the margin.",
+      "start": 32.76,
+      "end": 39.78,
+      "dur": 7.02,
+      "shot": 4
+    },
+    {
+      "index": 5,
+      "text": "It transmitted at *1420 MHz*,\nthe sacred interstellar hydrogen line frequency.",
+      "spoken": "The signal was broadcast precisely at fourteen twenty megahertz, the protected hydrogen line universally considered the cosmic beacon frequency.",
+      "start": 40.06,
+      "end": 48.19,
+      "dur": 8.13,
+      "shot": 5
+    },
+    {
+      "index": 6,
+      "text": "It showed all the hallmarks of an\n*artificial interstellar transmission*.",
+      "spoken": "It showed all the hallmarks of an artificial transmission from beyond our solar system, with no Doppler shift typical of orbiting satellites.",
+      "start": 48.47,
+      "end": 56.39,
+      "dur": 7.92,
+      "shot": 6
+    },
+    {
+      "index": 7,
+      "text": "Across 47 years of sweeps, it never repeated.\n*The cosmos returned to complete silence*.",
+      "spoken": "Despite hundreds of follow up sweeps across forty-seven years, the signal never repeated. The universe returned to complete silence.",
+      "start": 56.67,
+      "end": 63.38,
+      "dur": 6.71,
+      "shot": 7
+    }
+  ]
+}

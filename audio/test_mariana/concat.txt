@@ -1,0 +1,5 @@
+file '/home/antigravity/Future786/cave-of-crystals-animation/audio/test_mariana/init_silence.wav'
+file '/home/antigravity/Future786/cave-of-crystals-animation/audio/test_mariana/part_00.wav'
+file '/home/antigravity/Future786/cave-of-crystals-animation/audio/test_mariana/pause_00.wav'
+file '/home/antigravity/Future786/cave-of-crystals-animation/audio/test_mariana/part_01.wav'
+file '/home/antigravity/Future786/cave-of-crystals-animation/audio/test_mariana/outro_silence.wav'

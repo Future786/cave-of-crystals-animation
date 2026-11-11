@@ -1,0 +1,27 @@
+{
+  "topic_id": "test_mariana",
+  "audio_path": "/home/antigravity/Future786/cave-of-crystals-animation/audio/test_mariana_final_audio.mp3",
+  "vo_path": "/home/antigravity/Future786/cave-of-crystals-animation/audio/test_mariana/test_mariana_vo.wav",
+  "bed_path": "/home/antigravity/Future786/cave-of-crystals-animation/audio/test_mariana/test_mariana_bed.wav",
+  "duration": 11.13,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "At eleven thousand meters beneath the ocean,\n*the darkness is complete*.",
+      "spoken": "At eleven thousand meters beneath the ocean surface, the darkness is complete.",
+      "start": 0.5,
+      "end": 4.63,
+      "dur": 4.13,
+      "shot": 0
+    },
+    {
+      "index": 1,
+      "text": "This is *Challenger Deep*,\nwhere pressure exceeds 1,000 atmospheres.",
+      "spoken": "This is Challenger Deep, where water pressure exceeds one thousand atmospheres.",
+      "start": 4.91,
+      "end": 9.63,
+      "dur": 4.71,
+      "shot": 1
+    }
+  ]
+}

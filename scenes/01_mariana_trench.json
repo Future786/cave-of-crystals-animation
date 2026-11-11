@@ -1,0 +1,432 @@
+{
+  "preset": "abyss",
+  "width": 1080,
+  "height": 1920,
+  "fps": 24,
+  "grain": 0.04,
+  "tokens": {
+    "top": "#0c2c3d",
+    "bottom": "#03060a",
+    "hl": "#00f2fe",
+    "pill": "#0a1822"
+  },
+  "audio": "/home/antigravity/Future786/cave-of-crystals-animation/audio/01_mariana_trench_final_audio.mp3",
+  "shots": [
+    {
+      "start": 0.0,
+      "end": 6.99,
+      "bg": {
+        "depth": 0.4,
+        "rays": true,
+        "particleCount": 45
+      },
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.14,
+        "x": 540,
+        "y": 960,
+        "panX": -25
+      },
+      "fadeIn": 0.35,
+      "fadeOut": 0,
+      "elements": [
+        {
+          "type": "tag",
+          "text": "PACIFIC OCEAN \u2022 10,994M",
+          "x": 80,
+          "y": 180,
+          "size": 34,
+          "box": true
+        },
+        {
+          "type": "bignumber",
+          "from": 0,
+          "to": 10994,
+          "suffix": " m",
+          "x": 540,
+          "y": 780,
+          "size": 130,
+          "color": "#00f2fe",
+          "dur": 3.0,
+          "t0": 0.3
+        },
+        {
+          "type": "pill",
+          "text": "PACIFIC HADAL ZONE",
+          "x": 310,
+          "y": 880,
+          "size": 24,
+          "t0": 0.6
+        },
+        {
+          "type": "svg",
+          "markup": "\n                <g opacity=\"0.8\">\n                  <path d=\"M 120 400 L 460 1200 L 620 1200 L 960 400\" stroke=\"#00f2fe\" stroke-width=\"6\" fill=\"none\" opacity=\"0.4\"/>\n                  <line x1=\"540\" y1=\"400\" x2=\"540\" y2=\"1200\" stroke=\"#ffd166\" stroke-width=\"4\" stroke-dasharray=\"14,10\" opacity=\"0.6\"/>\n                  <circle cx=\"540\" cy=\"1180\" r=\"14\" fill=\"#ff3b30\"/>\n                  <rect x=\"510\" y=\"700\" width=\"60\" height=\"90\" fill=\"#081822\" stroke=\"#00f2fe\" stroke-width=\"4\" rx=\"10\"/>\n                </g>\n                "
+        },
+        {
+          "type": "caption",
+          "text": "11 kilometers beneath the Pacific,\nlies *Challenger Deep*, Earth's deepest chasm.",
+          "y": 1680,
+          "size": 42,
+          "t0": 0.5,
+          "t1": 6.94,
+          "fade": 0.22,
+          "box": true
+        }
+      ]
+    },
+    {
+      "start": 6.99,
+      "end": 13.34,
+      "bg": {
+        "depth": 0.49,
+        "rays": true,
+        "particleCount": 45
+      },
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.14,
+        "x": 540,
+        "y": 960,
+        "panX": 25
+      },
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "elements": [
+        {
+          "type": "tag",
+          "text": "PACIFIC OCEAN \u2022 10,994M",
+          "x": 80,
+          "y": 180,
+          "size": 34,
+          "box": true
+        },
+        {
+          "type": "bracket",
+          "x1": 240,
+          "y1": 550,
+          "x2": 840,
+          "y2": 550,
+          "label": "MOUNT EVEREST: 8,848M",
+          "color": "#ffd166"
+        },
+        {
+          "type": "stamp",
+          "text": "COMPLETELY SUBMERGED",
+          "color": "#ff3b30",
+          "x": 540,
+          "y": 950,
+          "size": 52,
+          "rotate": -5,
+          "t0": 1.8
+        },
+        {
+          "type": "caption",
+          "text": "If *Mount Everest* sat at the bottom,\nits peak would be buried under 2,000m of water.",
+          "y": 1680,
+          "size": 42,
+          "t0": 0.15,
+          "t1": 6.3,
+          "fade": 0.22,
+          "box": true
+        }
+      ]
+    },
+    {
+      "start": 13.34,
+      "end": 23.71,
+      "bg": {
+        "depth": 0.58,
+        "rays": false,
+        "particleCount": 45,
+        "spotlight": {
+          "x": 540,
+          "w": 420
+        }
+      },
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.14,
+        "x": 540,
+        "y": 960,
+        "panX": -25
+      },
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "elements": [
+        {
+          "type": "tag",
+          "text": "PACIFIC OCEAN \u2022 10,994M",
+          "x": 80,
+          "y": 180,
+          "size": 34,
+          "box": true
+        },
+        {
+          "type": "meter",
+          "x": 160,
+          "y": 820,
+          "w": 760,
+          "value": 1.0,
+          "number": 1086,
+          "unit": " ATM",
+          "title": "WATER PRESSURE TELEMETRY",
+          "dur": 2.2,
+          "t0": 0.3
+        },
+        {
+          "type": "pill",
+          "text": "8 TONS PER SQUARE INCH",
+          "tone": "red",
+          "x": 280,
+          "y": 940,
+          "size": 26,
+          "t0": 1.5
+        },
+        {
+          "type": "caption",
+          "text": "At this Hadal depth, water pressure\nexceeds *1,080 atmospheres*.",
+          "y": 1680,
+          "size": 42,
+          "t0": 0.15,
+          "t1": 4.99,
+          "fade": 0.22,
+          "box": true
+        },
+        {
+          "type": "caption",
+          "text": "That equals *8 metric tons of force*\ncrushing every square inch.",
+          "y": 1680,
+          "size": 42,
+          "t0": 5.12,
+          "t1": 10.32,
+          "fade": 0.22,
+          "box": true
+        }
+      ]
+    },
+    {
+      "start": 23.71,
+      "end": 28.31,
+      "bg": {
+        "depth": 0.68,
+        "rays": false,
+        "particleCount": 45
+      },
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.14,
+        "x": 540,
+        "y": 960,
+        "panX": 25
+      },
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "elements": [
+        {
+          "type": "tag",
+          "text": "PACIFIC OCEAN \u2022 10,994M",
+          "x": 80,
+          "y": 180,
+          "size": 34,
+          "box": true
+        },
+        {
+          "type": "creature",
+          "kind": "squid",
+          "x": 540,
+          "y": 850,
+          "scale": 1.2,
+          "swim": {
+            "vx": 20,
+            "vy": -10
+          },
+          "bob": true
+        },
+        {
+          "type": "circle",
+          "x": 540,
+          "y": 850,
+          "rx": 280,
+          "ry": 180,
+          "color": "#00f2fe",
+          "width": 4,
+          "t0": 1.0
+        },
+        {
+          "type": "caption",
+          "text": "Yet inside this crushing void,\n*extraordinary life thrives*.",
+          "y": 1680,
+          "size": 42,
+          "t0": 0.15,
+          "t1": 4.55,
+          "fade": 0.22,
+          "box": true
+        }
+      ]
+    },
+    {
+      "start": 28.31,
+      "end": 35.95,
+      "bg": {
+        "depth": 0.77,
+        "rays": false,
+        "particleCount": 45
+      },
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.14,
+        "x": 540,
+        "y": 960,
+        "panX": -25
+      },
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "elements": [
+        {
+          "type": "tag",
+          "text": "PACIFIC OCEAN \u2022 10,994M",
+          "x": 80,
+          "y": 180,
+          "size": 34,
+          "box": true
+        },
+        {
+          "type": "creature",
+          "kind": "fish",
+          "x": 540,
+          "y": 820,
+          "scale": 1.6,
+          "mode": "ghost",
+          "swim": {
+            "vx": 25,
+            "vy": 5
+          }
+        },
+        {
+          "type": "pill",
+          "text": "TRANSLUCENT \u2022 ZERO SCALES",
+          "x": 270,
+          "y": 1050,
+          "size": 24,
+          "t0": 1.0
+        },
+        {
+          "type": "caption",
+          "text": "The *Mariana Snailfish* survives with\nno bones, using flexible cellular armor.",
+          "y": 1680,
+          "size": 42,
+          "t0": 0.15,
+          "t1": 7.59,
+          "fade": 0.22,
+          "box": true
+        }
+      ]
+    },
+    {
+      "start": 35.95,
+      "end": 43.4,
+      "bg": {
+        "depth": 0.86,
+        "rays": false,
+        "particleCount": 45
+      },
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.14,
+        "x": 540,
+        "y": 960,
+        "panX": 25
+      },
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "elements": [
+        {
+          "type": "tag",
+          "text": "PACIFIC OCEAN \u2022 10,994M",
+          "x": 80,
+          "y": 180,
+          "size": 34,
+          "box": true
+        },
+        {
+          "type": "bignumber",
+          "from": 1,
+          "to": 20,
+          "suffix": " cm",
+          "x": 540,
+          "y": 800,
+          "size": 120,
+          "color": "#ffd166",
+          "dur": 2.0,
+          "t0": 0.3
+        },
+        {
+          "type": "pill",
+          "text": "GIANT SINGLE-CELLED XENOPHYOPHORE",
+          "x": 210,
+          "y": 920,
+          "size": 24,
+          "t0": 0.8
+        },
+        {
+          "type": "caption",
+          "text": "Giant single-celled *xenophyophores*\ngrow to 20 cm in freezing silence.",
+          "y": 1680,
+          "size": 42,
+          "t0": 0.15,
+          "t1": 7.4,
+          "fade": 0.22,
+          "box": true
+        }
+      ]
+    },
+    {
+      "start": 43.4,
+      "end": 50.56,
+      "bg": {
+        "depth": 0.95,
+        "rays": true,
+        "particleCount": 45
+      },
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.14,
+        "x": 540,
+        "y": 960,
+        "panX": -25
+      },
+      "fadeIn": 0,
+      "fadeOut": 0.4,
+      "elements": [
+        {
+          "type": "tag",
+          "text": "PACIFIC OCEAN \u2022 10,994M",
+          "x": 80,
+          "y": 180,
+          "size": 34,
+          "box": true
+        },
+        {
+          "type": "stamp",
+          "text": "THE HADAL ABYSS",
+          "color": "#00f2fe",
+          "x": 540,
+          "y": 850,
+          "size": 56,
+          "rotate": -4,
+          "t0": 1.2
+        },
+        {
+          "type": "caption",
+          "text": "At the edge of planetary physics,\n*life conquered the abyss*.",
+          "y": 1680,
+          "size": 42,
+          "t0": 0.15,
+          "t1": 5.81,
+          "fade": 0.22,
+          "box": true
+        }
+      ]
+    }
+  ]
+}

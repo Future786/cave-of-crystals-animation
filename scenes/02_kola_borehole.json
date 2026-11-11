@@ -1,0 +1,472 @@
+{
+  "preset": "ink",
+  "width": 1080,
+  "height": 1920,
+  "fps": 24,
+  "grain": 0.04,
+  "tokens": {
+    "top": "#2d3748",
+    "bottom": "#0b0f19",
+    "hl": "#f5a623",
+    "pill": "#111827"
+  },
+  "audio": "/home/antigravity/Future786/cave-of-crystals-animation/audio/02_kola_borehole_final_audio.mp3",
+  "shots": [
+    {
+      "start": 0.0,
+      "end": 7.8,
+      "bg": {
+        "depth": 0.4,
+        "rays": true,
+        "particleCount": 45
+      },
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.14,
+        "x": 540,
+        "y": 960,
+        "panX": -25
+      },
+      "fadeIn": 0.35,
+      "fadeOut": 0,
+      "elements": [
+        {
+          "type": "tag",
+          "text": "MURMANSK, ARCTIC \u2022 12,262M",
+          "x": 80,
+          "y": 180,
+          "size": 34,
+          "box": true
+        },
+        {
+          "type": "bignumber",
+          "from": 0,
+          "to": 12262,
+          "suffix": " m",
+          "x": 540,
+          "y": 780,
+          "size": 125,
+          "color": "#f5a623",
+          "dur": 2.8,
+          "t0": 0.3
+        },
+        {
+          "type": "pill",
+          "text": "SG-3 BOREHOLE \u2022 40,230 FT",
+          "x": 290,
+          "y": 880,
+          "size": 24,
+          "t0": 0.6
+        },
+        {
+          "type": "caption",
+          "text": "In the frozen Arctic tundra, engineers spent\n24 years drilling the *deepest hole on Earth*.",
+          "y": 1680,
+          "size": 42,
+          "t0": 0.5,
+          "t1": 7.75,
+          "fade": 0.22,
+          "box": true
+        }
+      ]
+    },
+    {
+      "start": 7.8,
+      "end": 14.99,
+      "bg": {
+        "depth": 0.48,
+        "rays": true,
+        "particleCount": 45
+      },
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.14,
+        "x": 540,
+        "y": 960,
+        "panX": 25
+      },
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "elements": [
+        {
+          "type": "tag",
+          "text": "MURMANSK, ARCTIC \u2022 12,262M",
+          "x": 80,
+          "y": 180,
+          "size": 34,
+          "box": true
+        },
+        {
+          "type": "bracket",
+          "x1": 300,
+          "y1": 500,
+          "x2": 780,
+          "y2": 500,
+          "label": "BALTIC CONTINENTAL CRUST",
+          "color": "#f5a623"
+        },
+        {
+          "type": "pill",
+          "text": "7.6 MILES DEEP",
+          "x": 370,
+          "y": 620,
+          "size": 26,
+          "t0": 0.8
+        },
+        {
+          "type": "caption",
+          "text": "Reaching *12,262 meters down*,\nthe drill went 7 miles into Earth's crust.",
+          "y": 1680,
+          "size": 42,
+          "t0": 0.15,
+          "t1": 7.14,
+          "fade": 0.22,
+          "box": true
+        }
+      ]
+    },
+    {
+      "start": 14.99,
+      "end": 28.11,
+      "bg": {
+        "depth": 0.56,
+        "rays": false,
+        "particleCount": 45,
+        "spotlight": {
+          "x": 540,
+          "w": 420
+        }
+      },
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.14,
+        "x": 540,
+        "y": 960,
+        "panX": -25
+      },
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "elements": [
+        {
+          "type": "tag",
+          "text": "MURMANSK, ARCTIC \u2022 12,262M",
+          "x": 80,
+          "y": 180,
+          "size": 34,
+          "box": true
+        },
+        {
+          "type": "pill",
+          "text": "BOILING HYDROTHERMAL FLUID",
+          "tone": "red",
+          "x": 260,
+          "y": 820,
+          "size": 24,
+          "t0": 0.6
+        },
+        {
+          "type": "stamp",
+          "text": "FRACTURED GRANITE",
+          "color": "#f5a623",
+          "x": 540,
+          "y": 950,
+          "size": 50,
+          "t0": 1.8
+        },
+        {
+          "type": "caption",
+          "text": "At 7 kilometers down, they found fractured rock\nsaturated with *boiling hydrothermal water*.",
+          "y": 1680,
+          "size": 42,
+          "t0": 0.15,
+          "t1": 7.77,
+          "fade": 0.22,
+          "box": true
+        },
+        {
+          "type": "caption",
+          "text": "Trapped *hydrogen gas boiled out*\nin quantities that stunned geologists.",
+          "y": 1680,
+          "size": 42,
+          "t0": 7.9,
+          "t1": 13.07,
+          "fade": 0.22,
+          "box": true
+        }
+      ]
+    },
+    {
+      "start": 28.11,
+      "end": 36.52,
+      "bg": {
+        "depth": 0.64,
+        "rays": false,
+        "particleCount": 45
+      },
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.14,
+        "x": 540,
+        "y": 960,
+        "panX": 25
+      },
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "elements": [
+        {
+          "type": "tag",
+          "text": "MURMANSK, ARCTIC \u2022 12,262M",
+          "x": 80,
+          "y": 180,
+          "size": 34,
+          "box": true
+        },
+        {
+          "type": "bignumber",
+          "from": 20,
+          "to": 180,
+          "suffix": " \u00b0C",
+          "x": 540,
+          "y": 760,
+          "size": 130,
+          "color": "#ff3b30",
+          "dur": 2.2,
+          "t0": 0.3
+        },
+        {
+          "type": "stamp",
+          "text": "ROCK TURNS TO PLASTIC",
+          "color": "#ff3b30",
+          "x": 540,
+          "y": 920,
+          "size": 48,
+          "rotate": -6,
+          "t0": 1.5
+        },
+        {
+          "type": "caption",
+          "text": "They found *microscopic plankton fossils*\npreserved in 2-billion-year-old rock.",
+          "y": 1680,
+          "size": 42,
+          "t0": 0.15,
+          "t1": 8.36,
+          "fade": 0.22,
+          "box": true
+        }
+      ]
+    },
+    {
+      "start": 36.52,
+      "end": 44.1,
+      "bg": {
+        "depth": 0.71,
+        "rays": false,
+        "particleCount": 45
+      },
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.14,
+        "x": 540,
+        "y": 960,
+        "panX": -25
+      },
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "elements": [
+        {
+          "type": "tag",
+          "text": "MURMANSK, ARCTIC \u2022 12,262M",
+          "x": 80,
+          "y": 180,
+          "size": 34,
+          "box": true
+        },
+        {
+          "type": "pill",
+          "text": "DRILL BITS MELTED",
+          "tone": "red",
+          "x": 330,
+          "y": 800,
+          "size": 26,
+          "t0": 0.6
+        },
+        {
+          "type": "redx",
+          "x": 540,
+          "y": 960,
+          "size": 80,
+          "t0": 1.4
+        },
+        {
+          "type": "caption",
+          "text": "Temperatures soared to *180\u00b0C*,\nturning ancient granite into soft plastic.",
+          "y": 1680,
+          "size": 42,
+          "t0": 0.15,
+          "t1": 7.53,
+          "fade": 0.22,
+          "box": true
+        }
+      ]
+    },
+    {
+      "start": 44.1,
+      "end": 49.96,
+      "bg": {
+        "depth": 0.79,
+        "rays": false,
+        "particleCount": 45
+      },
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.14,
+        "x": 540,
+        "y": 960,
+        "panX": 25
+      },
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "elements": [
+        {
+          "type": "tag",
+          "text": "MURMANSK, ARCTIC \u2022 12,262M",
+          "x": 80,
+          "y": 180,
+          "size": 34,
+          "box": true
+        },
+        {
+          "type": "circle",
+          "x": 540,
+          "y": 820,
+          "rx": 300,
+          "ry": 160,
+          "color": "#f5a623",
+          "width": 5,
+          "t0": 0.8
+        },
+        {
+          "type": "pill",
+          "text": "ACOUSTIC SEISMIC SENSORS",
+          "x": 280,
+          "y": 920,
+          "size": 24,
+          "t0": 1.2
+        },
+        {
+          "type": "caption",
+          "text": "The softened rock flowed like putty,\n*destroying drill bits within minutes*.",
+          "y": 1680,
+          "size": 42,
+          "t0": 0.15,
+          "t1": 5.81,
+          "fade": 0.22,
+          "box": true
+        }
+      ]
+    },
+    {
+      "start": 49.96,
+      "end": 58.36,
+      "bg": {
+        "depth": 0.87,
+        "rays": true,
+        "particleCount": 45
+      },
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.14,
+        "x": 540,
+        "y": 960,
+        "panX": -25
+      },
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "elements": [
+        {
+          "type": "tag",
+          "text": "MURMANSK, ARCTIC \u2022 12,262M",
+          "x": 80,
+          "y": 180,
+          "size": 34,
+          "box": true
+        },
+        {
+          "type": "stamp",
+          "text": "WELDED SHUT FOREVER",
+          "color": "#e0453a",
+          "x": 540,
+          "y": 860,
+          "size": 52,
+          "rotate": -5,
+          "t0": 1.2
+        },
+        {
+          "type": "caption",
+          "text": "Urban legends claimed 'screaming souls',\nbut sensors recorded *tectonic acoustic stress*.",
+          "y": 1680,
+          "size": 42,
+          "t0": 0.15,
+          "t1": 8.35,
+          "fade": 0.22,
+          "box": true
+        }
+      ]
+    },
+    {
+      "start": 58.36,
+      "end": 67.5,
+      "bg": {
+        "depth": 0.95,
+        "rays": false,
+        "particleCount": 45
+      },
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.14,
+        "x": 540,
+        "y": 960,
+        "panX": 25
+      },
+      "fadeIn": 0,
+      "fadeOut": 0.4,
+      "elements": [
+        {
+          "type": "tag",
+          "text": "MURMANSK, ARCTIC \u2022 12,262M",
+          "x": 80,
+          "y": 180,
+          "size": 34,
+          "box": true
+        },
+        {
+          "type": "reticle",
+          "x": 540,
+          "y": 850,
+          "r": 120,
+          "t0": 0.4
+        },
+        {
+          "type": "circle",
+          "x": 540,
+          "y": 850,
+          "rx": 260,
+          "ry": 260,
+          "color": "#f5a623",
+          "width": 4,
+          "t0": 0.8
+        },
+        {
+          "type": "caption",
+          "text": "Today, that nine-inch portal sits\n*welded shut beneath a rusty steel cap*.",
+          "y": 1680,
+          "size": 42,
+          "t0": 0.15,
+          "t1": 7.79,
+          "fade": 0.22,
+          "box": true
+        }
+      ]
+    }
+  ]
+}

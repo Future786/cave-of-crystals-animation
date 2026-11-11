@@ -1,0 +1,450 @@
+{
+  "preset": "abyss",
+  "width": 1080,
+  "height": 1920,
+  "fps": 24,
+  "grain": 0.04,
+  "tokens": {
+    "top": "#1a202c",
+    "bottom": "#080c14",
+    "hl": "#f59e0b",
+    "pill": "#111827"
+  },
+  "audio": "/home/antigravity/Future786/cave-of-crystals-animation/audio/07_wow_signal_final_audio.mp3",
+  "shots": [
+    {
+      "start": 0.0,
+      "end": 8.73,
+      "bg": {
+        "depth": 0.4,
+        "rays": true,
+        "particleCount": 45
+      },
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.14,
+        "x": 540,
+        "y": 960,
+        "panX": -25
+      },
+      "fadeIn": 0.35,
+      "fadeOut": 0,
+      "elements": [
+        {
+          "type": "tag",
+          "text": "BIG EAR OBSERVATORY \u2022 1420 MHZ",
+          "x": 80,
+          "y": 180,
+          "size": 34,
+          "box": true
+        },
+        {
+          "type": "pill",
+          "text": "OHIO STATE \u2022 BIG EAR OBSERVATORY",
+          "x": 240,
+          "y": 800,
+          "size": 24,
+          "t0": 0.5
+        },
+        {
+          "type": "caption",
+          "text": "On August 15, 1977, the *Big Ear telescope*\nwas scanning the constellation Sagittarius.",
+          "y": 1680,
+          "size": 42,
+          "t0": 0.5,
+          "t1": 8.68,
+          "fade": 0.22,
+          "box": true
+        }
+      ]
+    },
+    {
+      "start": 8.73,
+      "end": 16.9,
+      "bg": {
+        "depth": 0.48,
+        "rays": true,
+        "particleCount": 45
+      },
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.14,
+        "x": 540,
+        "y": 960,
+        "panX": 25
+      },
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "elements": [
+        {
+          "type": "tag",
+          "text": "BIG EAR OBSERVATORY \u2022 1420 MHZ",
+          "x": 80,
+          "y": 180,
+          "size": 34,
+          "box": true
+        },
+        {
+          "type": "bignumber",
+          "from": 0,
+          "to": 72,
+          "suffix": " sec",
+          "x": 540,
+          "y": 780,
+          "size": 150,
+          "color": "#f59e0b",
+          "dur": 2.0,
+          "t0": 0.3
+        },
+        {
+          "type": "pill",
+          "text": "NARROWBAND RADIO TRANSMISSION",
+          "x": 260,
+          "y": 900,
+          "size": 24,
+          "t0": 0.6
+        },
+        {
+          "type": "caption",
+          "text": "Earth's rotation swept the sky, giving\n*exactly 72 seconds* to observe any point.",
+          "y": 1680,
+          "size": 42,
+          "t0": 0.15,
+          "t1": 8.12,
+          "fade": 0.22,
+          "box": true
+        }
+      ]
+    },
+    {
+      "start": 16.9,
+      "end": 24.5,
+      "bg": {
+        "depth": 0.56,
+        "rays": false,
+        "particleCount": 45,
+        "spotlight": {
+          "x": 540,
+          "w": 420
+        }
+      },
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.14,
+        "x": 540,
+        "y": 960,
+        "panX": -25
+      },
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "elements": [
+        {
+          "type": "tag",
+          "text": "BIG EAR OBSERVATORY \u2022 1420 MHZ",
+          "x": 80,
+          "y": 180,
+          "size": 34,
+          "box": true
+        },
+        {
+          "type": "bignumber",
+          "prefix": "",
+          "from": 0,
+          "to": 1,
+          "suffix": "",
+          "x": 540,
+          "y": 780,
+          "size": 100,
+          "color": "#ff3b30",
+          "dur": 0.5,
+          "t0": 0.3
+        },
+        {
+          "type": "stamp",
+          "text": "6EQUJ5 TELEMETRY",
+          "color": "#ff3b30",
+          "x": 540,
+          "y": 850,
+          "size": 60,
+          "rotate": -6,
+          "t0": 1.0
+        },
+        {
+          "type": "caption",
+          "text": "Suddenly, it picked up a powerful radio spike\n*30 times stronger* than deep space noise.",
+          "y": 1680,
+          "size": 42,
+          "t0": 0.15,
+          "t1": 7.55,
+          "fade": 0.22,
+          "box": true
+        }
+      ]
+    },
+    {
+      "start": 24.5,
+      "end": 32.61,
+      "bg": {
+        "depth": 0.64,
+        "rays": false,
+        "particleCount": 45
+      },
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.14,
+        "x": 540,
+        "y": 960,
+        "panX": 25
+      },
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "elements": [
+        {
+          "type": "tag",
+          "text": "BIG EAR OBSERVATORY \u2022 1420 MHZ",
+          "x": 80,
+          "y": 180,
+          "size": 34,
+          "box": true
+        },
+        {
+          "type": "circle",
+          "x": 540,
+          "y": 820,
+          "rx": 280,
+          "ry": 180,
+          "color": "#ff3b30",
+          "width": 6,
+          "t0": 0.5
+        },
+        {
+          "type": "stamp",
+          "text": "WOW!",
+          "color": "#ff3b30",
+          "x": 540,
+          "y": 820,
+          "size": 90,
+          "rotate": -8,
+          "t0": 1.0
+        },
+        {
+          "type": "caption",
+          "text": "Astronomer Jerry Ehman spotted the sequence\n*6-E-Q-U-J-5* on the computer printout.",
+          "y": 1680,
+          "size": 42,
+          "t0": 0.15,
+          "t1": 8.06,
+          "fade": 0.22,
+          "box": true
+        }
+      ]
+    },
+    {
+      "start": 32.61,
+      "end": 39.91,
+      "bg": {
+        "depth": 0.71,
+        "rays": false,
+        "particleCount": 45
+      },
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.14,
+        "x": 540,
+        "y": 960,
+        "panX": -25
+      },
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "elements": [
+        {
+          "type": "tag",
+          "text": "BIG EAR OBSERVATORY \u2022 1420 MHZ",
+          "x": 80,
+          "y": 180,
+          "size": 34,
+          "box": true
+        },
+        {
+          "type": "bignumber",
+          "from": 0,
+          "to": 1420.4,
+          "suffix": " MHz",
+          "x": 540,
+          "y": 780,
+          "size": 115,
+          "color": "#38bdf8",
+          "dur": 2.2,
+          "t0": 0.3
+        },
+        {
+          "type": "pill",
+          "text": "21-CENTIMETER HYDROGEN LINE",
+          "x": 280,
+          "y": 890,
+          "size": 24,
+          "t0": 0.6
+        },
+        {
+          "type": "caption",
+          "text": "Stunned by its strength, he circled the code\nin red ink and wrote *'Wow!' in the margin*.",
+          "y": 1680,
+          "size": 42,
+          "t0": 0.15,
+          "t1": 7.25,
+          "fade": 0.22,
+          "box": true
+        }
+      ]
+    },
+    {
+      "start": 39.91,
+      "end": 48.32,
+      "bg": {
+        "depth": 0.79,
+        "rays": false,
+        "particleCount": 45
+      },
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.14,
+        "x": 540,
+        "y": 960,
+        "panX": 25
+      },
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "elements": [
+        {
+          "type": "tag",
+          "text": "BIG EAR OBSERVATORY \u2022 1420 MHZ",
+          "x": 80,
+          "y": 180,
+          "size": 34,
+          "box": true
+        },
+        {
+          "type": "pill",
+          "text": "EXTRATERRESTRIAL CANDIDATE #1",
+          "x": 260,
+          "y": 820,
+          "size": 24,
+          "t0": 0.6
+        },
+        {
+          "type": "caption",
+          "text": "It transmitted at *1420 MHz*,\nthe sacred interstellar hydrogen line frequency.",
+          "y": 1680,
+          "size": 42,
+          "t0": 0.15,
+          "t1": 8.36,
+          "fade": 0.22,
+          "box": true
+        }
+      ]
+    },
+    {
+      "start": 48.32,
+      "end": 56.52,
+      "bg": {
+        "depth": 0.87,
+        "rays": true,
+        "particleCount": 45
+      },
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.14,
+        "x": 540,
+        "y": 960,
+        "panX": -25
+      },
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "elements": [
+        {
+          "type": "tag",
+          "text": "BIG EAR OBSERVATORY \u2022 1420 MHZ",
+          "x": 80,
+          "y": 180,
+          "size": 34,
+          "box": true
+        },
+        {
+          "type": "stamp",
+          "text": "THE SIGNAL NEVER RETURNED",
+          "color": "#f59e0b",
+          "x": 540,
+          "y": 860,
+          "size": 48,
+          "rotate": -4,
+          "t0": 1.2
+        },
+        {
+          "type": "caption",
+          "text": "It showed all the hallmarks of an\n*artificial interstellar transmission*.",
+          "y": 1680,
+          "size": 42,
+          "t0": 0.15,
+          "t1": 8.15,
+          "fade": 0.22,
+          "box": true
+        }
+      ]
+    },
+    {
+      "start": 56.52,
+      "end": 64.88,
+      "bg": {
+        "depth": 0.95,
+        "rays": false,
+        "particleCount": 45
+      },
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.14,
+        "x": 540,
+        "y": 960,
+        "panX": 25
+      },
+      "fadeIn": 0,
+      "fadeOut": 0.4,
+      "elements": [
+        {
+          "type": "tag",
+          "text": "BIG EAR OBSERVATORY \u2022 1420 MHZ",
+          "x": 80,
+          "y": 180,
+          "size": 34,
+          "box": true
+        },
+        {
+          "type": "reticle",
+          "x": 540,
+          "y": 850,
+          "r": 120,
+          "t0": 0.4
+        },
+        {
+          "type": "circle",
+          "x": 540,
+          "y": 850,
+          "rx": 260,
+          "ry": 260,
+          "color": "#f59e0b",
+          "width": 4,
+          "t0": 0.8
+        },
+        {
+          "type": "caption",
+          "text": "Across 47 years of sweeps, it never repeated.\n*The cosmos returned to complete silence*.",
+          "y": 1680,
+          "size": 42,
+          "t0": 0.15,
+          "t1": 7.01,
+          "fade": 0.22,
+          "box": true
+        }
+      ]
+    }
+  ]
+}

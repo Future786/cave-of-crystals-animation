@@ -1,0 +1,90 @@
+{
+  "topic_id": "09_devils_kettle",
+  "audio_path": "/home/antigravity/Future786/cave-of-crystals-animation/audio/09_devils_kettle_final_audio.mp3",
+  "vo_path": "/home/antigravity/Future786/cave-of-crystals-animation/audio/09_devils_kettle/09_devils_kettle_vo.wav",
+  "bed_path": "/home/antigravity/Future786/cave-of-crystals-animation/audio/09_devils_kettle/09_devils_kettle_bed.wav",
+  "duration": 69.96,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "In Minnesota's pine forests, the Brule River\napproaches *The Devil's Kettle* waterfall.",
+      "spoken": "In the dense pine forests along Minnesota's North Shore, the Brule River approaches a dramatic volcanic cliff called the Devil's Kettle.",
+      "start": 0.5,
+      "end": 8.01,
+      "dur": 7.51,
+      "shot": 0
+    },
+    {
+      "index": 1,
+      "text": "Before plunging over a 50-foot ledge,\na rock outcrop *splits the river into two halves*.",
+      "spoken": "Just before plunging over a fifty-foot rhyolite ledge, a massive rock outcrop cleanly splits the entire river into two halves.",
+      "start": 8.29,
+      "end": 15.44,
+      "dur": 7.15,
+      "shot": 1
+    },
+    {
+      "index": 2,
+      "text": "The eastern half flows normally,\nbut the western half drops into *a giant pothole*.",
+      "spoken": "The eastern half tumbles normally down the canyon walls toward Lake Superior, but the western half drops straight into a giant circular geological pothole.",
+      "start": 15.72,
+      "end": 24.06,
+      "dur": 8.34,
+      "shot": 2
+    },
+    {
+      "index": 3,
+      "text": "For generations, the water seemed to\n*vanish into Earth* with no exit point.",
+      "spoken": "For generations, the water appeared to vanish into the Earth with no visible exit point anywhere in the surrounding river system.",
+      "start": 24.34,
+      "end": 30.89,
+      "dur": 6.55,
+      "shot": 3
+    },
+    {
+      "index": 4,
+      "text": "Legends claimed the pothole was an abyss\n*leading to bottomless caverns deep underground*.",
+      "spoken": "Local legends claimed the pothole was a bottomless abyss leading directly into subterranean caverns connected to the mantle.",
+      "start": 31.17,
+      "end": 37.66,
+      "dur": 6.49,
+      "shot": 3
+    },
+    {
+      "index": 5,
+      "text": "Researchers dumped dyes and trackers in,\n*yet nothing ever emerged downstream*.",
+      "spoken": "Curious hikers and researchers dumped fluorescent green dyes, ping-pong balls, and radio telemetry tags into the kettle, but nothing ever emerged.",
+      "start": 37.94,
+      "end": 46.51,
+      "dur": 8.57,
+      "shot": 4
+    },
+    {
+      "index": 6,
+      "text": "In 2017, hydrologists measured water volume\nusing *acoustic Doppler flow meters*.",
+      "spoken": "In two thousand seventeen, Minnesota hydrologists solved the mystery by measuring water volume with acoustic Doppler flow meters.",
+      "start": 46.79,
+      "end": 53.91,
+      "dur": 7.13,
+      "shot": 5
+    },
+    {
+      "index": 7,
+      "text": "The water didn't vanish: it re-surfaces\n*directly under the plunge pool downstream*.",
+      "spoken": "The water was not vanishing into the mantle: it drains into an underground channel and surges back up into the riverbed directly beneath the plunge pool.",
+      "start": 54.19,
+      "end": 62.08,
+      "dur": 7.88,
+      "shot": 6
+    },
+    {
+      "index": 8,
+      "text": "Objects thrown inside were simply pulverized\n*by the violent swirling vortex currents*.",
+      "spoken": "The items thrown in had simply been pulverized by the violent recirculating vortex currents at the bottom of the kettle.",
+      "start": 62.36,
+      "end": 68.46,
+      "dur": 6.11,
+      "shot": 7
+    }
+  ]
+}

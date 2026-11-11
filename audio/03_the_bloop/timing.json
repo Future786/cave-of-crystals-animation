@@ -1,0 +1,90 @@
+{
+  "topic_id": "03_the_bloop",
+  "audio_path": "/home/antigravity/Future786/cave-of-crystals-animation/audio/03_the_bloop_final_audio.mp3",
+  "vo_path": "/home/antigravity/Future786/cave-of-crystals-animation/audio/03_the_bloop/03_the_bloop_vo.wav",
+  "bed_path": "/home/antigravity/Future786/cave-of-crystals-animation/audio/03_the_bloop/03_the_bloop_bed.wav",
+  "duration": 64.89,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "In the summer of 1997, hydrophones\npicked up *an unprecedented deep ocean anomaly*.",
+      "spoken": "In the summer of nineteen ninety-seven, an underwater listening network picked up an anomaly that stunned marine acousticians.",
+      "start": 0.5,
+      "end": 6.71,
+      "dur": 6.21,
+      "shot": 0
+    },
+    {
+      "index": 1,
+      "text": "The Navy had installed the *SOSUS array*\nto track submarines through deep ocean channels.",
+      "spoken": "The US Navy had installed the SOSUS hydrophone array to track Soviet submarines through the deep sound channel.",
+      "start": 6.99,
+      "end": 12.75,
+      "dur": 5.76,
+      "shot": 1
+    },
+    {
+      "index": 2,
+      "text": "Deep in the South Pacific, an ultra-low sound\nechoed across *5,000 kilometers* of water.",
+      "spoken": "Deep in the remote South Pacific, a thunderous ultra-low frequency sound echoed across more than five thousand kilometers of open water.",
+      "start": 13.03,
+      "end": 20.68,
+      "dur": 7.65,
+      "shot": 2
+    },
+    {
+      "index": 3,
+      "text": "Named *The Bloop*, the signal rose for\n4.5 minutes across multiple stations.",
+      "spoken": "Named The Bloop, the signal rose rapidly in frequency over four and a half minutes and was detected by multiple listening stations.",
+      "start": 20.96,
+      "end": 28.28,
+      "dur": 7.31,
+      "shot": 3
+    },
+    {
+      "index": 4,
+      "text": "The acoustic profile looked biological,\nyet *several times louder than a Blue Whale*.",
+      "spoken": "Its acoustic profile closely resembled an organic biological vocalization, but it was several times louder than the largest blue whale.",
+      "start": 28.56,
+      "end": 36.08,
+      "dur": 7.52,
+      "shot": 4
+    },
+    {
+      "index": 5,
+      "text": "If produced by a creature, it would have to\n*measure over 200 feet in length*.",
+      "spoken": "Biologists calculated that if an animal produced the sound, it would have to measure well over two hundred feet in length.",
+      "start": 36.36,
+      "end": 42.65,
+      "dur": 6.29,
+      "shot": 5
+    },
+    {
+      "index": 6,
+      "text": "In 2012, NOAA cracked the case:\nan *immense Antarctic icequake* cracking glaciers.",
+      "spoken": "Finally, in two thousand twelve, NOAA scientists identified the true culprit: an immense icequake caused by massive Antarctic icebergs cracking and calving.",
+      "start": 42.93,
+      "end": 51.79,
+      "dur": 8.86,
+      "shot": 6
+    },
+    {
+      "index": 7,
+      "text": "Shearing ice sheets generated shockwaves\n*loud enough to shake an ocean hemisphere*.",
+      "spoken": "The shearing of giant ice sheets generated acoustic shockwaves loud enough to shake the entire southern hemisphere.",
+      "start": 52.07,
+      "end": 57.75,
+      "dur": 5.68,
+      "shot": 6
+    },
+    {
+      "index": 8,
+      "text": "Yet 80% of our oceans remain unmapped.\n*What else is singing in the dark?*",
+      "spoken": "Yet eighty percent of our oceans remain unmapped and unmonitored. What else is singing in the dark?",
+      "start": 58.03,
+      "end": 63.39,
+      "dur": 5.36,
+      "shot": 7
+    }
+  ]
+}

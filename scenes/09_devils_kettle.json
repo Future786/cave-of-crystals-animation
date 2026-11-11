@@ -1,0 +1,432 @@
+{
+  "preset": "abyss",
+  "width": 1080,
+  "height": 1920,
+  "fps": 24,
+  "grain": 0.04,
+  "tokens": {
+    "top": "#1a332d",
+    "bottom": "#051310",
+    "hl": "#10b981",
+    "pill": "#0a1f1b"
+  },
+  "audio": "/home/antigravity/Future786/cave-of-crystals-animation/audio/09_devils_kettle_final_audio.mp3",
+  "shots": [
+    {
+      "start": 0.0,
+      "end": 8.14,
+      "bg": {
+        "depth": 0.4,
+        "rays": true,
+        "particleCount": 45
+      },
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.14,
+        "x": 540,
+        "y": 960,
+        "panX": -25
+      },
+      "fadeIn": 0.35,
+      "fadeOut": 0,
+      "elements": [
+        {
+          "type": "tag",
+          "text": "BRULE RIVER, MINNESOTA",
+          "x": 80,
+          "y": 180,
+          "size": 34,
+          "box": true
+        },
+        {
+          "type": "pill",
+          "text": "BRULE RIVER \u2022 MINNESOTA",
+          "x": 310,
+          "y": 800,
+          "size": 24,
+          "t0": 0.5
+        },
+        {
+          "type": "caption",
+          "text": "In Minnesota's pine forests, the Brule River\napproaches *The Devil's Kettle* waterfall.",
+          "y": 1680,
+          "size": 42,
+          "t0": 0.5,
+          "t1": 8.09,
+          "fade": 0.22,
+          "box": true
+        }
+      ]
+    },
+    {
+      "start": 8.14,
+      "end": 15.57,
+      "bg": {
+        "depth": 0.48,
+        "rays": true,
+        "particleCount": 45
+      },
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.14,
+        "x": 540,
+        "y": 960,
+        "panX": 25
+      },
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "elements": [
+        {
+          "type": "tag",
+          "text": "BRULE RIVER, MINNESOTA",
+          "x": 80,
+          "y": 180,
+          "size": 34,
+          "box": true
+        },
+        {
+          "type": "stamp",
+          "text": "RIVER SPLITS IN TWO",
+          "color": "#10b981",
+          "x": 540,
+          "y": 850,
+          "size": 52,
+          "rotate": -5,
+          "t0": 1.0
+        },
+        {
+          "type": "caption",
+          "text": "Before plunging over a 50-foot ledge,\na rock outcrop *splits the river into two halves*.",
+          "y": 1680,
+          "size": 42,
+          "t0": 0.15,
+          "t1": 7.38,
+          "fade": 0.22,
+          "box": true
+        }
+      ]
+    },
+    {
+      "start": 15.57,
+      "end": 24.19,
+      "bg": {
+        "depth": 0.56,
+        "rays": false,
+        "particleCount": 45,
+        "spotlight": {
+          "x": 540,
+          "w": 420
+        }
+      },
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.14,
+        "x": 540,
+        "y": 960,
+        "panX": -25
+      },
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "elements": [
+        {
+          "type": "tag",
+          "text": "BRULE RIVER, MINNESOTA",
+          "x": 80,
+          "y": 180,
+          "size": 34,
+          "box": true
+        },
+        {
+          "type": "pill",
+          "text": "VOLCANIC RHYOLITE POTHOLE",
+          "x": 280,
+          "y": 820,
+          "size": 24,
+          "t0": 0.6
+        },
+        {
+          "type": "caption",
+          "text": "The eastern half flows normally,\nbut the western half drops into *a giant pothole*.",
+          "y": 1680,
+          "size": 42,
+          "t0": 0.15,
+          "t1": 8.57,
+          "fade": 0.22,
+          "box": true
+        }
+      ]
+    },
+    {
+      "start": 24.19,
+      "end": 37.79,
+      "bg": {
+        "depth": 0.64,
+        "rays": false,
+        "particleCount": 45
+      },
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.14,
+        "x": 540,
+        "y": 960,
+        "panX": 25
+      },
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "elements": [
+        {
+          "type": "tag",
+          "text": "BRULE RIVER, MINNESOTA",
+          "x": 80,
+          "y": 180,
+          "size": 34,
+          "box": true
+        },
+        {
+          "type": "circle",
+          "x": 540,
+          "y": 820,
+          "rx": 280,
+          "ry": 280,
+          "color": "#10b981",
+          "width": 5,
+          "t0": 0.5
+        },
+        {
+          "type": "stamp",
+          "text": "NO VISIBLE EXIT POINT",
+          "color": "#ffd166",
+          "x": 540,
+          "y": 820,
+          "size": 50,
+          "rotate": -6,
+          "t0": 1.2
+        },
+        {
+          "type": "caption",
+          "text": "For generations, the water seemed to\n*vanish into Earth* with no exit point.",
+          "y": 1680,
+          "size": 42,
+          "t0": 0.15,
+          "t1": 6.85,
+          "fade": 0.22,
+          "box": true
+        },
+        {
+          "type": "caption",
+          "text": "Legends claimed the pothole was an abyss\n*leading to bottomless caverns deep underground*.",
+          "y": 1680,
+          "size": 42,
+          "t0": 6.98,
+          "t1": 13.55,
+          "fade": 0.22,
+          "box": true
+        }
+      ]
+    },
+    {
+      "start": 37.79,
+      "end": 46.64,
+      "bg": {
+        "depth": 0.71,
+        "rays": false,
+        "particleCount": 45
+      },
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.14,
+        "x": 540,
+        "y": 960,
+        "panX": -25
+      },
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "elements": [
+        {
+          "type": "tag",
+          "text": "BRULE RIVER, MINNESOTA",
+          "x": 80,
+          "y": 180,
+          "size": 34,
+          "box": true
+        },
+        {
+          "type": "pill",
+          "text": "DYES \u2022 PING-PONG BALLS \u2022 GPS",
+          "x": 260,
+          "y": 820,
+          "size": 24,
+          "t0": 0.6
+        },
+        {
+          "type": "stamp",
+          "text": "VANISHED COMPLETELY",
+          "color": "#ff3b30",
+          "x": 540,
+          "y": 940,
+          "size": 48,
+          "t0": 1.5
+        },
+        {
+          "type": "caption",
+          "text": "Researchers dumped dyes and trackers in,\n*yet nothing ever emerged downstream*.",
+          "y": 1680,
+          "size": 42,
+          "t0": 0.15,
+          "t1": 8.8,
+          "fade": 0.22,
+          "box": true
+        }
+      ]
+    },
+    {
+      "start": 46.64,
+      "end": 54.04,
+      "bg": {
+        "depth": 0.79,
+        "rays": false,
+        "particleCount": 45
+      },
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.14,
+        "x": 540,
+        "y": 960,
+        "panX": 25
+      },
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "elements": [
+        {
+          "type": "tag",
+          "text": "BRULE RIVER, MINNESOTA",
+          "x": 80,
+          "y": 180,
+          "size": 34,
+          "box": true
+        },
+        {
+          "type": "pill",
+          "text": "ACOUSTIC DOPPLER VELOCIMETRY",
+          "x": 250,
+          "y": 820,
+          "size": 24,
+          "t0": 0.6
+        },
+        {
+          "type": "caption",
+          "text": "In 2017, hydrologists measured water volume\nusing *acoustic Doppler flow meters*.",
+          "y": 1680,
+          "size": 42,
+          "t0": 0.15,
+          "t1": 7.35,
+          "fade": 0.22,
+          "box": true
+        }
+      ]
+    },
+    {
+      "start": 54.04,
+      "end": 62.21,
+      "bg": {
+        "depth": 0.87,
+        "rays": true,
+        "particleCount": 45
+      },
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.14,
+        "x": 540,
+        "y": 960,
+        "panX": -25
+      },
+      "fadeIn": 0,
+      "fadeOut": 0,
+      "elements": [
+        {
+          "type": "tag",
+          "text": "BRULE RIVER, MINNESOTA",
+          "x": 80,
+          "y": 180,
+          "size": 34,
+          "box": true
+        },
+        {
+          "type": "stamp",
+          "text": "UNDERGROUND RESURGENCE",
+          "color": "#10b981",
+          "x": 540,
+          "y": 860,
+          "size": 48,
+          "rotate": -4,
+          "t0": 1.2
+        },
+        {
+          "type": "caption",
+          "text": "The water didn't vanish: it re-surfaces\n*directly under the plunge pool downstream*.",
+          "y": 1680,
+          "size": 42,
+          "t0": 0.15,
+          "t1": 8.12,
+          "fade": 0.22,
+          "box": true
+        }
+      ]
+    },
+    {
+      "start": 62.21,
+      "end": 69.96,
+      "bg": {
+        "depth": 0.95,
+        "rays": false,
+        "particleCount": 45
+      },
+      "camera": {
+        "zoomFrom": 1.0,
+        "zoomTo": 1.14,
+        "x": 540,
+        "y": 960,
+        "panX": 25
+      },
+      "fadeIn": 0,
+      "fadeOut": 0.4,
+      "elements": [
+        {
+          "type": "tag",
+          "text": "BRULE RIVER, MINNESOTA",
+          "x": 80,
+          "y": 180,
+          "size": 34,
+          "box": true
+        },
+        {
+          "type": "reticle",
+          "x": 540,
+          "y": 850,
+          "r": 120,
+          "t0": 0.4
+        },
+        {
+          "type": "circle",
+          "x": 540,
+          "y": 850,
+          "rx": 260,
+          "ry": 260,
+          "color": "#10b981",
+          "width": 4,
+          "t0": 0.8
+        },
+        {
+          "type": "caption",
+          "text": "Objects thrown inside were simply pulverized\n*by the violent swirling vortex currents*.",
+          "y": 1680,
+          "size": 42,
+          "t0": 0.15,
+          "t1": 6.4,
+          "fade": 0.22,
+          "box": true
+        }
+      ]
+    }
+  ]
+}

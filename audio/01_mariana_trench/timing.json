@@ -1,0 +1,81 @@
+{
+  "topic_id": "01_mariana_trench",
+  "audio_path": "/home/antigravity/Future786/cave-of-crystals-animation/audio/01_mariana_trench_final_audio.mp3",
+  "vo_path": "/home/antigravity/Future786/cave-of-crystals-animation/audio/01_mariana_trench/01_mariana_trench_vo.wav",
+  "bed_path": "/home/antigravity/Future786/cave-of-crystals-animation/audio/01_mariana_trench/01_mariana_trench_bed.wav",
+  "duration": 50.56,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "11 kilometers beneath the Pacific,\nlies *Challenger Deep*, Earth's deepest chasm.",
+      "spoken": "Eleven kilometers beneath the surface of the Pacific Ocean lies Challenger Deep, the deepest known chasm on Earth.",
+      "start": 0.5,
+      "end": 6.86,
+      "dur": 6.36,
+      "shot": 0
+    },
+    {
+      "index": 1,
+      "text": "If *Mount Everest* sat at the bottom,\nits peak would be buried under 2,000m of water.",
+      "spoken": "If Mount Everest were placed at the bottom, its highest summit would still be submerged under more than two thousand meters of ocean.",
+      "start": 7.14,
+      "end": 13.21,
+      "dur": 6.07,
+      "shot": 1
+    },
+    {
+      "index": 2,
+      "text": "At this Hadal depth, water pressure\nexceeds *1,080 atmospheres*.",
+      "spoken": "At this Hadal depth, the water pressure exceeds one thousand and eighty atmospheres.",
+      "start": 13.49,
+      "end": 18.18,
+      "dur": 4.69,
+      "shot": 2
+    },
+    {
+      "index": 3,
+      "text": "That equals *8 metric tons of force*\ncrushing every square inch.",
+      "spoken": "That is equivalent to eight metric tons of force crushing down on every single square inch of surface.",
+      "start": 18.46,
+      "end": 23.58,
+      "dur": 5.12,
+      "shot": 2
+    },
+    {
+      "index": 4,
+      "text": "Yet inside this crushing void,\n*extraordinary life thrives*.",
+      "spoken": "Yet, inside this pitch black crushing void, extraordinary life thrives.",
+      "start": 23.86,
+      "end": 28.18,
+      "dur": 4.32,
+      "shot": 3
+    },
+    {
+      "index": 5,
+      "text": "The *Mariana Snailfish* survives with\nno bones, using flexible cellular armor.",
+      "spoken": "The Mariana snailfish survives without scales or solid bones, using flexible cartilage and special organic cellular armor.",
+      "start": 28.46,
+      "end": 35.82,
+      "dur": 7.36,
+      "shot": 4
+    },
+    {
+      "index": 6,
+      "text": "Giant single-celled *xenophyophores*\ngrow to 20 cm in freezing silence.",
+      "spoken": "Giant single celled xenophyophores grow to twenty centimeters wide, filter feeding on mineral sediment in absolute freezing silence.",
+      "start": 36.1,
+      "end": 43.27,
+      "dur": 7.16,
+      "shot": 5
+    },
+    {
+      "index": 7,
+      "text": "At the edge of planetary physics,\n*life conquered the abyss*.",
+      "spoken": "Here, at the absolute edge of planetary physics, life did not surrender to the abyss. It conquered it.",
+      "start": 43.55,
+      "end": 49.06,
+      "dur": 5.51,
+      "shot": 6
+    }
+  ]
+}

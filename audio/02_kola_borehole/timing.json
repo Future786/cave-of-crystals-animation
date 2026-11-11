@@ -1,0 +1,90 @@
+{
+  "topic_id": "02_kola_borehole",
+  "audio_path": "/home/antigravity/Future786/cave-of-crystals-animation/audio/02_kola_borehole_final_audio.mp3",
+  "vo_path": "/home/antigravity/Future786/cave-of-crystals-animation/audio/02_kola_borehole/02_kola_borehole_vo.wav",
+  "bed_path": "/home/antigravity/Future786/cave-of-crystals-animation/audio/02_kola_borehole/02_kola_borehole_bed.wav",
+  "duration": 67.5,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "In the frozen Arctic tundra, engineers spent\n24 years drilling the *deepest hole on Earth*.",
+      "spoken": "In the frozen Arctic tundra of the Kola Peninsula, Soviet engineers spent twenty-four years drilling the deepest artificial hole on Earth.",
+      "start": 0.5,
+      "end": 7.67,
+      "dur": 7.17,
+      "shot": 0
+    },
+    {
+      "index": 1,
+      "text": "Reaching *12,262 meters down*,\nthe drill went 7 miles into Earth's crust.",
+      "spoken": "Reaching twelve thousand two hundred and sixty-two meters down, the drill penetrated more than seven miles into the continental crust.",
+      "start": 7.95,
+      "end": 14.86,
+      "dur": 6.91,
+      "shot": 1
+    },
+    {
+      "index": 2,
+      "text": "At 7 kilometers down, they found fractured rock\nsaturated with *boiling hydrothermal water*.",
+      "spoken": "At seven kilometers down, geologists expected dense dry granite, but instead found fractured rock saturated with boiling water.",
+      "start": 15.14,
+      "end": 22.61,
+      "dur": 7.47,
+      "shot": 2
+    },
+    {
+      "index": 3,
+      "text": "Trapped *hydrogen gas boiled out*\nin quantities that stunned geologists.",
+      "spoken": "Trapped hydrogen gas boiled out of the mud in quantities that stunned the Soviet science academy.",
+      "start": 22.89,
+      "end": 27.98,
+      "dur": 5.1,
+      "shot": 2
+    },
+    {
+      "index": 4,
+      "text": "They found *microscopic plankton fossils*\npreserved in 2-billion-year-old rock.",
+      "spoken": "Even more astonishing, they discovered microscopic plankton fossils six kilometers deep, perfectly preserved in two billion year old rock.",
+      "start": 28.26,
+      "end": 36.39,
+      "dur": 8.13,
+      "shot": 3
+    },
+    {
+      "index": 5,
+      "text": "Temperatures soared to *180\u00b0C*,\nturning ancient granite into soft plastic.",
+      "spoken": "By twelve kilometers, subterranean temperatures soared to one hundred and eighty degrees Celsius, turning rock into ductile plastic.",
+      "start": 36.67,
+      "end": 43.97,
+      "dur": 7.3,
+      "shot": 4
+    },
+    {
+      "index": 6,
+      "text": "The softened rock flowed like putty,\n*destroying drill bits within minutes*.",
+      "spoken": "The rock behaved like putty, flowing back into the drill shaft and destroying cutting heads within minutes.",
+      "start": 44.25,
+      "end": 49.83,
+      "dur": 5.57,
+      "shot": 5
+    },
+    {
+      "index": 7,
+      "text": "Urban legends claimed 'screaming souls',\nbut sensors recorded *tectonic acoustic stress*.",
+      "spoken": "Sensational rumors claimed microphones recorded screaming souls, but the real telemetry revealed acoustic pressure waves of shifting tectonic stress.",
+      "start": 50.11,
+      "end": 58.23,
+      "dur": 8.13,
+      "shot": 6
+    },
+    {
+      "index": 8,
+      "text": "Today, that nine-inch portal sits\n*welded shut beneath a rusty steel cap*.",
+      "spoken": "Today, that nine-inch portal into the underworld sits welded shut beneath a rusty steel cap, an abandoned gateway to the abyss.",
+      "start": 58.51,
+      "end": 66.0,
+      "dur": 7.49,
+      "shot": 7
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "topic_id": "10_silurian_hypothesis",
+  "audio_path": "/home/antigravity/Future786/cave-of-crystals-animation/audio/10_silurian_hypothesis_final_audio.mp3",
+  "vo_path": "/home/antigravity/Future786/cave-of-crystals-animation/audio/10_silurian_hypothesis/10_silurian_hypothesis_vo.wav",
+  "bed_path": "/home/antigravity/Future786/cave-of-crystals-animation/audio/10_silurian_hypothesis/10_silurian_hypothesis_bed.wav",
+  "duration": 74.46,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "If an industrial species lived 50 million years ago,\n*could we prove they were ever here?*",
+      "spoken": "If an advanced industrial civilization existed on Earth fifty million years before humans, could we prove they were ever here?",
+      "start": 0.5,
+      "end": 6.94,
+      "dur": 6.44,
+      "shot": 0
+    },
+    {
+      "index": 1,
+      "text": "This is the *Silurian Hypothesis*,\na scientific study by NASA and astrophysics teams.",
+      "spoken": "This is the Silurian Hypothesis, a scientific thought experiment published by NASA climatologist Gavin Schmidt and astrophysicist Adam Frank.",
+      "start": 7.22,
+      "end": 15.12,
+      "dur": 7.89,
+      "shot": 1
+    },
+    {
+      "index": 2,
+      "text": "Humans have existed for 300,000 years,\n*less than 0.01%* of Earth's vast history.",
+      "spoken": "Humans have existed for only three hundred thousand years, less than zero point zero one percent of Earth's four point five billion year history.",
+      "start": 15.4,
+      "end": 23.28,
+      "dur": 7.88,
+      "shot": 2
+    },
+    {
+      "index": 3,
+      "text": "56 million years ago, temperatures spiked\n*by 8 degrees* in a sudden geological heartbeat.",
+      "spoken": "Fifty-six million years ago, the Paleocene-Eocene Thermal Maximum saw global temperatures spike by eight degrees in a geological heartbeat.",
+      "start": 23.56,
+      "end": 31.46,
+      "dur": 7.89,
+      "shot": 3
+    },
+    {
+      "index": 4,
+      "text": "Fossilization is extraordinarily rare:\n*less than 0.1%* of species ever become stone.",
+      "spoken": "Fossilization is extraordinarily rare: less than a tiny fraction of one percent of all ancient species are ever preserved in rock.",
+      "start": 31.74,
+      "end": 38.96,
+      "dur": 7.22,
+      "shot": 4
+    },
+    {
+      "index": 5,
+      "text": "In just a few thousand years, our cities\n*will weather and crumble into dust*.",
+      "spoken": "In just a few millennia, our cities, steel skyscrapers, concrete highways, and dams will weather, crumble, and erode into dust.",
+      "start": 39.24,
+      "end": 47.27,
+      "dur": 8.03,
+      "shot": 5
+    },
+    {
+      "index": 6,
+      "text": "The only immortal traces would be\n*plastics, carbon spikes, and radioactive isotopes*.",
+      "spoken": "The only immortal traces left in the geological strata would be synthetic plastics, anomalous carbon isotope spikes, and long-lived radioactive plutonium isotopes.",
+      "start": 47.55,
+      "end": 57.88,
+      "dur": 10.33,
+      "shot": 6
+    },
+    {
+      "index": 7,
+      "text": "Our entire civilization will condense\n*into a rock layer less than 2 millimeters thick*.",
+      "spoken": "All traces of modern human civilization will eventually be compressed into a microscopic sedimentary rock layer less than two millimeters thick.",
+      "start": 58.16,
+      "end": 65.91,
+      "dur": 7.74,
+      "shot": 7
+    },
+    {
+      "index": 8,
+      "text": "In the abyss of deep time, civilizations rise\n*and dissolve like a whisper in the stone*.",
+      "spoken": "Looking into the abyss of deep time, civilizations rise, burn, and dissolve like a whisper in the rock layers of Earth.",
+      "start": 66.19,
+      "end": 72.96,
+      "dur": 6.77,
+      "shot": 8
+    }
+  ]
+}

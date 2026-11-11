@@ -1,0 +1,904 @@
+[
+  {
+    "id": "01_mariana_trench",
+    "title": "The Mariana Trench: Challenger Deep",
+    "duration": 50.56,
+    "sentences": [
+      {
+        "index": 0,
+        "text": "11 kilometers beneath the Pacific,\nlies *Challenger Deep*, Earth's deepest chasm.",
+        "spoken": "Eleven kilometers beneath the surface of the Pacific Ocean lies Challenger Deep, the deepest known chasm on Earth.",
+        "start": 0.5,
+        "end": 6.86,
+        "dur": 6.36,
+        "shot": 0
+      },
+      {
+        "index": 1,
+        "text": "If *Mount Everest* sat at the bottom,\nits peak would be buried under 2,000m of water.",
+        "spoken": "If Mount Everest were placed at the bottom, its highest summit would still be submerged under more than two thousand meters of ocean.",
+        "start": 7.14,
+        "end": 13.21,
+        "dur": 6.07,
+        "shot": 1
+      },
+      {
+        "index": 2,
+        "text": "At this Hadal depth, water pressure\nexceeds *1,080 atmospheres*.",
+        "spoken": "At this Hadal depth, the water pressure exceeds one thousand and eighty atmospheres.",
+        "start": 13.49,
+        "end": 18.18,
+        "dur": 4.69,
+        "shot": 2
+      },
+      {
+        "index": 3,
+        "text": "That equals *8 metric tons of force*\ncrushing every square inch.",
+        "spoken": "That is equivalent to eight metric tons of force crushing down on every single square inch of surface.",
+        "start": 18.46,
+        "end": 23.58,
+        "dur": 5.12,
+        "shot": 2
+      },
+      {
+        "index": 4,
+        "text": "Yet inside this crushing void,\n*extraordinary life thrives*.",
+        "spoken": "Yet, inside this pitch black crushing void, extraordinary life thrives.",
+        "start": 23.86,
+        "end": 28.18,
+        "dur": 4.32,
+        "shot": 3
+      },
+      {
+        "index": 5,
+        "text": "The *Mariana Snailfish* survives with\nno bones, using flexible cellular armor.",
+        "spoken": "The Mariana snailfish survives without scales or solid bones, using flexible cartilage and special organic cellular armor.",
+        "start": 28.46,
+        "end": 35.82,
+        "dur": 7.36,
+        "shot": 4
+      },
+      {
+        "index": 6,
+        "text": "Giant single-celled *xenophyophores*\ngrow to 20 cm in freezing silence.",
+        "spoken": "Giant single celled xenophyophores grow to twenty centimeters wide, filter feeding on mineral sediment in absolute freezing silence.",
+        "start": 36.1,
+        "end": 43.27,
+        "dur": 7.16,
+        "shot": 5
+      },
+      {
+        "index": 7,
+        "text": "At the edge of planetary physics,\n*life conquered the abyss*.",
+        "spoken": "Here, at the absolute edge of planetary physics, life did not surrender to the abyss. It conquered it.",
+        "start": 43.55,
+        "end": 49.06,
+        "dur": 5.51,
+        "shot": 6
+      }
+    ],
+    "contact_png": "/home/antigravity/Future786/cave-of-crystals-animation/01_mariana_trench_contact.png",
+    "scene_json": "/home/antigravity/Future786/cave-of-crystals-animation/scenes/01_mariana_trench.json",
+    "mobile_mp4": "/home/antigravity/Future786/cave-of-crystals-animation/videos/01_mariana_trench_Mobile.mp4",
+    "hd_mp4": "/home/antigravity/Future786/cave-of-crystals-animation/videos/01_mariana_trench_HD.mp4"
+  },
+  {
+    "id": "02_kola_borehole",
+    "title": "The Kola Superdeep Borehole",
+    "duration": 67.5,
+    "sentences": [
+      {
+        "index": 0,
+        "text": "In the frozen Arctic tundra, engineers spent\n24 years drilling the *deepest hole on Earth*.",
+        "spoken": "In the frozen Arctic tundra of the Kola Peninsula, Soviet engineers spent twenty-four years drilling the deepest artificial hole on Earth.",
+        "start": 0.5,
+        "end": 7.67,
+        "dur": 7.17,
+        "shot": 0
+      },
+      {
+        "index": 1,
+        "text": "Reaching *12,262 meters down*,\nthe drill went 7 miles into Earth's crust.",
+        "spoken": "Reaching twelve thousand two hundred and sixty-two meters down, the drill penetrated more than seven miles into the continental crust.",
+        "start": 7.95,
+        "end": 14.86,
+        "dur": 6.91,
+        "shot": 1
+      },
+      {
+        "index": 2,
+        "text": "At 7 kilometers down, they found fractured rock\nsaturated with *boiling hydrothermal water*.",
+        "spoken": "At seven kilometers down, geologists expected dense dry granite, but instead found fractured rock saturated with boiling water.",
+        "start": 15.14,
+        "end": 22.61,
+        "dur": 7.47,
+        "shot": 2
+      },
+      {
+        "index": 3,
+        "text": "Trapped *hydrogen gas boiled out*\nin quantities that stunned geologists.",
+        "spoken": "Trapped hydrogen gas boiled out of the mud in quantities that stunned the Soviet science academy.",
+        "start": 22.89,
+        "end": 27.98,
+        "dur": 5.1,
+        "shot": 2
+      },
+      {
+        "index": 4,
+        "text": "They found *microscopic plankton fossils*\npreserved in 2-billion-year-old rock.",
+        "spoken": "Even more astonishing, they discovered microscopic plankton fossils six kilometers deep, perfectly preserved in two billion year old rock.",
+        "start": 28.26,
+        "end": 36.39,
+        "dur": 8.13,
+        "shot": 3
+      },
+      {
+        "index": 5,
+        "text": "Temperatures soared to *180\u00b0C*,\nturning ancient granite into soft plastic.",
+        "spoken": "By twelve kilometers, subterranean temperatures soared to one hundred and eighty degrees Celsius, turning rock into ductile plastic.",
+        "start": 36.67,
+        "end": 43.97,
+        "dur": 7.3,
+        "shot": 4
+      },
+      {
+        "index": 6,
+        "text": "The softened rock flowed like putty,\n*destroying drill bits within minutes*.",
+        "spoken": "The rock behaved like putty, flowing back into the drill shaft and destroying cutting heads within minutes.",
+        "start": 44.25,
+        "end": 49.83,
+        "dur": 5.57,
+        "shot": 5
+      },
+      {
+        "index": 7,
+        "text": "Urban legends claimed 'screaming souls',\nbut sensors recorded *tectonic acoustic stress*.",
+        "spoken": "Sensational rumors claimed microphones recorded screaming souls, but the real telemetry revealed acoustic pressure waves of shifting tectonic stress.",
+        "start": 50.11,
+        "end": 58.23,
+        "dur": 8.13,
+        "shot": 6
+      },
+      {
+        "index": 8,
+        "text": "Today, that nine-inch portal sits\n*welded shut beneath a rusty steel cap*.",
+        "spoken": "Today, that nine-inch portal into the underworld sits welded shut beneath a rusty steel cap, an abandoned gateway to the abyss.",
+        "start": 58.51,
+        "end": 66.0,
+        "dur": 7.49,
+        "shot": 7
+      }
+    ],
+    "contact_png": "/home/antigravity/Future786/cave-of-crystals-animation/02_kola_borehole_contact.png",
+    "scene_json": "/home/antigravity/Future786/cave-of-crystals-animation/scenes/02_kola_borehole.json",
+    "mobile_mp4": "/home/antigravity/Future786/cave-of-crystals-animation/videos/02_kola_borehole_Mobile.mp4",
+    "hd_mp4": "/home/antigravity/Future786/cave-of-crystals-animation/videos/02_kola_borehole_HD.mp4"
+  },
+  {
+    "id": "03_the_bloop",
+    "title": "The Bloop: Deep Ocean Acoustic Anomaly",
+    "duration": 64.89,
+    "sentences": [
+      {
+        "index": 0,
+        "text": "In the summer of 1997, hydrophones\npicked up *an unprecedented deep ocean anomaly*.",
+        "spoken": "In the summer of nineteen ninety-seven, an underwater listening network picked up an anomaly that stunned marine acousticians.",
+        "start": 0.5,
+        "end": 6.71,
+        "dur": 6.21,
+        "shot": 0
+      },
+      {
+        "index": 1,
+        "text": "The Navy had installed the *SOSUS array*\nto track submarines through deep ocean channels.",
+        "spoken": "The US Navy had installed the SOSUS hydrophone array to track Soviet submarines through the deep sound channel.",
+        "start": 6.99,
+        "end": 12.75,
+        "dur": 5.76,
+        "shot": 1
+      },
+      {
+        "index": 2,
+        "text": "Deep in the South Pacific, an ultra-low sound\nechoed across *5,000 kilometers* of water.",
+        "spoken": "Deep in the remote South Pacific, a thunderous ultra-low frequency sound echoed across more than five thousand kilometers of open water.",
+        "start": 13.03,
+        "end": 20.68,
+        "dur": 7.65,
+        "shot": 2
+      },
+      {
+        "index": 3,
+        "text": "Named *The Bloop*, the signal rose for\n4.5 minutes across multiple stations.",
+        "spoken": "Named The Bloop, the signal rose rapidly in frequency over four and a half minutes and was detected by multiple listening stations.",
+        "start": 20.96,
+        "end": 28.28,
+        "dur": 7.31,
+        "shot": 3
+      },
+      {
+        "index": 4,
+        "text": "The acoustic profile looked biological,\nyet *several times louder than a Blue Whale*.",
+        "spoken": "Its acoustic profile closely resembled an organic biological vocalization, but it was several times louder than the largest blue whale.",
+        "start": 28.56,
+        "end": 36.08,
+        "dur": 7.52,
+        "shot": 4
+      },
+      {
+        "index": 5,
+        "text": "If produced by a creature, it would have to\n*measure over 200 feet in length*.",
+        "spoken": "Biologists calculated that if an animal produced the sound, it would have to measure well over two hundred feet in length.",
+        "start": 36.36,
+        "end": 42.65,
+        "dur": 6.29,
+        "shot": 5
+      },
+      {
+        "index": 6,
+        "text": "In 2012, NOAA cracked the case:\nan *immense Antarctic icequake* cracking glaciers.",
+        "spoken": "Finally, in two thousand twelve, NOAA scientists identified the true culprit: an immense icequake caused by massive Antarctic icebergs cracking and calving.",
+        "start": 42.93,
+        "end": 51.79,
+        "dur": 8.86,
+        "shot": 6
+      },
+      {
+        "index": 7,
+        "text": "Shearing ice sheets generated shockwaves\n*loud enough to shake an ocean hemisphere*.",
+        "spoken": "The shearing of giant ice sheets generated acoustic shockwaves loud enough to shake the entire southern hemisphere.",
+        "start": 52.07,
+        "end": 57.75,
+        "dur": 5.68,
+        "shot": 6
+      },
+      {
+        "index": 8,
+        "text": "Yet 80% of our oceans remain unmapped.\n*What else is singing in the dark?*",
+        "spoken": "Yet eighty percent of our oceans remain unmapped and unmonitored. What else is singing in the dark?",
+        "start": 58.03,
+        "end": 63.39,
+        "dur": 5.36,
+        "shot": 7
+      }
+    ],
+    "contact_png": "/home/antigravity/Future786/cave-of-crystals-animation/03_the_bloop_contact.png",
+    "scene_json": "/home/antigravity/Future786/cave-of-crystals-animation/scenes/03_the_bloop.json",
+    "mobile_mp4": "/home/antigravity/Future786/cave-of-crystals-animation/videos/03_the_bloop_Mobile.mp4",
+    "hd_mp4": "/home/antigravity/Future786/cave-of-crystals-animation/videos/03_the_bloop_HD.mp4"
+  },
+  {
+    "id": "04_lake_vostok",
+    "title": "Lake Vostok: Antarctica's Subglacial Time Capsule",
+    "duration": 72.95,
+    "sentences": [
+      {
+        "index": 0,
+        "text": "4,000 meters beneath Antarctic ice lies\n*Lake Vostok*, sealed for 15 million years.",
+        "spoken": "Four thousand meters beneath the East Antarctic ice sheet lies Lake Vostok, a subglacial liquid ocean sealed off from Earth for fifteen million years.",
+        "start": 0.5,
+        "end": 9.4,
+        "dur": 8.9,
+        "shot": 0
+      },
+      {
+        "index": 1,
+        "text": "The lake is the size of *Lake Ontario*,\nburied under 4 km of solid glacial ice.",
+        "spoken": "Covering fifteen thousand square kilometers, it is nearly the size of Lake Ontario, buried under four kilometers of crushing glacial ice.",
+        "start": 9.68,
+        "end": 17.58,
+        "dur": 7.89,
+        "shot": 1
+      },
+      {
+        "index": 2,
+        "text": "Despite -89\u00b0C surface air, geothermal heat\nkeeps the freshwater lake in a *liquid state*.",
+        "spoken": "Despite sitting beneath the coldest surface on Earth at minus eighty-nine degrees, geothermal heat keeps its freshwater reservoir in a liquid state.",
+        "start": 17.86,
+        "end": 26.52,
+        "dur": 8.66,
+        "shot": 2
+      },
+      {
+        "index": 3,
+        "text": "Pressure exceeds *350 atmospheres*,\nwith 50 times more oxygen than normal water.",
+        "spoken": "The pressure here exceeds three hundred and fifty atmospheres, and the water is supersaturated with fifty times more oxygen than normal lakes.",
+        "start": 26.8,
+        "end": 34.16,
+        "dur": 7.36,
+        "shot": 3
+      },
+      {
+        "index": 4,
+        "text": "Scientists drilled thousands of meters,\ntaking extreme care *not to contaminate the waters*.",
+        "spoken": "For decades, Russian drillers bored through thousands of meters of ice cores, taking extreme precautions to avoid contaminating the virgin waters.",
+        "start": 34.44,
+        "end": 42.36,
+        "dur": 7.92,
+        "shot": 4
+      },
+      {
+        "index": 5,
+        "text": "A specialized fluid column balanced the\n*immense hydrostatic pressure* of the ice.",
+        "spoken": "They used a specialized freon and kerosene fluid column to balance the immense hydrostatic pressure of the overlying ice.",
+        "start": 42.64,
+        "end": 48.83,
+        "dur": 6.19,
+        "shot": 4
+      },
+      {
+        "index": 6,
+        "text": "Core samples revealed thousands of\n*novel DNA sequences* from ancient microbes.",
+        "spoken": "When the core reached accreted lake ice, genetic analysis revealed thousands of novel DNA sequences from ancient bacteria and fungi.",
+        "start": 49.11,
+        "end": 56.7,
+        "dur": 7.59,
+        "shot": 5
+      },
+      {
+        "index": 7,
+        "text": "These organisms thrived in total darkness,\n*feeding only on mineral bedrock vents*.",
+        "spoken": "These organisms have thrived in complete total darkness, nourished only by minerals from geothermal bedrock vents.",
+        "start": 56.98,
+        "end": 63.39,
+        "dur": 6.41,
+        "shot": 6
+      },
+      {
+        "index": 8,
+        "text": "Lake Vostok proves life can survive here;\n*and perhaps on Jupiter's moon Europa*.",
+        "spoken": "Lake Vostok is our closest terrestrial model for Jupiter's ice moon Europa. If life can survive here, life is everywhere in the cosmos.",
+        "start": 63.67,
+        "end": 71.45,
+        "dur": 7.78,
+        "shot": 7
+      }
+    ],
+    "contact_png": "/home/antigravity/Future786/cave-of-crystals-animation/04_lake_vostok_contact.png",
+    "scene_json": "/home/antigravity/Future786/cave-of-crystals-animation/scenes/04_lake_vostok.json",
+    "mobile_mp4": "/home/antigravity/Future786/cave-of-crystals-animation/videos/04_lake_vostok_Mobile.mp4",
+    "hd_mp4": "/home/antigravity/Future786/cave-of-crystals-animation/videos/04_lake_vostok_HD.mp4"
+  },
+  {
+    "id": "05_darvaza_crater",
+    "title": "The Door to Hell: Darvaza Gas Crater",
+    "duration": 72.27,
+    "sentences": [
+      {
+        "index": 0,
+        "text": "In the heart of the Karakum Desert,\na giant *flaming crater* burns day and night.",
+        "spoken": "In the heart of the Karakum Desert in Turkmenistan, a giant flaming crater burns like an open portal into the underworld.",
+        "start": 0.5,
+        "end": 7.42,
+        "dur": 6.92,
+        "shot": 0
+      },
+      {
+        "index": 1,
+        "text": "Known as the *Door to Hell*,\nthis 70m pit has burned non-stop since 1971.",
+        "spoken": "Known as the Door to Hell, this fiery pit measures seventy meters across and thirty meters deep, burning incessantly since nineteen seventy-one.",
+        "start": 7.7,
+        "end": 15.63,
+        "dur": 7.93,
+        "shot": 1
+      },
+      {
+        "index": 2,
+        "text": "A Soviet drilling rig punctured a gas cavern,\ncausing the ground to *violently collapse*.",
+        "spoken": "It began when a Soviet drilling rig accidentally punctured a subterranean natural gas cavern, causing the ground to violently collapse.",
+        "start": 15.91,
+        "end": 23.33,
+        "dur": 7.42,
+        "shot": 2
+      },
+      {
+        "index": 3,
+        "text": "The rig fell into the sinkhole,\n*unleashing an uncontrollable methane blowout*.",
+        "spoken": "The entire drilling rig and camp plunged into the crater, miraculously without loss of life, but exposing a massive methane blowout.",
+        "start": 23.61,
+        "end": 31.03,
+        "dur": 7.42,
+        "shot": 2
+      },
+      {
+        "index": 4,
+        "text": "To stop poisonous fumes, engineers lit the gas,\n*expecting it to burn out in weeks*.",
+        "spoken": "To prevent toxic methane gas from poisoning nearby villages, engineers ignited the crater, estimating it would burn out in a few weeks.",
+        "start": 31.31,
+        "end": 38.89,
+        "dur": 7.58,
+        "shot": 3
+      },
+      {
+        "index": 5,
+        "text": "Over 50 years later, roaring flames\nstill erupt from *hundreds of pressurized vents*.",
+        "spoken": "Over fifty years later, roaring flames still erupt from hundreds of pressurized vents, fed by vast untapped underground gas reserves.",
+        "start": 39.17,
+        "end": 47.27,
+        "dur": 8.1,
+        "shot": 4
+      },
+      {
+        "index": 6,
+        "text": "Temperatures reach *over 400\u00b0C*,\nglowing like a beacon across the desert.",
+        "spoken": "Temperatures at the bottom reach over four hundred degrees Celsius, visible at night for miles across the pitch black desert dunes.",
+        "start": 47.55,
+        "end": 54.58,
+        "dur": 7.02,
+        "shot": 4
+      },
+      {
+        "index": 7,
+        "text": "In 2013, an explorer rappelled to the floor,\n*collecting samples inside the 400\u00b0C inferno*.",
+        "spoken": "In two thousand thirteen, explorer George Kourounis rappelled to the bottom wearing a heat-reflective suit, collecting soil samples from the inferno.",
+        "start": 54.86,
+        "end": 63.13,
+        "dur": 8.28,
+        "shot": 5
+      },
+      {
+        "index": 8,
+        "text": "Scientists discovered *extremophile bacteria*\nliving happily inside the burning soil.",
+        "spoken": "Astonishingly, scientists discovered rich colonies of extremophile bacteria living happily inside the burning high-temperature soil.",
+        "start": 63.41,
+        "end": 70.77,
+        "dur": 7.36,
+        "shot": 6
+      }
+    ],
+    "contact_png": "/home/antigravity/Future786/cave-of-crystals-animation/05_darvaza_crater_contact.png",
+    "scene_json": "/home/antigravity/Future786/cave-of-crystals-animation/scenes/05_darvaza_crater.json",
+    "mobile_mp4": "/home/antigravity/Future786/cave-of-crystals-animation/videos/05_darvaza_crater_Mobile.mp4",
+    "hd_mp4": "/home/antigravity/Future786/cave-of-crystals-animation/videos/05_darvaza_crater_HD.mp4"
+  },
+  {
+    "id": "06_tardigrades",
+    "title": "Tardigrades: The Indestructible Extremophile",
+    "duration": 72.12,
+    "sentences": [
+      {
+        "index": 0,
+        "text": "Measuring half a millimeter long,\n*Tardigrades* are Earth's most indestructible animals.",
+        "spoken": "Measuring less than half a millimeter long, tardigrades, or water bears, are the most indestructible animals on planet Earth.",
+        "start": 0.5,
+        "end": 7.29,
+        "dur": 6.79,
+        "shot": 0
+      },
+      {
+        "index": 1,
+        "text": "They survived *all five mass extinction events*\nover 600 million years of Earth history.",
+        "spoken": "These microscopic eight-legged metazoans have survived all five mass extinction events over the past six hundred million years.",
+        "start": 7.57,
+        "end": 14.39,
+        "dur": 6.82,
+        "shot": 1
+      },
+      {
+        "index": 2,
+        "text": "In deadly conditions, they enter *cryptobiosis*,\nexpelling 99% of their body water.",
+        "spoken": "When environmental conditions turn hostile, they enter cryptobiosis, expelling ninety-nine percent of the water from their bodies.",
+        "start": 14.67,
+        "end": 21.52,
+        "dur": 6.85,
+        "shot": 2
+      },
+      {
+        "index": 3,
+        "text": "In this 'tun' state, their metabolism slows,\n*virtually stopping biological time*.",
+        "spoken": "In this dehydrated tun state, their metabolism slows to less than zero point zero one percent of normal, virtually stopping biological time.",
+        "start": 21.8,
+        "end": 29.82,
+        "dur": 8.02,
+        "shot": 3
+      },
+      {
+        "index": 4,
+        "text": "Proteins turn their cellular interior into\n*protective biological glass* in stasis.",
+        "spoken": "Special disordered proteins transform their cellular interior into a protective biological glass, locking vital organs in stasis.",
+        "start": 30.1,
+        "end": 38.33,
+        "dur": 8.23,
+        "shot": 4
+      },
+      {
+        "index": 5,
+        "text": "They survive *-272\u00b0C absolute zero*,\n150\u00b0C boiling heat, and the vacuum of space.",
+        "spoken": "Tardigrades have survived temperatures of minus two hundred and seventy-two degrees Celsius, boiling water at one hundred and fifty degrees, and the vacuum of open space.",
+        "start": 38.61,
+        "end": 48.26,
+        "dur": 9.65,
+        "shot": 5
+      },
+      {
+        "index": 6,
+        "text": "They survive *1,000x human lethal radiation*,\nrapidly repairing their shattered DNA.",
+        "spoken": "They withstand one thousand times more ionizing radiation than a human, repairing their shattered DNA with unique suppressor proteins.",
+        "start": 48.54,
+        "end": 55.57,
+        "dur": 7.04,
+        "shot": 6
+      },
+      {
+        "index": 7,
+        "text": "A protein called *Dsup* wraps around their DNA\nlike a bulletproof armor shield.",
+        "spoken": "A unique protein called Dsup binds to their chromatin like a molecular armor shield, deflecting hydroxyl free radicals.",
+        "start": 55.85,
+        "end": 62.83,
+        "dur": 6.98,
+        "shot": 6
+      },
+      {
+        "index": 8,
+        "text": "Add a single drop of water after 30 years,\n*and they rehydrate and walk away unharmed*.",
+        "spoken": "Add a single drop of water after thirty years of frozen sleep, and the water bear rehydrates, stands up, and walks away unharmed.",
+        "start": 63.11,
+        "end": 70.62,
+        "dur": 7.51,
+        "shot": 7
+      }
+    ],
+    "contact_png": "/home/antigravity/Future786/cave-of-crystals-animation/06_tardigrades_contact.png",
+    "scene_json": "/home/antigravity/Future786/cave-of-crystals-animation/scenes/06_tardigrades.json",
+    "mobile_mp4": "/home/antigravity/Future786/cave-of-crystals-animation/videos/06_tardigrades_Mobile.mp4",
+    "hd_mp4": "/home/antigravity/Future786/cave-of-crystals-animation/videos/06_tardigrades_HD.mp4"
+  },
+  {
+    "id": "07_wow_signal",
+    "title": "The Wow! Signal: The 72-Second Cosmic Enigma",
+    "duration": 64.88,
+    "sentences": [
+      {
+        "index": 0,
+        "text": "On August 15, 1977, the *Big Ear telescope*\nwas scanning the constellation Sagittarius.",
+        "spoken": "On August fifteenth, nineteen seventy-seven, Ohio State University's Big Ear radio telescope was scanning the constellation Sagittarius.",
+        "start": 0.5,
+        "end": 8.6,
+        "dur": 8.1,
+        "shot": 0
+      },
+      {
+        "index": 1,
+        "text": "Earth's rotation swept the sky, giving\n*exactly 72 seconds* to observe any point.",
+        "spoken": "The telescope had no moving parts, relying on Earth's rotation to sweep across the sky, observing any point for exactly seventy-two seconds.",
+        "start": 8.88,
+        "end": 16.77,
+        "dur": 7.88,
+        "shot": 1
+      },
+      {
+        "index": 2,
+        "text": "Suddenly, it picked up a powerful radio spike\n*30 times stronger* than deep space noise.",
+        "spoken": "Suddenly, the receiver picked up an intensely powerful narrowband radio spike thirty times stronger than deep space background noise.",
+        "start": 17.05,
+        "end": 24.37,
+        "dur": 7.33,
+        "shot": 2
+      },
+      {
+        "index": 3,
+        "text": "Astronomer Jerry Ehman spotted the sequence\n*6-E-Q-U-J-5* on the computer printout.",
+        "spoken": "When astronomer Jerry Ehman reviewed the computer printout, he spotted the alphanumerical intensity sequence 6-E-Q-U-J-5.",
+        "start": 24.65,
+        "end": 32.48,
+        "dur": 7.83,
+        "shot": 3
+      },
+      {
+        "index": 4,
+        "text": "Stunned by its strength, he circled the code\nin red ink and wrote *'Wow!' in the margin*.",
+        "spoken": "Stunned by its perfect bell curve and strength, he grabbed a red pen, circled the characters, and wrote the word Wow in the margin.",
+        "start": 32.76,
+        "end": 39.78,
+        "dur": 7.02,
+        "shot": 4
+      },
+      {
+        "index": 5,
+        "text": "It transmitted at *1420 MHz*,\nthe sacred interstellar hydrogen line frequency.",
+        "spoken": "The signal was broadcast precisely at fourteen twenty megahertz, the protected hydrogen line universally considered the cosmic beacon frequency.",
+        "start": 40.06,
+        "end": 48.19,
+        "dur": 8.13,
+        "shot": 5
+      },
+      {
+        "index": 6,
+        "text": "It showed all the hallmarks of an\n*artificial interstellar transmission*.",
+        "spoken": "It showed all the hallmarks of an artificial transmission from beyond our solar system, with no Doppler shift typical of orbiting satellites.",
+        "start": 48.47,
+        "end": 56.39,
+        "dur": 7.92,
+        "shot": 6
+      },
+      {
+        "index": 7,
+        "text": "Across 47 years of sweeps, it never repeated.\n*The cosmos returned to complete silence*.",
+        "spoken": "Despite hundreds of follow up sweeps across forty-seven years, the signal never repeated. The universe returned to complete silence.",
+        "start": 56.67,
+        "end": 63.38,
+        "dur": 6.71,
+        "shot": 7
+      }
+    ],
+    "contact_png": "/home/antigravity/Future786/cave-of-crystals-animation/07_wow_signal_contact.png",
+    "scene_json": "/home/antigravity/Future786/cave-of-crystals-animation/scenes/07_wow_signal.json",
+    "mobile_mp4": "/home/antigravity/Future786/cave-of-crystals-animation/videos/07_wow_signal_Mobile.mp4",
+    "hd_mp4": "/home/antigravity/Future786/cave-of-crystals-animation/videos/07_wow_signal_HD.mp4"
+  },
+  {
+    "id": "08_chernobyl_foot",
+    "title": "Chernobyl's Elephant's Foot: The Lethal Corium",
+    "duration": 71.55,
+    "sentences": [
+      {
+        "index": 0,
+        "text": "In December 1986, workers beneath Chernobyl's\nReactor 4 made *a chilling discovery*.",
+        "spoken": "In December nineteen eighty-six, cleanup workers exploring the dark flooded corridors beneath Chernobyl's destroyed Reactor Four made a chilling discovery.",
+        "start": 0.5,
+        "end": 9.39,
+        "dur": 8.89,
+        "shot": 0
+      },
+      {
+        "index": 1,
+        "text": "Resting against a wall was a 2-meter mass\nof corium, known as *The Elephant's Foot*.",
+        "spoken": "Resting against a concrete wall was a two-meter wrinkled mass of lethal radioactive corium, forever known as the Elephant's Foot.",
+        "start": 9.67,
+        "end": 16.88,
+        "dur": 7.21,
+        "shot": 1
+      },
+      {
+        "index": 2,
+        "text": "Uranium fuel melted at *2,000\u00b0C*,\nfusing with sand and concrete into nuclear lava.",
+        "spoken": "During the meltdown, uranium fuel rods melted at two thousand degrees, combining with molten sand, concrete, and zirconium into radioactive lava.",
+        "start": 17.16,
+        "end": 25.94,
+        "dur": 8.78,
+        "shot": 2
+      },
+      {
+        "index": 3,
+        "text": "It burned through reinforced concrete floors\nbefore solidifying into *a deadly mass*.",
+        "spoken": "It burned through the reinforced reactor floor, dripping down steam pipes before solidifying into a deadly dark mass.",
+        "start": 26.22,
+        "end": 32.78,
+        "dur": 6.56,
+        "shot": 2
+      },
+      {
+        "index": 4,
+        "text": "Its radiation measured *10,000 roentgens/hr*,\na lethally toxic level.",
+        "spoken": "When first discovered, its radiation was estimated at ten thousand roentgens per hour.",
+        "start": 33.06,
+        "end": 37.95,
+        "dur": 4.89,
+        "shot": 3
+      },
+      {
+        "index": 5,
+        "text": "Standing near it for *300 seconds*\nwould guarantee fatal radiation sickness.",
+        "spoken": "Standing near it for just three hundred seconds would deliver a lethal human dose, destroying internal organs within forty-eight hours.",
+        "start": 38.23,
+        "end": 45.21,
+        "dur": 6.98,
+        "shot": 3
+      },
+      {
+        "index": 6,
+        "text": "Gamma rays were so intense they destroyed\nfilm cameras with *swirling white static snow*.",
+        "spoken": "Early photographs were captured by wheeling remote robotic cameras, and the gamma rays were so intense they degraded the film with white static snow.",
+        "start": 45.49,
+        "end": 53.38,
+        "dur": 7.89,
+        "shot": 4
+      },
+      {
+        "index": 7,
+        "text": "Scientists fired *armor-piercing rifle rounds*\nto chip off samples for laboratory tests.",
+        "spoken": "Scientists even fired armor piercing rifle rounds at the mass just to break off small rock fragments for laboratory chemical analysis.",
+        "start": 53.66,
+        "end": 61.07,
+        "dur": 7.41,
+        "shot": 5
+      },
+      {
+        "index": 8,
+        "text": "Today, *black radiotrophic fungi* grow there,\nusing melanin to feed on gamma radiation.",
+        "spoken": "Today, even inside this radioactive sarcophagus, black radiotrophic fungi grow on the walls, using melanin pigment to harvest gamma radiation for energy.",
+        "start": 61.35,
+        "end": 70.05,
+        "dur": 8.71,
+        "shot": 6
+      }
+    ],
+    "contact_png": "/home/antigravity/Future786/cave-of-crystals-animation/08_chernobyl_foot_contact.png",
+    "scene_json": "/home/antigravity/Future786/cave-of-crystals-animation/scenes/08_chernobyl_foot.json",
+    "mobile_mp4": "/home/antigravity/Future786/cave-of-crystals-animation/videos/08_chernobyl_foot_Mobile.mp4",
+    "hd_mp4": "/home/antigravity/Future786/cave-of-crystals-animation/videos/08_chernobyl_foot_HD.mp4"
+  },
+  {
+    "id": "09_devils_kettle",
+    "title": "The Devil's Kettle: The Disappearing Waterfall",
+    "duration": 69.96,
+    "sentences": [
+      {
+        "index": 0,
+        "text": "In Minnesota's pine forests, the Brule River\napproaches *The Devil's Kettle* waterfall.",
+        "spoken": "In the dense pine forests along Minnesota's North Shore, the Brule River approaches a dramatic volcanic cliff called the Devil's Kettle.",
+        "start": 0.5,
+        "end": 8.01,
+        "dur": 7.51,
+        "shot": 0
+      },
+      {
+        "index": 1,
+        "text": "Before plunging over a 50-foot ledge,\na rock outcrop *splits the river into two halves*.",
+        "spoken": "Just before plunging over a fifty-foot rhyolite ledge, a massive rock outcrop cleanly splits the entire river into two halves.",
+        "start": 8.29,
+        "end": 15.44,
+        "dur": 7.15,
+        "shot": 1
+      },
+      {
+        "index": 2,
+        "text": "The eastern half flows normally,\nbut the western half drops into *a giant pothole*.",
+        "spoken": "The eastern half tumbles normally down the canyon walls toward Lake Superior, but the western half drops straight into a giant circular geological pothole.",
+        "start": 15.72,
+        "end": 24.06,
+        "dur": 8.34,
+        "shot": 2
+      },
+      {
+        "index": 3,
+        "text": "For generations, the water seemed to\n*vanish into Earth* with no exit point.",
+        "spoken": "For generations, the water appeared to vanish into the Earth with no visible exit point anywhere in the surrounding river system.",
+        "start": 24.34,
+        "end": 30.89,
+        "dur": 6.55,
+        "shot": 3
+      },
+      {
+        "index": 4,
+        "text": "Legends claimed the pothole was an abyss\n*leading to bottomless caverns deep underground*.",
+        "spoken": "Local legends claimed the pothole was a bottomless abyss leading directly into subterranean caverns connected to the mantle.",
+        "start": 31.17,
+        "end": 37.66,
+        "dur": 6.49,
+        "shot": 3
+      },
+      {
+        "index": 5,
+        "text": "Researchers dumped dyes and trackers in,\n*yet nothing ever emerged downstream*.",
+        "spoken": "Curious hikers and researchers dumped fluorescent green dyes, ping-pong balls, and radio telemetry tags into the kettle, but nothing ever emerged.",
+        "start": 37.94,
+        "end": 46.51,
+        "dur": 8.57,
+        "shot": 4
+      },
+      {
+        "index": 6,
+        "text": "In 2017, hydrologists measured water volume\nusing *acoustic Doppler flow meters*.",
+        "spoken": "In two thousand seventeen, Minnesota hydrologists solved the mystery by measuring water volume with acoustic Doppler flow meters.",
+        "start": 46.79,
+        "end": 53.91,
+        "dur": 7.13,
+        "shot": 5
+      },
+      {
+        "index": 7,
+        "text": "The water didn't vanish: it re-surfaces\n*directly under the plunge pool downstream*.",
+        "spoken": "The water was not vanishing into the mantle: it drains into an underground channel and surges back up into the riverbed directly beneath the plunge pool.",
+        "start": 54.19,
+        "end": 62.08,
+        "dur": 7.88,
+        "shot": 6
+      },
+      {
+        "index": 8,
+        "text": "Objects thrown inside were simply pulverized\n*by the violent swirling vortex currents*.",
+        "spoken": "The items thrown in had simply been pulverized by the violent recirculating vortex currents at the bottom of the kettle.",
+        "start": 62.36,
+        "end": 68.46,
+        "dur": 6.11,
+        "shot": 7
+      }
+    ],
+    "contact_png": "/home/antigravity/Future786/cave-of-crystals-animation/09_devils_kettle_contact.png",
+    "scene_json": "/home/antigravity/Future786/cave-of-crystals-animation/scenes/09_devils_kettle.json",
+    "mobile_mp4": "/home/antigravity/Future786/cave-of-crystals-animation/videos/09_devils_kettle_Mobile.mp4",
+    "hd_mp4": "/home/antigravity/Future786/cave-of-crystals-animation/videos/09_devils_kettle_HD.mp4"
+  },
+  {
+    "id": "10_silurian_hypothesis",
+    "title": "The Silurian Hypothesis: Deep Time Civilizations",
+    "duration": 74.46,
+    "sentences": [
+      {
+        "index": 0,
+        "text": "If an industrial species lived 50 million years ago,\n*could we prove they were ever here?*",
+        "spoken": "If an advanced industrial civilization existed on Earth fifty million years before humans, could we prove they were ever here?",
+        "start": 0.5,
+        "end": 6.94,
+        "dur": 6.44,
+        "shot": 0
+      },
+      {
+        "index": 1,
+        "text": "This is the *Silurian Hypothesis*,\na scientific study by NASA and astrophysics teams.",
+        "spoken": "This is the Silurian Hypothesis, a scientific thought experiment published by NASA climatologist Gavin Schmidt and astrophysicist Adam Frank.",
+        "start": 7.22,
+        "end": 15.12,
+        "dur": 7.89,
+        "shot": 1
+      },
+      {
+        "index": 2,
+        "text": "Humans have existed for 300,000 years,\n*less than 0.01%* of Earth's vast history.",
+        "spoken": "Humans have existed for only three hundred thousand years, less than zero point zero one percent of Earth's four point five billion year history.",
+        "start": 15.4,
+        "end": 23.28,
+        "dur": 7.88,
+        "shot": 2
+      },
+      {
+        "index": 3,
+        "text": "56 million years ago, temperatures spiked\n*by 8 degrees* in a sudden geological heartbeat.",
+        "spoken": "Fifty-six million years ago, the Paleocene-Eocene Thermal Maximum saw global temperatures spike by eight degrees in a geological heartbeat.",
+        "start": 23.56,
+        "end": 31.46,
+        "dur": 7.89,
+        "shot": 3
+      },
+      {
+        "index": 4,
+        "text": "Fossilization is extraordinarily rare:\n*less than 0.1%* of species ever become stone.",
+        "spoken": "Fossilization is extraordinarily rare: less than a tiny fraction of one percent of all ancient species are ever preserved in rock.",
+        "start": 31.74,
+        "end": 38.96,
+        "dur": 7.22,
+        "shot": 4
+      },
+      {
+        "index": 5,
+        "text": "In just a few thousand years, our cities\n*will weather and crumble into dust*.",
+        "spoken": "In just a few millennia, our cities, steel skyscrapers, concrete highways, and dams will weather, crumble, and erode into dust.",
+        "start": 39.24,
+        "end": 47.27,
+        "dur": 8.03,
+        "shot": 5
+      },
+      {
+        "index": 6,
+        "text": "The only immortal traces would be\n*plastics, carbon spikes, and radioactive isotopes*.",
+        "spoken": "The only immortal traces left in the geological strata would be synthetic plastics, anomalous carbon isotope spikes, and long-lived radioactive plutonium isotopes.",
+        "start": 47.55,
+        "end": 57.88,
+        "dur": 10.33,
+        "shot": 6
+      },
+      {
+        "index": 7,
+        "text": "Our entire civilization will condense\n*into a rock layer less than 2 millimeters thick*.",
+        "spoken": "All traces of modern human civilization will eventually be compressed into a microscopic sedimentary rock layer less than two millimeters thick.",
+        "start": 58.16,
+        "end": 65.91,
+        "dur": 7.74,
+        "shot": 7
+      },
+      {
+        "index": 8,
+        "text": "In the abyss of deep time, civilizations rise\n*and dissolve like a whisper in the stone*.",
+        "spoken": "Looking into the abyss of deep time, civilizations rise, burn, and dissolve like a whisper in the rock layers of Earth.",
+        "start": 66.19,
+        "end": 72.96,
+        "dur": 6.77,
+        "shot": 8
+      }
+    ],
+    "contact_png": "/home/antigravity/Future786/cave-of-crystals-animation/10_silurian_hypothesis_contact.png",
+    "scene_json": "/home/antigravity/Future786/cave-of-crystals-animation/scenes/10_silurian_hypothesis.json",
+    "mobile_mp4": "/home/antigravity/Future786/cave-of-crystals-animation/videos/10_silurian_hypothesis_Mobile.mp4",
+    "hd_mp4": "/home/antigravity/Future786/cave-of-crystals-animation/videos/10_silurian_hypothesis_HD.mp4"
+  }
+]

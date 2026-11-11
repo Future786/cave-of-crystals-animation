@@ -1,0 +1,90 @@
+{
+  "topic_id": "04_lake_vostok",
+  "audio_path": "/home/antigravity/Future786/cave-of-crystals-animation/audio/04_lake_vostok_final_audio.mp3",
+  "vo_path": "/home/antigravity/Future786/cave-of-crystals-animation/audio/04_lake_vostok/04_lake_vostok_vo.wav",
+  "bed_path": "/home/antigravity/Future786/cave-of-crystals-animation/audio/04_lake_vostok/04_lake_vostok_bed.wav",
+  "duration": 72.95,
+  "sentences": [
+    {
+      "index": 0,
+      "text": "4,000 meters beneath Antarctic ice lies\n*Lake Vostok*, sealed for 15 million years.",
+      "spoken": "Four thousand meters beneath the East Antarctic ice sheet lies Lake Vostok, a subglacial liquid ocean sealed off from Earth for fifteen million years.",
+      "start": 0.5,
+      "end": 9.4,
+      "dur": 8.9,
+      "shot": 0
+    },
+    {
+      "index": 1,
+      "text": "The lake is the size of *Lake Ontario*,\nburied under 4 km of solid glacial ice.",
+      "spoken": "Covering fifteen thousand square kilometers, it is nearly the size of Lake Ontario, buried under four kilometers of crushing glacial ice.",
+      "start": 9.68,
+      "end": 17.58,
+      "dur": 7.89,
+      "shot": 1
+    },
+    {
+      "index": 2,
+      "text": "Despite -89\u00b0C surface air, geothermal heat\nkeeps the freshwater lake in a *liquid state*.",
+      "spoken": "Despite sitting beneath the coldest surface on Earth at minus eighty-nine degrees, geothermal heat keeps its freshwater reservoir in a liquid state.",
+      "start": 17.86,
+      "end": 26.52,
+      "dur": 8.66,
+      "shot": 2
+    },
+    {
+      "index": 3,
+      "text": "Pressure exceeds *350 atmospheres*,\nwith 50 times more oxygen than normal water.",
+      "spoken": "The pressure here exceeds three hundred and fifty atmospheres, and the water is supersaturated with fifty times more oxygen than normal lakes.",
+      "start": 26.8,
+      "end": 34.16,
+      "dur": 7.36,
+      "shot": 3
+    },
+    {
+      "index": 4,
+      "text": "Scientists drilled thousands of meters,\ntaking extreme care *not to contaminate the waters*.",
+      "spoken": "For decades, Russian drillers bored through thousands of meters of ice cores, taking extreme precautions to avoid contaminating the virgin waters.",
+      "start": 34.44,
+      "end": 42.36,
+      "dur": 7.92,
+      "shot": 4
+    },
+    {
+      "index": 5,
+      "text": "A specialized fluid column balanced the\n*immense hydrostatic pressure* of the ice.",
+      "spoken": "They used a specialized freon and kerosene fluid column to balance the immense hydrostatic pressure of the overlying ice.",
+      "start": 42.64,
+      "end": 48.83,
+      "dur": 6.19,
+      "shot": 4
+    },
+    {
+      "index": 6,
+      "text": "Core samples revealed thousands of\n*novel DNA sequences* from ancient microbes.",
+      "spoken": "When the core reached accreted lake ice, genetic analysis revealed thousands of novel DNA sequences from ancient bacteria and fungi.",
+      "start": 49.11,
+      "end": 56.7,
+      "dur": 7.59,
+      "shot": 5
+    },
+    {
+      "index": 7,
+      "text": "These organisms thrived in total darkness,\n*feeding only on mineral bedrock vents*.",
+      "spoken": "These organisms have thrived in complete total darkness, nourished only by minerals from geothermal bedrock vents.",
+      "start": 56.98,
+      "end": 63.39,
+      "dur": 6.41,
+      "shot": 6
+    },
+    {
+      "index": 8,
+      "text": "Lake Vostok proves life can survive here;\n*and perhaps on Jupiter's moon Europa*.",
+      "spoken": "Lake Vostok is our closest terrestrial model for Jupiter's ice moon Europa. If life can survive here, life is everywhere in the cosmos.",
+      "start": 63.67,
+      "end": 71.45,
+      "dur": 7.78,
+      "shot": 7
+    }
+  ]
+}
