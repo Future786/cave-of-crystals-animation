@@ -1,14 +1,14 @@
 {
-  "preset": "abyss",
+  "preset": "microscope",
   "width": 1080,
   "height": 1920,
   "fps": 24,
   "grain": 0.04,
   "tokens": {
-    "top": "#1e3a2b",
-    "bottom": "#06120b",
-    "hl": "#3ecf6a",
-    "pill": "#0c2416"
+    "top": "#0a1e14",
+    "bottom": "#020905",
+    "hl": "#76ff03",
+    "pill": "#091f14"
   },
   "audio": "/home/antigravity/Future786/cave-of-crystals-animation/audio/06_tardigrades_final_audio.mp3",
   "shots": [
@@ -16,16 +16,16 @@
       "start": 0.0,
       "end": 7.42,
       "bg": {
+        "mode": "microscope",
         "depth": 0.4,
-        "rays": true,
         "particleCount": 45
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": -25
+        "panX": -20
       },
       "fadeIn": 0.35,
       "fadeOut": 0,
@@ -39,24 +39,28 @@
           "box": true
         },
         {
+          "type": "svg",
+          "markup": "\n                <g opacity=\"0.85\">\n                  <!-- Tardigrade Water Bear Anatomy -->\n                  <ellipse cx=\"540\" cy=\"700\" rx=\"200\" ry=\"110\" fill=\"#143324\" stroke=\"#76ff03\" stroke-width=\"5\"/>\n                  <!-- Segments & Claws -->\n                  <ellipse cx=\"400\" cy=\"700\" rx=\"60\" ry=\"90\" fill=\"none\" stroke=\"#76ff03\" stroke-width=\"3\"/>\n                  <ellipse cx=\"540\" cy=\"700\" rx=\"60\" ry=\"100\" fill=\"none\" stroke=\"#76ff03\" stroke-width=\"3\"/>\n                  <ellipse cx=\"680\" cy=\"700\" rx=\"50\" ry=\"90\" fill=\"none\" stroke=\"#76ff03\" stroke-width=\"3\"/>\n                  <circle cx=\"340\" cy=\"700\" r=\"16\" fill=\"#76ff03\"/>\n                </g>\n                "
+        },
+        {
           "type": "bignumber",
           "from": 0,
           "to": 0.5,
           "suffix": " mm",
           "x": 540,
-          "y": 780,
-          "size": 140,
-          "color": "#3ecf6a",
-          "dur": 2.0,
+          "y": 870,
+          "size": 110,
+          "color": "#76ff03",
+          "dur": 1.8,
           "t0": 0.3
         },
         {
           "type": "pill",
-          "text": "MICROSCOPIC WATER BEAR",
-          "x": 320,
-          "y": 880,
+          "text": "EIGHT-LEGGED MICRO-METAZOAN",
+          "x": 280,
+          "y": 970,
           "size": 24,
-          "t0": 0.6
+          "t0": 0.8
         },
         {
           "type": "caption",
@@ -74,16 +78,16 @@
       "start": 7.42,
       "end": 14.52,
       "bg": {
+        "mode": "microscope",
         "depth": 0.48,
-        "rays": true,
         "particleCount": 45
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": 25
+        "panX": 20
       },
       "fadeIn": 0,
       "fadeOut": 0,
@@ -98,11 +102,11 @@
         },
         {
           "type": "stamp",
-          "text": "CRYPTOBIOSIS INITIATED",
-          "color": "#ffd166",
+          "text": "SURVIVED 5 MASS EXTINCTIONS",
+          "color": "#76ff03",
           "x": 540,
-          "y": 850,
-          "size": 52,
+          "y": 800,
+          "size": 48,
           "rotate": -5,
           "t0": 1.2
         },
@@ -122,20 +126,16 @@
       "start": 14.52,
       "end": 21.65,
       "bg": {
+        "mode": "microscope",
         "depth": 0.56,
-        "rays": false,
-        "particleCount": 45,
-        "spotlight": {
-          "x": 540,
-          "w": 420
-        }
+        "particleCount": 45
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": -25
+        "panX": -20
       },
       "fadeIn": 0,
       "fadeOut": 0,
@@ -149,16 +149,24 @@
           "box": true
         },
         {
-          "type": "meter",
-          "x": 160,
-          "y": 820,
-          "w": 760,
-          "value": 0.01,
-          "number": 0.01,
-          "unit": " %",
-          "title": "METABOLIC ACTIVITY RATE",
+          "type": "bignumber",
+          "from": 0,
+          "to": 99,
+          "suffix": " %",
+          "x": 540,
+          "y": 740,
+          "size": 140,
+          "color": "#00e5ff",
           "dur": 2.2,
           "t0": 0.3
+        },
+        {
+          "type": "pill",
+          "text": "BODY WATER EXPELLED IN CRYPTOBIOSIS",
+          "x": 220,
+          "y": 870,
+          "size": 24,
+          "t0": 0.8
         },
         {
           "type": "caption",
@@ -176,16 +184,16 @@
       "start": 21.65,
       "end": 29.95,
       "bg": {
+        "mode": "microscope",
         "depth": 0.64,
-        "rays": false,
         "particleCount": 45
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": 25
+        "panX": 20
       },
       "fadeIn": 0,
       "fadeOut": 0,
@@ -199,12 +207,16 @@
           "box": true
         },
         {
+          "type": "svg",
+          "markup": "\n                <g opacity=\"0.85\">\n                  <!-- Tun State Armored Sphere -->\n                  <circle cx=\"540\" cy=\"720\" r=\"110\" fill=\"#082114\" stroke=\"#76ff03\" stroke-width=\"6\"/>\n                  <circle cx=\"540\" cy=\"720\" r=\"80\" fill=\"none\" stroke=\"#00e5ff\" stroke-width=\"3\" stroke-dasharray=\"10,6\"/>\n                  <text x=\"540\" y=\"730\" font-family=\"Poppins\" font-size=\"30\" font-weight=\"900\" fill=\"#76ff03\" text-anchor=\"middle\">TUN STATE</text>\n                </g>\n                "
+        },
+        {
           "type": "pill",
-          "text": "CELLULAR BIOLOGICAL GLASS",
-          "x": 280,
-          "y": 820,
+          "text": "METABOLISM REDUCED TO 0.01%",
+          "x": 260,
+          "y": 890,
           "size": 24,
-          "t0": 0.6
+          "t0": 0.8
         },
         {
           "type": "caption",
@@ -222,16 +234,16 @@
       "start": 29.95,
       "end": 38.46,
       "bg": {
+        "mode": "microscope",
         "depth": 0.71,
-        "rays": false,
         "particleCount": 45
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": -25
+        "panX": -20
       },
       "fadeIn": 0,
       "fadeOut": 0,
@@ -248,19 +260,19 @@
           "type": "pill",
           "text": "-272\u00b0C TO +150\u00b0C",
           "tone": "red",
-          "x": 360,
-          "y": 760,
-          "size": 26,
+          "x": 350,
+          "y": 740,
+          "size": 28,
           "t0": 0.4
         },
         {
           "type": "stamp",
-          "text": "SPACE VACUUM SURVIVOR",
-          "color": "#3ecf6a",
+          "text": "SURVIVES VACUUM OF SPACE",
+          "color": "#76ff03",
           "x": 540,
           "y": 880,
-          "size": 50,
-          "t0": 1.5
+          "size": 48,
+          "t0": 1.4
         },
         {
           "type": "caption",
@@ -278,16 +290,16 @@
       "start": 38.46,
       "end": 48.39,
       "bg": {
+        "mode": "microscope",
         "depth": 0.79,
-        "rays": false,
         "particleCount": 45
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": 25
+        "panX": 20
       },
       "fadeIn": 0,
       "fadeOut": 0,
@@ -306,7 +318,7 @@
           "to": 1000,
           "suffix": "x",
           "x": 540,
-          "y": 780,
+          "y": 740,
           "size": 140,
           "color": "#ff3b30",
           "dur": 2.2,
@@ -316,9 +328,9 @@
           "type": "pill",
           "text": "HUMAN LETHAL RADIATION DOSE",
           "x": 260,
-          "y": 890,
+          "y": 870,
           "size": 24,
-          "t0": 0.6
+          "t0": 0.8
         },
         {
           "type": "caption",
@@ -336,16 +348,16 @@
       "start": 48.39,
       "end": 62.96,
       "bg": {
+        "mode": "microscope",
         "depth": 0.87,
-        "rays": true,
         "particleCount": 45
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": -25
+        "panX": -20
       },
       "fadeIn": 0,
       "fadeOut": 0,
@@ -360,13 +372,13 @@
         },
         {
           "type": "stamp",
-          "text": "IMMORTAL MICRO-METAZOA",
-          "color": "#3ecf6a",
+          "text": "REHYDRATES AND WALKS AWAY",
+          "color": "#76ff03",
           "x": 540,
-          "y": 860,
-          "size": 52,
-          "rotate": -4,
-          "t0": 1.2
+          "y": 820,
+          "size": 48,
+          "rotate": -3,
+          "t0": 1.0
         },
         {
           "type": "caption",
@@ -394,16 +406,16 @@
       "start": 62.96,
       "end": 72.12,
       "bg": {
+        "mode": "microscope",
         "depth": 0.95,
-        "rays": false,
         "particleCount": 45
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": 25
+        "panX": 20
       },
       "fadeIn": 0,
       "fadeOut": 0.4,
@@ -417,21 +429,14 @@
           "box": true
         },
         {
-          "type": "reticle",
+          "type": "stamp",
+          "text": "REHYDRATES AND WALKS AWAY",
+          "color": "#76ff03",
           "x": 540,
-          "y": 850,
-          "r": 120,
-          "t0": 0.4
-        },
-        {
-          "type": "circle",
-          "x": 540,
-          "y": 850,
-          "rx": 260,
-          "ry": 260,
-          "color": "#3ecf6a",
-          "width": 4,
-          "t0": 0.8
+          "y": 820,
+          "size": 48,
+          "rotate": -3,
+          "t0": 1.0
         },
         {
           "type": "caption",

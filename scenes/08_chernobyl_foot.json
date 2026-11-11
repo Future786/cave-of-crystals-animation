@@ -1,14 +1,14 @@
 {
-  "preset": "abyss",
+  "preset": "radiation",
   "width": 1080,
   "height": 1920,
   "fps": 24,
   "grain": 0.04,
   "tokens": {
-    "top": "#2a2216",
-    "bottom": "#0b0805",
-    "hl": "#ef4444",
-    "pill": "#1c140c"
+    "top": "#171908",
+    "bottom": "#060702",
+    "hl": "#ffd600",
+    "pill": "#171807"
   },
   "audio": "/home/antigravity/Future786/cave-of-crystals-animation/audio/08_chernobyl_foot_final_audio.mp3",
   "shots": [
@@ -16,16 +16,16 @@
       "start": 0.0,
       "end": 9.52,
       "bg": {
+        "mode": "radiation",
         "depth": 0.4,
-        "rays": true,
         "particleCount": 45
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": -25
+        "panX": -20
       },
       "fadeIn": 0.35,
       "fadeOut": 0,
@@ -40,12 +40,16 @@
         },
         {
           "type": "pill",
-          "text": "CHERNOBYL UNIT 4 SUB-BASEMENT",
+          "text": "CHERNOBYL REACTOR 4 SUB-BASEMENT",
           "tone": "red",
-          "x": 260,
-          "y": 800,
-          "size": 24,
+          "x": 230,
+          "y": 760,
+          "size": 26,
           "t0": 0.5
+        },
+        {
+          "type": "svg",
+          "markup": "\n                <g opacity=\"0.85\">\n                  <!-- Trefoil Radiation Symbol -->\n                  <circle cx=\"540\" cy=\"580\" r=\"100\" fill=\"#ffd600\"/>\n                  <circle cx=\"540\" cy=\"580\" r=\"24\" fill=\"#000\"/>\n                  <path d=\"M540,580 L500,430 A100,100 0 0,1 580,430 Z\" fill=\"#000\"/>\n                  <path d=\"M540,580 L670,510 A100,100 0 0,1 630,670 Z\" fill=\"#000\"/>\n                  <path d=\"M540,580 L410,670 A100,100 0 0,1 370,510 Z\" fill=\"#000\"/>\n                </g>\n                "
         },
         {
           "type": "caption",
@@ -63,16 +67,16 @@
       "start": 9.52,
       "end": 17.01,
       "bg": {
+        "mode": "radiation",
         "depth": 0.49,
-        "rays": true,
         "particleCount": 45
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": 25
+        "panX": 20
       },
       "fadeIn": 0,
       "fadeOut": 0,
@@ -86,14 +90,16 @@
           "box": true
         },
         {
-          "type": "stamp",
-          "text": "CORIUM LAVA FLOW",
-          "color": "#ef4444",
-          "x": 540,
-          "y": 850,
-          "size": 52,
-          "rotate": -5,
-          "t0": 1.0
+          "type": "svg",
+          "markup": "\n                <g opacity=\"0.9\">\n                  <!-- Elephant's Foot Corium Mass -->\n                  <path d=\"M 300 850 C 320 680, 480 620, 540 640 C 620 620, 760 690, 780 850 C 740 920, 340 920, 300 850 Z\" fill=\"#1c1917\" stroke=\"#ffd600\" stroke-width=\"5\"/>\n                  <path d=\"M 360 720 Q 540 760 720 720\" stroke=\"#78716c\" stroke-width=\"4\" fill=\"none\"/>\n                  <path d=\"M 380 780 Q 540 820 700 780\" stroke=\"#78716c\" stroke-width=\"4\" fill=\"none\"/>\n                  <text x=\"540\" y=\"870\" font-family=\"Poppins\" font-size=\"30\" font-weight=\"900\" fill=\"#ffd600\" text-anchor=\"middle\">2 METRIC TONS CORIUM</text>\n                </g>\n                "
+        },
+        {
+          "type": "pill",
+          "text": "SOLIDIFIED NUCLEAR LAVA MASS",
+          "x": 280,
+          "y": 950,
+          "size": 24,
+          "t0": 0.8
         },
         {
           "type": "caption",
@@ -111,20 +117,16 @@
       "start": 17.01,
       "end": 32.91,
       "bg": {
+        "mode": "radiation",
         "depth": 0.58,
-        "rays": false,
-        "particleCount": 45,
-        "spotlight": {
-          "x": 540,
-          "w": 420
-        }
+        "particleCount": 45
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": -25
+        "panX": -20
       },
       "fadeIn": 0,
       "fadeOut": 0,
@@ -143,19 +145,20 @@
           "to": 2000,
           "suffix": " \u00b0C",
           "x": 540,
-          "y": 780,
+          "y": 740,
           "size": 130,
-          "color": "#ef4444",
+          "color": "#ff3b30",
           "dur": 2.2,
           "t0": 0.3
         },
         {
           "type": "pill",
-          "text": "CORE MELTDOWN TEMPERATURE",
-          "x": 280,
-          "y": 880,
+          "text": "MELTING URANIUM, ZIRCONIUM & CONCRETE",
+          "tone": "red",
+          "x": 200,
+          "y": 860,
           "size": 24,
-          "t0": 0.6
+          "t0": 0.8
         },
         {
           "type": "caption",
@@ -183,16 +186,16 @@
       "start": 32.91,
       "end": 45.34,
       "bg": {
+        "mode": "radiation",
         "depth": 0.68,
-        "rays": false,
         "particleCount": 45
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": 25
+        "panX": 20
       },
       "fadeIn": 0,
       "fadeOut": 0,
@@ -208,23 +211,23 @@
         {
           "type": "meter",
           "x": 160,
-          "y": 820,
+          "y": 750,
           "w": 760,
           "value": 1.0,
           "number": 10000,
           "unit": " R/HR",
-          "title": "IONIZING RADIATION FIELD",
-          "dur": 2.0,
+          "title": "IONIZING GAMMA RADIATION LEVEL",
+          "dur": 2.2,
           "t0": 0.3
         },
         {
           "type": "pill",
-          "text": "300 SECONDS = LETHAL DOSE",
+          "text": "300 SECONDS = LETHAL HUMAN DOSE",
           "tone": "red",
-          "x": 280,
-          "y": 940,
-          "size": 26,
-          "t0": 1.5
+          "x": 250,
+          "y": 870,
+          "size": 24,
+          "t0": 1.2
         },
         {
           "type": "caption",
@@ -252,16 +255,16 @@
       "start": 45.34,
       "end": 53.51,
       "bg": {
+        "mode": "radiation",
         "depth": 0.77,
-        "rays": false,
         "particleCount": 45
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": -25
+        "panX": -20
       },
       "fadeIn": 0,
       "fadeOut": 0,
@@ -275,12 +278,14 @@
           "box": true
         },
         {
-          "type": "pill",
-          "text": "GAMMA-RAY FILM DEGRADATION",
-          "x": 270,
-          "y": 820,
-          "size": 24,
-          "t0": 0.6
+          "type": "stamp",
+          "text": "GAMMA RAYS DESTROYED FILM",
+          "color": "#ffd600",
+          "x": 540,
+          "y": 800,
+          "size": 48,
+          "rotate": -5,
+          "t0": 1.0
         },
         {
           "type": "caption",
@@ -298,16 +303,16 @@
       "start": 53.51,
       "end": 61.2,
       "bg": {
+        "mode": "radiation",
         "depth": 0.86,
-        "rays": false,
         "particleCount": 45
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": 25
+        "panX": 20
       },
       "fadeIn": 0,
       "fadeOut": 0,
@@ -321,14 +326,12 @@
           "box": true
         },
         {
-          "type": "stamp",
-          "text": "RADIOTROPHIC FUNGI",
-          "color": "#ffd166",
-          "x": 540,
-          "y": 860,
-          "size": 52,
-          "rotate": -4,
-          "t0": 1.2
+          "type": "pill",
+          "text": "ARMOR-PIERCING AK-47 ROUNDS FIRED FOR SAMPLES",
+          "x": 160,
+          "y": 800,
+          "size": 24,
+          "t0": 0.8
         },
         {
           "type": "caption",
@@ -346,16 +349,16 @@
       "start": 61.2,
       "end": 71.55,
       "bg": {
+        "mode": "radiation",
         "depth": 0.95,
-        "rays": true,
         "particleCount": 45
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": -25
+        "panX": -20
       },
       "fadeIn": 0,
       "fadeOut": 0.4,
@@ -369,21 +372,14 @@
           "box": true
         },
         {
-          "type": "reticle",
+          "type": "stamp",
+          "text": "RADIOTROPHIC FUNGI EAT RADIATION",
+          "color": "#76ff03",
           "x": 540,
-          "y": 850,
-          "r": 120,
-          "t0": 0.4
-        },
-        {
-          "type": "circle",
-          "x": 540,
-          "y": 850,
-          "rx": 260,
-          "ry": 260,
-          "color": "#ef4444",
-          "width": 4,
-          "t0": 0.8
+          "y": 800,
+          "size": 44,
+          "rotate": -4,
+          "t0": 1.0
         },
         {
           "type": "caption",

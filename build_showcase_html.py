@@ -417,12 +417,12 @@ def generate_showcase():
         </a>
       </div>
       <div class="feature-box">
-        <h4>✨ Caption Upgrade Resolved:</h4>
+        <h4>✨ Key Upgrades & Fixes Applied:</h4>
         <ul>
-          <li><strong>Auto-wrapping multi-line cards:</strong> Captions dynamically wrap and center so sentences never cut off.</li>
-          <li><strong>100% spoken text coverage:</strong> Every phrase spoken by the narrator is displayed in real-time.</li>
-          <li><strong>Dark glass backdrop pill:</strong> Frosted translucent pill with 2.5px border guarantees 100% readability.</li>
-          <li><strong>Key-phrase highlights:</strong> Stressed words highlighted in gold and red.</li>
+          <li><strong>Full-Frame 9:16 ViewBox (No Crop / Zoom):</strong> Fixed SVG coordinate scaling so 100% of the frame is visible, centered, and sharp without any top-left zoom or edge cutoff.</li>
+          <li><strong>10 Distinct Visual Themes:</strong> Each video now has a completely unique visual atmosphere (Abyss, Magma, Green Sonar Radar, Glacial Frost, Fiery Inferno, SEM Microscope, Nebula Cosmos, Ionizing Radiation, Rhyolite Gorge, Epoch Strata).</li>
+          <li><strong>100% Spoken Subtitles (Auto-Wrapping):</strong> Every spoken sentence is dynamically multi-line wrapped in a frosted dark-glass pill box with zero edge clipping and colored keyword accents.</li>
+          <li><strong>Rich Vector Infographics:</strong> Custom-tailored scientific diagrams for each topic (Everest scale, derrick cross-section, hydrophone spectrogram, Europa probe, methane vents, tardigrade anatomy, Big Ear dish, Elephant's Foot, gorge split, and cosmic clock).</li>
         </ul>
       </div>
     </div>

@@ -81,12 +81,12 @@ TOPICS = [
         "id": "02_kola_borehole",
         "title": "The Kola Superdeep Borehole",
         "tag": "MURMANSK, ARCTIC • 12,262M",
-        "preset": "ink",
+        "preset": "magma",
         "tokens": {
-            "top": "#2d3748",
-            "bottom": "#0b0f19",
-            "hl": "#f5a623",
-            "pill": "#111827"
+            "top": "#24160f",
+            "bottom": "#0d0704",
+            "hl": "#ff9f1c",
+            "pill": "#1c120c"
         },
         "sentences": [
             {
@@ -144,12 +144,12 @@ TOPICS = [
         "id": "03_the_bloop",
         "title": "The Bloop: Deep Ocean Acoustic Anomaly",
         "tag": "SOUTH PACIFIC • 50°S 100°W",
-        "preset": "abyss",
+        "preset": "sonar",
         "tokens": {
-            "top": "#092532",
-            "bottom": "#030b0e",
-            "hl": "#3ecf6a",
-            "pill": "#081b24"
+            "top": "#03170e",
+            "bottom": "#010804",
+            "hl": "#00ff66",
+            "pill": "#051f14"
         },
         "sentences": [
             {
@@ -207,12 +207,12 @@ TOPICS = [
         "id": "04_lake_vostok",
         "title": "Lake Vostok: Antarctica's Subglacial Time Capsule",
         "tag": "EAST ANTARCTICA • -89°C",
-        "preset": "abyss",
+        "preset": "glacial",
         "tokens": {
-            "top": "#1a365d",
-            "bottom": "#081325",
-            "hl": "#38bdf8",
-            "pill": "#0c1e38"
+            "top": "#0a2336",
+            "bottom": "#030d15",
+            "hl": "#00e5ff",
+            "pill": "#082133"
         },
         "sentences": [
             {
@@ -270,12 +270,12 @@ TOPICS = [
         "id": "05_darvaza_crater",
         "title": "The Door to Hell: Darvaza Gas Crater",
         "tag": "KARAKUM DESERT, TURKMENISTAN",
-        "preset": "ink",
+        "preset": "inferno",
         "tokens": {
-            "top": "#4a1d12",
-            "bottom": "#120603",
-            "hl": "#f97316",
-            "pill": "#260e07"
+            "top": "#2d0902",
+            "bottom": "#0c0200",
+            "hl": "#ff9100",
+            "pill": "#260b05"
         },
         "sentences": [
             {
@@ -333,12 +333,12 @@ TOPICS = [
         "id": "06_tardigrades",
         "title": "Tardigrades: The Indestructible Extremophile",
         "tag": "MICRO-METAZOA • 0.5MM",
-        "preset": "abyss",
+        "preset": "microscope",
         "tokens": {
-            "top": "#1e3a2b",
-            "bottom": "#06120b",
-            "hl": "#3ecf6a",
-            "pill": "#0c2416"
+            "top": "#0a1e14",
+            "bottom": "#020905",
+            "hl": "#76ff03",
+            "pill": "#091f14"
         },
         "sentences": [
             {
@@ -396,12 +396,12 @@ TOPICS = [
         "id": "07_wow_signal",
         "title": "The Wow! Signal: The 72-Second Cosmic Enigma",
         "tag": "BIG EAR OBSERVATORY • 1420 MHZ",
-        "preset": "abyss",
+        "preset": "cosmos",
         "tokens": {
-            "top": "#1a202c",
-            "bottom": "#080c14",
-            "hl": "#f59e0b",
-            "pill": "#111827"
+            "top": "#05020c",
+            "bottom": "#010004",
+            "hl": "#ffd700",
+            "pill": "#14092b"
         },
         "sentences": [
             {
@@ -454,12 +454,12 @@ TOPICS = [
         "id": "08_chernobyl_foot",
         "title": "Chernobyl's Elephant's Foot: The Lethal Corium",
         "tag": "REACTOR 4 BASEMENT • 10,000 R/HR",
-        "preset": "abyss",
+        "preset": "radiation",
         "tokens": {
-            "top": "#2a2216",
-            "bottom": "#0b0805",
-            "hl": "#ef4444",
-            "pill": "#1c140c"
+            "top": "#171908",
+            "bottom": "#060702",
+            "hl": "#ffd600",
+            "pill": "#171807"
         },
         "sentences": [
             {
@@ -517,12 +517,12 @@ TOPICS = [
         "id": "09_devils_kettle",
         "title": "The Devil's Kettle: The Disappearing Waterfall",
         "tag": "BRULE RIVER, MINNESOTA",
-        "preset": "abyss",
+        "preset": "canyon",
         "tokens": {
-            "top": "#1a332d",
-            "bottom": "#051310",
-            "hl": "#10b981",
-            "pill": "#0a1f1b"
+            "top": "#181410",
+            "bottom": "#060503",
+            "hl": "#00e5ff",
+            "pill": "#141916"
         },
         "sentences": [
             {
@@ -580,12 +580,12 @@ TOPICS = [
         "id": "10_silurian_hypothesis",
         "title": "The Silurian Hypothesis: Deep Time Civilizations",
         "tag": "GEOLOGICAL TIME • 55,000,000 BC",
-        "preset": "ink",
+        "preset": "strata",
         "tokens": {
-            "top": "#3b2d54",
-            "bottom": "#0e0917",
-            "hl": "#c084fc",
-            "pill": "#191224"
+            "top": "#241911",
+            "bottom": "#0c0704",
+            "hl": "#ffab40",
+            "pill": "#1c1510"
         },
         "sentences": [
             {

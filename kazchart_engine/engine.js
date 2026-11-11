@@ -18,18 +18,70 @@
   /* ---------------- presets ---------------- */
   const PRESETS = {
     abyss: {
-      top: '#1b4a63', bottom: '#060c12', stroke: 'none', sw: 0,
-      font: 'Poppins', capsCaptions: true, hl: '#e5383b', good: '#3ecf6a',
-      text: '#e9eef2', pill: '#141c24', marker: '#f2e35b',
-      creature: { whale: ['#8f8e8a', '#6f6e6a', '#b5b4ae'], shark: ['#5d6872', '#d9dcdc', '#2b3138'], orca: ['#15181c', '#f1f1f1', '#000'],
-        squid: ['#b8453f', '#e07a6a', '#7a2620'], fish: ['#7f97a6', '#c3d2da', '#4c606c'], diver: ['#2b2f36', '#e8e8e8', '#f2b705'] },
+      top: '#081e2d', bottom: '#02060a', stroke: 'none', sw: 0,
+      font: 'Poppins', capsCaptions: true, hl: '#00f2fe', good: '#3ecf6a',
+      text: '#f0f8ff', pill: '#081a26', marker: '#f2e35b',
+      mode: 'abyss'
+    },
+    magma: {
+      top: '#24160f', bottom: '#0d0704', stroke: '#ff9f1c', sw: 3,
+      font: 'Poppins', capsCaptions: true, hl: '#ff9f1c', good: '#3ecf6a',
+      text: '#fff3e0', pill: '#1c120c', marker: '#ffd600',
+      mode: 'magma'
+    },
+    sonar: {
+      top: '#03170e', bottom: '#010804', stroke: '#00ff66', sw: 2,
+      font: 'Poppins', capsCaptions: true, hl: '#00ff66', good: '#00e5ff',
+      text: '#e8f5e9', pill: '#051f14', marker: '#00e5ff',
+      mode: 'sonar'
+    },
+    glacial: {
+      top: '#0a2336', bottom: '#030d15', stroke: '#80deea', sw: 2,
+      font: 'Poppins', capsCaptions: true, hl: '#00e5ff', good: '#b2ebf2',
+      text: '#e0f7fa', pill: '#082133', marker: '#80deea',
+      mode: 'glacial'
+    },
+    inferno: {
+      top: '#2d0902', bottom: '#0c0200', stroke: '#ff3d00', sw: 3,
+      font: 'Poppins', capsCaptions: true, hl: '#ff9100', good: '#ffd700',
+      text: '#fff8e1', pill: '#260b05', marker: '#ff3d00',
+      mode: 'inferno'
+    },
+    microscope: {
+      top: '#0a1e14', bottom: '#020905', stroke: '#76ff03', sw: 2,
+      font: 'Poppins', capsCaptions: true, hl: '#76ff03', good: '#00e5ff',
+      text: '#f1f8e9', pill: '#091f14', marker: '#76ff03',
+      mode: 'microscope'
+    },
+    cosmos: {
+      top: '#05020c', bottom: '#010004', stroke: '#ffd700', sw: 2,
+      font: 'Poppins', capsCaptions: true, hl: '#ffd700', good: '#80d8ff',
+      text: '#f3e5f5', pill: '#14092b', marker: '#ffd700',
+      mode: 'cosmos'
+    },
+    radiation: {
+      top: '#171908', bottom: '#060702', stroke: '#ffd600', sw: 3,
+      font: 'Poppins', capsCaptions: true, hl: '#ffd600', good: '#76ff03',
+      text: '#fffde7', pill: '#171807', marker: '#ff1744',
+      mode: 'radiation'
+    },
+    canyon: {
+      top: '#181410', bottom: '#060503', stroke: '#26c6da', sw: 2,
+      font: 'Poppins', capsCaptions: true, hl: '#00e5ff', good: '#80deea',
+      text: '#eceff1', pill: '#141916', marker: '#ffd54f',
+      mode: 'canyon'
+    },
+    strata: {
+      top: '#241911', bottom: '#0c0704', stroke: '#ffab40', sw: 3,
+      font: 'Poppins', capsCaptions: true, hl: '#ffab40', good: '#ffd54f',
+      text: '#fff8e1', pill: '#1c1510', marker: '#ffab40',
+      mode: 'strata'
     },
     ink: {
       top: '#2a6a85', bottom: '#08151e', stroke: '#14171a', sw: 4,
       font: 'Poppins', capsCaptions: false, hl: '#f5a623', good: '#3ecf6a',
       text: '#eef2f3', pill: '#122028', marker: '#f2e35b',
-      creature: { whale: ['#6d7a84', '#c9cfd2', '#3b444b'], shark: ['#3d3833', '#e4ddd2', '#1e1b18'], orca: ['#15181c', '#f1f1f1', '#000'],
-        squid: ['#c2543f', '#ea8a6e', '#7d2b1f'], fish: ['#6e8f9e', '#cfdde3', '#3d5561'], diver: ['#2b2f36', '#e8e8e8', '#f2b705'] },
+      mode: 'default'
     },
   };
   const MODES = {
@@ -132,41 +184,173 @@
   function background(P, bg, t, cam) {
     const depth = bg.depth == null ? 0.4 : bg.depth;
     let top = bg.top || mix(P.top, P.bottom, depth * .8), bot = bg.bottom || P.bottom;
-    if (bg.mode === 'thermal') { top = '#3a2160'; bot = '#120a24'; }
-    if (bg.mode === 'sonar' || bg.mode === 'black') { top = '#050806'; bot = '#020302'; }
-    if (bg.mode === 'paper') { top = '#2a2622'; bot = '#141210'; }
-    let s = `<defs><linearGradient id="bgg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${top}"/><stop offset="1" stop-color="${bot}"/></linearGradient>
-      <radialGradient id="spot" cx=".5" cy="0" r="1"><stop offset="0" stop-color="#cfe8ff" stop-opacity=".35"/><stop offset="1" stop-color="#cfe8ff" stop-opacity="0"/></radialGradient>
-      <radialGradient id="sun" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#e8f7ff" stop-opacity="1"/><stop offset=".35" stop-color="#7fd0f0" stop-opacity=".7"/><stop offset="1" stop-color="#2a7fa8" stop-opacity="0"/></radialGradient>
-      <filter id="blur6"><feGaussianBlur stdDeviation="6"/></filter><filter id="blur2"><feGaussianBlur stdDeviation="2"/></filter>
-      <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
-      <rect x="-400" y="-400" width="${W + 800}" height="${H + 800}" fill="url(#bgg)"/>`;
-    if (bg.sun) s += `<circle cx="${bg.sun.x || 960}" cy="${bg.sun.y || 200}" r="${bg.sun.r || 420}" fill="url(#sun)"/>`;
-    const rays = bg.rays === undefined ? depth < .75 : bg.rays;
-    if (rays && !['sonar', 'black', 'paper'].includes(bg.mode)) {
-      const r = rng(7), op = (bg.rayOpacity || .09) * (1 - depth * .6);
-      for (let i = 0; i < 7; i++) {
-        const x = r() * W * 1.2 - 100, w = 60 + r() * 140, sk = 160 + r() * 200 + Math.sin(t * .4 + i) * 40;
-        s += `<polygon filter="url(#blur6)" fill="#cfefff" opacity="${op * (0.5 + r())}" points="${x},-50 ${x + w},-50 ${x + w + sk},${H + 50} ${x + sk - w * .6},${H + 50}"/>`;
-      }
-    }
-    if (bg.spotlight) {
-      const sx = bg.spotlight.x || 960, sw = bg.spotlight.w || 260;
-      s += `<polygon filter="url(#blur6)" fill="url(#spot)" points="${sx - 40},-20 ${sx + 40},-20 ${sx + sw},${H} ${sx - sw},${H}"/>`;
-    }
-    if (bg.particles !== false && bg.mode !== 'paper') {
-      const r = rng(13), n = bg.particleCount || 60, col = bg.mode === 'sonar' ? '#39ff6a' : '#bcd6e4';
+    const mode = bg.mode || P.mode || 'default';
+
+    if (mode === 'inferno') { top = '#2d0902'; bot = '#0c0200'; }
+    else if (mode === 'cosmos') { top = '#05020c'; bot = '#010004'; }
+    else if (mode === 'sonar') { top = '#03170e'; bot = '#010804'; }
+    else if (mode === 'glacial') { top = '#0a2336'; bot = '#030d15'; }
+    else if (mode === 'magma') { top = '#24160f'; bot = '#0d0704'; }
+    else if (mode === 'radiation') { top = '#171908'; bot = '#060702'; }
+    else if (mode === 'microscope') { top = '#0a1e14'; bot = '#020905'; }
+    else if (mode === 'canyon') { top = '#181410'; bot = '#060503'; }
+    else if (mode === 'strata') { top = '#241911'; bot = '#0c0704'; }
+    else if (mode === 'abyss') { top = '#081e2d'; bot = '#02060a'; }
+
+    let s = `<defs>
+      <linearGradient id="bgg" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="${top}"/>
+        <stop offset="1" stop-color="${bot}"/>
+      </linearGradient>
+      <radialGradient id="spot" cx=".5" cy="0" r="1">
+        <stop offset="0" stop-color="#cfe8ff" stop-opacity=".35"/>
+        <stop offset="1" stop-color="#cfe8ff" stop-opacity="0"/>
+      </radialGradient>
+      <radialGradient id="fireglow" cx=".5" cy="1" r=".8">
+        <stop offset="0" stop-color="#ff3d00" stop-opacity=".45"/>
+        <stop offset=".4" stop-color="#ff9100" stop-opacity=".2"/>
+        <stop offset="1" stop-color="#ff3d00" stop-opacity="0"/>
+      </radialGradient>
+      <radialGradient id="nebulaglow" cx=".5" cy=".3" r=".6">
+        <stop offset="0" stop-color="#7c4dff" stop-opacity=".3"/>
+        <stop offset=".5" stop-color="#00e5ff" stop-opacity=".12"/>
+        <stop offset="1" stop-color="#000" stop-opacity="0"/>
+      </radialGradient>
+      <radialGradient id="radglow" cx=".5" cy=".8" r=".7">
+        <stop offset="0" stop-color="#76ff03" stop-opacity=".25"/>
+        <stop offset=".6" stop-color="#d500f9" stop-opacity=".12"/>
+        <stop offset="1" stop-color="#000" stop-opacity="0"/>
+      </radialGradient>
+      <filter id="blur6"><feGaussianBlur stdDeviation="6"/></filter>
+      <filter id="blur2"><feGaussianBlur stdDeviation="2"/></filter>
+      <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    </defs>
+    <rect x="-400" y="-400" width="${W + 800}" height="${H + 800}" fill="url(#bgg)"/>`;
+
+    // 1. INFERNO (Darvaza)
+    if (mode === 'inferno') {
+      s += `<rect x="-400" y="400" width="${W + 800}" height="${H}" fill="url(#fireglow)"/>`;
+      const r = rng(21), n = 55;
       for (let i = 0; i < n; i++) {
-        const px = r() * W, py0 = r() * H, sp = 6 + r() * 14, rad = 1 + r() * 3.5, big = r() < .25;
-        const py = ((py0 - t * sp) % H + H) % H, px2 = px + Math.sin(t * .5 + i) * 10;
-        s += `<circle cx="${px2}" cy="${py}" r="${big ? rad * 2.4 : rad}" fill="${col}" opacity="${big ? .08 : .22}" ${big ? 'filter="url(#blur2)"' : ''}/>`;
+        const px = r() * W, py0 = r() * H, sp = 15 + r() * 25, rad = 2 + r() * 4;
+        const py = ((py0 - t * sp) % H + H) % H; // rising
+        const px2 = px + Math.sin(t * 1.5 + i) * 18;
+        const col = i % 3 === 0 ? '#ffea00' : (i % 3 === 1 ? '#ff9100' : '#ff3d00');
+        s += `<circle cx="${px2}" cy="${py}" r="${rad}" fill="${col}" opacity="${0.4 + r() * 0.5}" filter="url(#blur2)"/>`;
       }
     }
-    if (bg.seabed) {
-      const c = bg.seabed === 'sand' ? '#cdb98a' : '#0d1a20', y = bg.seabedY || 900;
-      s += `<path fill="${c}" stroke="${P.stroke}" stroke-width="${P.sw}" d="M-400,${y} C200,${y - 40} 500,${y + 30} 960,${y - 10} C1400,${y - 50} 1700,${y + 20} 2400,${y - 10} L2400,1600 L-400,1600 Z"/>`;
+    // 2. COSMOS (The Wow! Signal)
+    else if (mode === 'cosmos') {
+      s += `<rect x="-400" y="-400" width="${W + 800}" height="${H + 800}" fill="url(#nebulaglow)"/>`;
+      const r = rng(42), n = 80;
+      for (let i = 0; i < n; i++) {
+        const px = r() * W, py = r() * H, rad = 0.8 + r() * 2.2;
+        const tw = 0.2 + 0.8 * Math.abs(Math.sin(t * 2.5 + i * 1.3));
+        const col = i % 4 === 0 ? '#ffd700' : (i % 4 === 1 ? '#80d8ff' : '#ffffff');
+        s += `<circle cx="${px}" cy="${py}" r="${rad}" fill="${col}" opacity="${tw.toFixed(2)}"/>`;
+      }
     }
-    if (bg.surface) s += `<rect x="-400" y="-400" width="${W + 800}" height="460" fill="#bfe6f4" opacity=".35"/><rect x="-400" y="58" width="${W + 800}" height="6" fill="#e6f7ff" opacity=".5"/>`;
+    // 3. SONAR (The Bloop)
+    else if (mode === 'sonar') {
+      const rot = (t * 45) % 360;
+      s += `<g opacity="0.25">
+        <circle cx="${W/2}" cy="${H/2}" r="180" fill="none" stroke="#00ff66" stroke-width="1.5" stroke-dasharray="6,6"/>
+        <circle cx="${W/2}" cy="${H/2}" r="360" fill="none" stroke="#00ff66" stroke-width="1.5"/>
+        <circle cx="${W/2}" cy="${H/2}" r="540" fill="none" stroke="#00ff66" stroke-width="1.5" stroke-dasharray="10,8"/>
+        <line x1="${W/2}" y1="0" x2="${W/2}" y2="${H}" stroke="#00ff66" stroke-width="1" stroke-opacity="0.3"/>
+        <line x1="0" y1="${H/2}" x2="${W}" y2="${H/2}" stroke="#00ff66" stroke-width="1" stroke-opacity="0.3"/>
+        <g transform="rotate(${rot} ${W/2} ${H/2})">
+          <polygon points="${W/2},${H/2} ${W/2 + 500},${H/2 - 120} ${W/2 + 500},${H/2}" fill="#00ff66" opacity="0.12" filter="url(#blur6)"/>
+        </g>
+      </g>`;
+    }
+    // 4. RADIATION (Chernobyl)
+    else if (mode === 'radiation') {
+      s += `<rect x="-400" y="200" width="${W + 800}" height="${H}" fill="url(#radglow)"/>`;
+      const r = rng(Math.floor(t * 18)), n = 35;
+      for (let i = 0; i < n; i++) {
+        const px = r() * W, py = r() * H, rad = 1 + r() * 2.5;
+        s += `<rect x="${px}" y="${py}" width="${rad * 2}" height="${rad * 2}" fill="#76ff03" opacity="${0.3 + r() * 0.6}"/>`;
+      }
+    }
+    // 5. GLACIAL (Lake Vostok)
+    else if (mode === 'glacial') {
+      const r = rng(77), n = 40;
+      for (let i = 0; i < n; i++) {
+        const px = r() * W, py0 = r() * H, sp = 5 + r() * 10, rad = 1.5 + r() * 3;
+        const py = ((py0 + t * sp) % H + H) % H;
+        s += `<polygon points="${px},${py - rad} ${px + rad},${py} ${px},${py + rad} ${px - rad},${py}" fill="#e0f7fa" opacity="${0.2 + r() * 0.4}"/>`;
+      }
+    }
+    // 6. MAGMA / SUBTERRANEAN (Kola Borehole)
+    else if (mode === 'magma') {
+      s += `<line x1="${W/2}" y1="0" x2="${W/2}" y2="${H}" stroke="#ff9f1c" stroke-width="3" stroke-dasharray="16,12" opacity="0.25"/>`;
+      const r = rng(99), n = 30;
+      for (let i = 0; i < n; i++) {
+        const px = r() * W, py0 = r() * H, sp = 8 + r() * 15, rad = 2 + r() * 3;
+        const py = ((py0 - t * sp) % H + H) % H;
+        s += `<circle cx="${px}" cy="${py}" r="${rad}" fill="#ff9f1c" opacity="${0.25 + r() * 0.4}"/>`;
+      }
+    }
+    // 7. MICROSCOPE (Tardigrades)
+    else if (mode === 'microscope') {
+      s += `<g opacity="0.18">
+        <line x1="120" y1="${H/2}" x2="${W-120}" y2="${H/2}" stroke="#76ff03" stroke-width="1.5"/>
+        <line x1="${W/2}" y1="200" x2="${W/2}" y2="${H-200}" stroke="#76ff03" stroke-width="1.5"/>
+        <circle cx="${W/2}" cy="${H/2}" r="320" fill="none" stroke="#76ff03" stroke-width="2"/>
+        <circle cx="${W/2}" cy="${H/2}" r="40" fill="none" stroke="#76ff03" stroke-width="1.5"/>
+      </g>`;
+      const r = rng(101), n = 25;
+      for (let i = 0; i < n; i++) {
+        const px = r() * W, py0 = r() * H, sp = 3 + r() * 8, rad = 2 + r() * 4;
+        const py = ((py0 + t * sp) % H + H) % H, px2 = px + Math.sin(t * .8 + i) * 12;
+        s += `<circle cx="${px2}" cy="${py}" r="${rad}" fill="#76ff03" opacity="${0.2 + r() * 0.35}"/>`;
+      }
+    }
+    // 8. CANYON / WATERFALL (Devil's Kettle)
+    else if (mode === 'canyon') {
+      s += `<path d="M0,0 L180,0 L120,${H} L0,${H} Z" fill="#140f0c" opacity="0.6"/>
+            <path d="M${W},0 L${W - 180},0 L${W - 120},${H} L${W},${H} Z" fill="#140f0c" opacity="0.6"/>`;
+      const r = rng(55), n = 45;
+      for (let i = 0; i < n; i++) {
+        const px = 180 + r() * (W - 360), py0 = r() * H, sp = 25 + r() * 35, rad = 1.5 + r() * 3.5;
+        const py = (py0 + t * sp) % H;
+        s += `<circle cx="${px}" cy="${py}" r="${rad}" fill="#80deea" opacity="${0.2 + r() * 0.5}"/>`;
+      }
+    }
+    // 9. STRATA / DEEP TIME (Silurian Hypothesis)
+    else if (mode === 'strata') {
+      const layers = [300, 600, 900, 1200, 1500];
+      layers.forEach((ly, idx) => {
+        const c = idx % 2 === 0 ? '#ffb74d' : '#8d6e63';
+        s += `<line x1="60" y1="${ly}" x2="${W - 60}" y2="${ly}" stroke="${c}" stroke-width="2" stroke-dasharray="12,12" opacity="0.3"/>`;
+      });
+    }
+    // 10. ABYSS / DEFAULT (Mariana Trench)
+    else {
+      if (bg.spotlight) {
+        const sx = bg.spotlight.x || (W / 2), sw = bg.spotlight.w || 320;
+        s += `<polygon filter="url(#blur6)" fill="url(#spot)" points="${sx - 40},-20 ${sx + 40},-20 ${sx + sw},${H} ${sx - sw},${H}"/>`;
+      }
+      if (bg.rays) {
+        const r = rng(7);
+        for (let i = 0; i < 6; i++) {
+          const x = r() * W * 1.2 - 100, w = 70 + r() * 120, sk = 140 + r() * 180 + Math.sin(t * .4 + i) * 30;
+          s += `<polygon filter="url(#blur6)" fill="#80d8ff" opacity="${0.06 + r() * .06}" points="${x},-50 ${x + w},-50 ${x + w + sk},${H + 50} ${x + sk - w * .6},${H + 50}"/>`;
+        }
+      }
+      const r = rng(13), n = bg.particleCount || 40;
+      for (let i = 0; i < n; i++) {
+        const px = r() * W, py0 = r() * H, sp = 6 + r() * 14, rad = 1 + r() * 3.5;
+        const py = ((py0 - t * sp) % H + H) % H, px2 = px + Math.sin(t * .5 + i) * 10;
+        s += `<circle cx="${px2}" cy="${py}" r="${rad}" fill="#b0bec5" opacity="${0.12 + r() * .2}"/>`;
+      }
+    }
+
+    if (bg.seabed) {
+      const c = bg.seabed === 'sand' ? '#cdb98a' : '#0d1a20', y = bg.seabedY || (H - 180);
+      s += `<path fill="${c}" stroke="${P.stroke}" stroke-width="${P.sw}" d="M-400,${y} C200,${y - 40} 500,${y + 30} 960,${y - 10} C1400,${y - 50} 1700,${y + 20} 2400,${y - 10} L2400,${H + 400} L-400,${H + 400} Z"/>`;
+    }
     return s;
   }
 
@@ -226,22 +410,19 @@
   };
   E.caption = (P, e, t) => {
     const a = life(t, e); if (a <= 0) return '';
-    const size = e.size || (P.isVertical ? 42 : (P.capsCaptions ? 38 : 44));
+    const size = e.size || (P.isVertical ? 36 : (P.capsCaptions ? 38 : 42));
     const cx = e.x ?? (W / 2);
     const defaultY = e.pos === 'top' ? (P.isVertical ? 180 : 90) : e.pos === 'center' ? (H / 2) : (P.isVertical ? 1680 : 980);
     const y = e.y ?? defaultY;
     const caps = e.caps == null ? P.capsCaptions : e.caps;
     const dy = (1 - a) * 12;
 
-    // Split text into lines: explicit lines array, \n, or auto-wrapping
+    // Split text into lines: explicit lines array, \n, AND auto-wrapping per segment
     let rawLines = [];
-    if (e.lines && Array.isArray(e.lines)) {
-      rawLines = e.lines;
-    } else if (typeof e.text === 'string' && e.text.includes('\n')) {
-      rawLines = e.text.split('\n');
-    } else {
-      const maxC = e.maxChars || (P.isVertical ? 26 : 46);
-      const words = (e.text || '').split(' ');
+    const maxC = e.maxChars || (P.isVertical ? 24 : 42);
+    const rawSegments = typeof e.text === 'string' ? e.text.split('\n') : (Array.isArray(e.lines) ? e.lines : [String(e.text || '')]);
+    for (const seg of rawSegments) {
+      const words = seg.trim().split(/\s+/).filter(Boolean);
       let cur = '', inStar = false, inBang = false;
       for (const w of words) {
         const cleanLen = (cur + (cur ? ' ' : '') + w).replace(/[*!]/g, '').trim().length;
@@ -259,7 +440,12 @@
         const bangs = (w.match(/!/g) || []).length;
         if (bangs % 2 === 1) inBang = !inBang;
       }
-      if (cur) rawLines.push(cur.trim());
+      if (cur) {
+        let line = cur.trim();
+        if (inStar && !line.endsWith('*')) line += '*';
+        if (inBang && !line.endsWith('!')) line += '!';
+        rawLines.push(line);
+      }
     }
     if (rawLines.length === 0) return '';
 
@@ -270,18 +456,18 @@
     let pillMarkup = '';
     if (e.box !== false && e.backdrop !== false) {
       const maxChars = Math.max(...rawLines.map(l => l.replace(/[*!]/g, '').length));
-      const boxW = Math.min(W - 80, Math.max(320, maxChars * size * 0.62 + 64));
-      const boxH = totalH + size * 0.8;
+      const boxW = Math.min(W - 120, Math.max(340, maxChars * size * 0.62 + 70));
+      const boxH = totalH + size * 0.85;
       const boxY = startY - size * 0.95;
-      const pillFill = e.boxColor || 'rgba(5, 12, 18, 0.86)';
-      const pillStroke = e.borderColor || 'rgba(255, 255, 255, 0.15)';
+      const pillFill = e.boxColor || 'rgba(5, 12, 18, 0.88)';
+      const pillStroke = e.borderColor || 'rgba(255, 255, 255, 0.16)';
       pillMarkup = `<rect x="${cx - boxW / 2}" y="${boxY}" width="${boxW}" height="${boxH}" rx="18" fill="${pillFill}" stroke="${pillStroke}" stroke-width="2.5" opacity="${a}"/>`;
     }
 
     let textMarkup = '';
     rawLines.forEach((line, i) => {
       const ly = startY + i * lineH + dy;
-      textMarkup += `<text x="${cx}" y="${ly}" font-family="${P.font}" font-size="${size}" text-anchor="middle" letter-spacing="${caps ? 2 : 0}" opacity="${a}" style="paint-order:stroke fill" stroke="#03080c" stroke-opacity=".95" stroke-width="8" stroke-linejoin="round">${richSpans(P, line, caps, size)}</text>`;
+      textMarkup += `<text x="${cx}" y="${ly}" font-family="${P.font}" font-size="${size}" text-anchor="middle" letter-spacing="${caps ? 1 : 0}" opacity="${a}" style="paint-order:stroke fill" stroke="#03080c" stroke-opacity=".95" stroke-width="8" stroke-linejoin="round">${richSpans(P, line, caps, size)}</text>`;
     });
 
     if (e.underline) {
@@ -465,7 +651,7 @@
     // fade from/to black around shot edges if requested
     const fin = shot.fadeIn ? 1 - prog(lt, 0, shot.fadeIn) : 0, fout = shot.fadeOut ? prog(lt, dur - shot.fadeOut, shot.fadeOut) : 0;
     const grain = spec.grain ?? .05;
-    const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${spec.width || 1920}" height="${spec.height || 1080}" style="display:block;background:#000">
+    const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="100%" height="100%" style="display:block;width:100%;height:100%;background:#000">
       <g transform="translate(${fx + px} ${fy + py}) scale(${z}) translate(${-fx} ${-fy})">${background(P, shot.bg || {}, t, cam)}${world.join('')}</g>
       ${over.join('')}
       <defs><radialGradient id="vig" cx=".5" cy=".5" r=".75"><stop offset=".55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="${shot.vignette ?? .75}"/></radialGradient>

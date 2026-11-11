@@ -1,14 +1,14 @@
 {
-  "preset": "abyss",
+  "preset": "sonar",
   "width": 1080,
   "height": 1920,
   "fps": 24,
   "grain": 0.04,
   "tokens": {
-    "top": "#092532",
-    "bottom": "#030b0e",
-    "hl": "#3ecf6a",
-    "pill": "#081b24"
+    "top": "#03170e",
+    "bottom": "#010804",
+    "hl": "#00ff66",
+    "pill": "#051f14"
   },
   "audio": "/home/antigravity/Future786/cave-of-crystals-animation/audio/03_the_bloop_final_audio.mp3",
   "shots": [
@@ -16,16 +16,16 @@
       "start": 0.0,
       "end": 6.84,
       "bg": {
+        "mode": "sonar",
         "depth": 0.4,
-        "rays": true,
         "particleCount": 45
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": -25
+        "panX": -20
       },
       "fadeIn": 0.35,
       "fadeOut": 0,
@@ -41,10 +41,14 @@
         {
           "type": "pill",
           "text": "NOAA SOSUS HYDROPHONE ARRAY",
-          "x": 240,
-          "y": 800,
-          "size": 24,
+          "x": 250,
+          "y": 760,
+          "size": 26,
           "t0": 0.5
+        },
+        {
+          "type": "svg",
+          "markup": "\n                <g opacity=\"0.8\">\n                  <!-- Hydrophone Array Grid -->\n                  <rect x=\"200\" y=\"520\" width=\"680\" height=\"340\" fill=\"none\" stroke=\"#00ff66\" stroke-width=\"3\" stroke-dasharray=\"10,8\"/>\n                  <circle cx=\"340\" cy=\"620\" r=\"18\" fill=\"#00ff66\"/>\n                  <circle cx=\"740\" cy=\"660\" r=\"18\" fill=\"#00ff66\"/>\n                  <circle cx=\"540\" cy=\"780\" r=\"22\" fill=\"#ff3b30\"/>\n                  <line x1=\"340\" y1=\"620\" x2=\"540\" y2=\"780\" stroke=\"#00ff66\" stroke-width=\"2\"/>\n                  <line x1=\"740\" y1=\"660\" x2=\"540\" y2=\"780\" stroke=\"#00ff66\" stroke-width=\"2\"/>\n                </g>\n                "
         },
         {
           "type": "caption",
@@ -62,16 +66,16 @@
       "start": 6.84,
       "end": 12.88,
       "bg": {
+        "mode": "sonar",
         "depth": 0.48,
-        "rays": true,
         "particleCount": 45
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": 25
+        "panX": 20
       },
       "fadeIn": 0,
       "fadeOut": 0,
@@ -90,17 +94,17 @@
           "to": 5000,
           "suffix": " km",
           "x": 540,
-          "y": 780,
+          "y": 740,
           "size": 130,
-          "color": "#3ecf6a",
+          "color": "#00ff66",
           "dur": 2.5,
           "t0": 0.3
         },
         {
           "type": "pill",
-          "text": "TRANSMISSION DISTANCE",
-          "x": 330,
-          "y": 880,
+          "text": "ACOUSTIC RANGE ACROSS PACIFIC",
+          "x": 260,
+          "y": 860,
           "size": 24,
           "t0": 0.6
         },
@@ -120,20 +124,16 @@
       "start": 12.88,
       "end": 20.81,
       "bg": {
+        "mode": "sonar",
         "depth": 0.56,
-        "rays": false,
-        "particleCount": 45,
-        "spotlight": {
-          "x": 540,
-          "w": 420
-        }
+        "particleCount": 45
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": -25
+        "panX": -20
       },
       "fadeIn": 0,
       "fadeOut": 0,
@@ -147,24 +147,16 @@
           "box": true
         },
         {
-          "type": "bignumber",
-          "from": 0,
-          "to": 270,
-          "suffix": " sec",
-          "x": 540,
-          "y": 780,
-          "size": 130,
-          "color": "#38bdf8",
-          "dur": 2.2,
-          "t0": 0.3
+          "type": "svg",
+          "markup": "\n                <g opacity=\"0.85\">\n                  <!-- Audio Spectrogram Waterfall -->\n                  <rect x=\"160\" y=\"550\" width=\"760\" height=\"280\" fill=\"#02140a\" stroke=\"#00ff66\" stroke-width=\"4\"/>\n                  <!-- Rising Frequency Curve -->\n                  <path d=\"M 220 780 Q 420 770 540 680 T 860 590\" fill=\"none\" stroke=\"#00ff66\" stroke-width=\"8\"/>\n                  <text x=\"200\" y=\"590\" font-family=\"Poppins\" font-size=\"24\" font-weight=\"700\" fill=\"#00ff66\">40 Hz</text>\n                  <text x=\"200\" y=\"790\" font-family=\"Poppins\" font-size=\"24\" font-weight=\"700\" fill=\"#00ff66\">10 Hz</text>\n                </g>\n                "
         },
         {
           "type": "pill",
-          "text": "FREQUENCY SWEEP DURATION",
-          "x": 300,
-          "y": 880,
+          "text": "SPECTROGRAM FREQUENCY SWEEP",
+          "x": 270,
+          "y": 890,
           "size": 24,
-          "t0": 0.6
+          "t0": 0.8
         },
         {
           "type": "caption",
@@ -182,16 +174,16 @@
       "start": 20.81,
       "end": 28.41,
       "bg": {
+        "mode": "sonar",
         "depth": 0.64,
-        "rays": false,
         "particleCount": 45
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": 25
+        "panX": 20
       },
       "fadeIn": 0,
       "fadeOut": 0,
@@ -208,11 +200,11 @@
           "type": "creature",
           "kind": "whale",
           "x": 540,
-          "y": 800,
-          "scale": 1.4,
+          "y": 750,
+          "scale": 1.5,
           "mode": "silhouette",
           "swim": {
-            "vx": 15,
+            "vx": 18,
             "vy": 0
           }
         },
@@ -221,10 +213,10 @@
           "text": "LOUDER THAN BLUE WHALE",
           "color": "#ff3b30",
           "x": 540,
-          "y": 960,
+          "y": 920,
           "size": 48,
           "rotate": -5,
-          "t0": 1.5
+          "t0": 1.4
         },
         {
           "type": "caption",
@@ -242,16 +234,16 @@
       "start": 28.41,
       "end": 36.21,
       "bg": {
+        "mode": "sonar",
         "depth": 0.71,
-        "rays": false,
         "particleCount": 45
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": -25
+        "panX": -20
       },
       "fadeIn": 0,
       "fadeOut": 0,
@@ -265,22 +257,24 @@
           "box": true
         },
         {
-          "type": "circle",
+          "type": "bignumber",
+          "from": 100,
+          "to": 200,
+          "suffix": "+ ft",
           "x": 540,
-          "y": 820,
-          "rx": 260,
-          "ry": 260,
-          "color": "#ffd166",
-          "width": 4,
-          "t0": 0.8
+          "y": 740,
+          "size": 130,
+          "color": "#00ff66",
+          "dur": 2.2,
+          "t0": 0.3
         },
         {
           "type": "pill",
-          "text": "UNCLASSIFIED DEEP SEA BEAST?",
-          "x": 260,
-          "y": 920,
+          "text": "THEORETICAL ORGANIC BIOMASS",
+          "x": 280,
+          "y": 860,
           "size": 24,
-          "t0": 1.2
+          "t0": 0.8
         },
         {
           "type": "caption",
@@ -298,16 +292,16 @@
       "start": 36.21,
       "end": 42.78,
       "bg": {
+        "mode": "sonar",
         "depth": 0.79,
-        "rays": false,
         "particleCount": 45
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": 25
+        "panX": 20
       },
       "fadeIn": 0,
       "fadeOut": 0,
@@ -321,14 +315,18 @@
           "box": true
         },
         {
+          "type": "svg",
+          "markup": "\n                <g opacity=\"0.85\">\n                  <!-- Fracturing Antarctic Iceberg -->\n                  <polygon points=\"240,540 840,540 760,860 320,860\" fill=\"#0b2a3a\" stroke=\"#80deea\" stroke-width=\"5\"/>\n                  <path d=\"M 540 540 L 520 660 L 560 740 L 530 860\" stroke=\"#00e5ff\" stroke-width=\"8\" fill=\"none\"/>\n                  <text x=\"540\" y=\"700\" font-family=\"Poppins\" font-size=\"34\" font-weight=\"900\" fill=\"#fff\" text-anchor=\"middle\">CRYOSEISM</text>\n                </g>\n                "
+        },
+        {
           "type": "stamp",
-          "text": "ANTARCTIC ICEQUAKE",
-          "color": "#38bdf8",
+          "text": "MASSIVE ICEQUAKE CALVING",
+          "color": "#80deea",
           "x": 540,
-          "y": 850,
-          "size": 52,
+          "y": 930,
+          "size": 48,
           "rotate": -4,
-          "t0": 1.0
+          "t0": 1.2
         },
         {
           "type": "caption",
@@ -346,16 +344,16 @@
       "start": 42.78,
       "end": 57.88,
       "bg": {
+        "mode": "sonar",
         "depth": 0.87,
-        "rays": true,
         "particleCount": 45
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": -25
+        "panX": -20
       },
       "fadeIn": 0,
       "fadeOut": 0,
@@ -369,24 +367,14 @@
           "box": true
         },
         {
-          "type": "bignumber",
-          "from": 100,
-          "to": 80,
-          "suffix": " %",
+          "type": "stamp",
+          "text": "WHAT ELSE SINGS IN THE DARK?",
+          "color": "#00ff66",
           "x": 540,
-          "y": 780,
-          "size": 140,
-          "color": "#ffd166",
-          "dur": 2.0,
-          "t0": 0.3
-        },
-        {
-          "type": "pill",
-          "text": "OCEANS UNMAPPED AND UNEXPLORED",
-          "x": 230,
-          "y": 890,
-          "size": 24,
-          "t0": 0.6
+          "y": 800,
+          "size": 48,
+          "rotate": -3,
+          "t0": 1.0
         },
         {
           "type": "caption",
@@ -414,16 +402,16 @@
       "start": 57.88,
       "end": 64.89,
       "bg": {
+        "mode": "sonar",
         "depth": 0.95,
-        "rays": false,
         "particleCount": 45
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": 25
+        "panX": 20
       },
       "fadeIn": 0,
       "fadeOut": 0.4,
@@ -437,21 +425,14 @@
           "box": true
         },
         {
-          "type": "reticle",
+          "type": "stamp",
+          "text": "WHAT ELSE SINGS IN THE DARK?",
+          "color": "#00ff66",
           "x": 540,
-          "y": 850,
-          "r": 120,
-          "t0": 0.4
-        },
-        {
-          "type": "circle",
-          "x": 540,
-          "y": 850,
-          "rx": 260,
-          "ry": 260,
-          "color": "#3ecf6a",
-          "width": 4,
-          "t0": 0.8
+          "y": 800,
+          "size": 48,
+          "rotate": -3,
+          "t0": 1.0
         },
         {
           "type": "caption",

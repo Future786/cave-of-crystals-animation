@@ -1,14 +1,14 @@
 {
-  "preset": "abyss",
+  "preset": "cosmos",
   "width": 1080,
   "height": 1920,
   "fps": 24,
   "grain": 0.04,
   "tokens": {
-    "top": "#1a202c",
-    "bottom": "#080c14",
-    "hl": "#f59e0b",
-    "pill": "#111827"
+    "top": "#05020c",
+    "bottom": "#010004",
+    "hl": "#ffd700",
+    "pill": "#14092b"
   },
   "audio": "/home/antigravity/Future786/cave-of-crystals-animation/audio/07_wow_signal_final_audio.mp3",
   "shots": [
@@ -16,16 +16,16 @@
       "start": 0.0,
       "end": 8.73,
       "bg": {
+        "mode": "cosmos",
         "depth": 0.4,
-        "rays": true,
         "particleCount": 45
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": -25
+        "panX": -20
       },
       "fadeIn": 0.35,
       "fadeOut": 0,
@@ -39,12 +39,16 @@
           "box": true
         },
         {
+          "type": "svg",
+          "markup": "\n                <g opacity=\"0.85\">\n                  <!-- Big Ear Parabolic Radio Telescope -->\n                  <path d=\"M 220 780 Q 540 500 860 780\" stroke=\"#ffd700\" stroke-width=\"6\" fill=\"none\"/>\n                  <line x1=\"540\" y1=\"640\" x2=\"540\" y2=\"440\" stroke=\"#ffd700\" stroke-width=\"4\"/>\n                  <circle cx=\"540\" cy=\"440\" r=\"22\" fill=\"#ffd700\"/>\n                  <text x=\"540\" y=\"850\" font-family=\"Poppins\" font-size=\"28\" font-weight=\"800\" fill=\"#ffd700\" text-anchor=\"middle\">BIG EAR RADIO TELESCOPE</text>\n                </g>\n                "
+        },
+        {
           "type": "pill",
-          "text": "OHIO STATE \u2022 BIG EAR OBSERVATORY",
-          "x": 240,
-          "y": 800,
+          "text": "OHIO STATE UNIVERSITY \u2022 1977",
+          "x": 260,
+          "y": 920,
           "size": 24,
-          "t0": 0.5
+          "t0": 0.8
         },
         {
           "type": "caption",
@@ -62,16 +66,16 @@
       "start": 8.73,
       "end": 16.9,
       "bg": {
+        "mode": "cosmos",
         "depth": 0.48,
-        "rays": true,
         "particleCount": 45
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": 25
+        "panX": 20
       },
       "fadeIn": 0,
       "fadeOut": 0,
@@ -90,19 +94,19 @@
           "to": 72,
           "suffix": " sec",
           "x": 540,
-          "y": 780,
-          "size": 150,
-          "color": "#f59e0b",
+          "y": 740,
+          "size": 140,
+          "color": "#ffd700",
           "dur": 2.0,
           "t0": 0.3
         },
         {
           "type": "pill",
-          "text": "NARROWBAND RADIO TRANSMISSION",
+          "text": "EARTH ROTATION BEAM DURATION",
           "x": 260,
-          "y": 900,
+          "y": 870,
           "size": 24,
-          "t0": 0.6
+          "t0": 0.8
         },
         {
           "type": "caption",
@@ -120,20 +124,16 @@
       "start": 16.9,
       "end": 24.5,
       "bg": {
+        "mode": "cosmos",
         "depth": 0.56,
-        "rays": false,
-        "particleCount": 45,
-        "spotlight": {
-          "x": 540,
-          "w": 420
-        }
+        "particleCount": 45
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": -25
+        "panX": -20
       },
       "fadeIn": 0,
       "fadeOut": 0,
@@ -148,26 +148,24 @@
         },
         {
           "type": "bignumber",
-          "prefix": "",
-          "from": 0,
-          "to": 1,
-          "suffix": "",
+          "from": 1,
+          "to": 30,
+          "suffix": "x",
           "x": 540,
-          "y": 780,
-          "size": 100,
+          "y": 740,
+          "size": 140,
           "color": "#ff3b30",
-          "dur": 0.5,
+          "dur": 2.2,
           "t0": 0.3
         },
         {
-          "type": "stamp",
-          "text": "6EQUJ5 TELEMETRY",
-          "color": "#ff3b30",
-          "x": 540,
-          "y": 850,
-          "size": 60,
-          "rotate": -6,
-          "t0": 1.0
+          "type": "pill",
+          "text": "STRONGER THAN DEEP SPACE NOISE",
+          "tone": "red",
+          "x": 230,
+          "y": 870,
+          "size": 24,
+          "t0": 0.8
         },
         {
           "type": "caption",
@@ -185,16 +183,16 @@
       "start": 24.5,
       "end": 32.61,
       "bg": {
+        "mode": "cosmos",
         "depth": 0.64,
-        "rays": false,
         "particleCount": 45
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": 25
+        "panX": 20
       },
       "fadeIn": 0,
       "fadeOut": 0,
@@ -208,24 +206,16 @@
           "box": true
         },
         {
-          "type": "circle",
-          "x": 540,
-          "y": 820,
-          "rx": 280,
-          "ry": 180,
-          "color": "#ff3b30",
-          "width": 6,
-          "t0": 0.5
+          "type": "svg",
+          "markup": "\n                <g opacity=\"0.95\">\n                  <!-- Vintage 1977 Computer Printout Strip -->\n                  <rect x=\"200\" y=\"600\" width=\"680\" height=\"240\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"4\"/>\n                  <text x=\"540\" y=\"730\" font-family=\"Courier New, monospace\" font-size=\"70\" font-weight=\"900\" fill=\"#0f172a\" text-anchor=\"middle\" letter-spacing=\"16\">6EQUJ5</text>\n                  <!-- Red Circled Ink -->\n                  <ellipse cx=\"540\" cy=\"705\" rx=\"200\" ry=\"70\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"8\" transform=\"rotate(-6 540 705)\"/>\n                  <text x=\"760\" y=\"680\" font-family=\"Brush Script MT, cursive, sans-serif\" font-size=\"64\" font-weight=\"900\" fill=\"#dc2626\">Wow!</text>\n                </g>\n                "
         },
         {
-          "type": "stamp",
-          "text": "WOW!",
-          "color": "#ff3b30",
-          "x": 540,
-          "y": 820,
-          "size": 90,
-          "rotate": -8,
-          "t0": 1.0
+          "type": "pill",
+          "text": "ASTRONOMER JERRY EHMAN'S NOTATION",
+          "x": 230,
+          "y": 910,
+          "size": 24,
+          "t0": 1.2
         },
         {
           "type": "caption",
@@ -243,16 +233,16 @@
       "start": 32.61,
       "end": 39.91,
       "bg": {
+        "mode": "cosmos",
         "depth": 0.71,
-        "rays": false,
         "particleCount": 45
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": -25
+        "panX": -20
       },
       "fadeIn": 0,
       "fadeOut": 0,
@@ -271,9 +261,9 @@
           "to": 1420.4,
           "suffix": " MHz",
           "x": 540,
-          "y": 780,
-          "size": 115,
-          "color": "#38bdf8",
+          "y": 740,
+          "size": 110,
+          "color": "#ffd700",
           "dur": 2.2,
           "t0": 0.3
         },
@@ -281,9 +271,9 @@
           "type": "pill",
           "text": "21-CENTIMETER HYDROGEN LINE",
           "x": 280,
-          "y": 890,
+          "y": 860,
           "size": 24,
-          "t0": 0.6
+          "t0": 0.8
         },
         {
           "type": "caption",
@@ -301,16 +291,16 @@
       "start": 39.91,
       "end": 48.32,
       "bg": {
+        "mode": "cosmos",
         "depth": 0.79,
-        "rays": false,
         "particleCount": 45
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": 25
+        "panX": 20
       },
       "fadeIn": 0,
       "fadeOut": 0,
@@ -324,12 +314,14 @@
           "box": true
         },
         {
-          "type": "pill",
-          "text": "EXTRATERRESTRIAL CANDIDATE #1",
-          "x": 260,
-          "y": 820,
-          "size": 24,
-          "t0": 0.6
+          "type": "stamp",
+          "text": "THE SIGNAL NEVER RETURNED",
+          "color": "#ffd700",
+          "x": 540,
+          "y": 800,
+          "size": 48,
+          "rotate": -4,
+          "t0": 1.0
         },
         {
           "type": "caption",
@@ -347,16 +339,16 @@
       "start": 48.32,
       "end": 56.52,
       "bg": {
+        "mode": "cosmos",
         "depth": 0.87,
-        "rays": true,
         "particleCount": 45
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": -25
+        "panX": -20
       },
       "fadeIn": 0,
       "fadeOut": 0,
@@ -372,12 +364,12 @@
         {
           "type": "stamp",
           "text": "THE SIGNAL NEVER RETURNED",
-          "color": "#f59e0b",
+          "color": "#ffd700",
           "x": 540,
-          "y": 860,
+          "y": 800,
           "size": 48,
           "rotate": -4,
-          "t0": 1.2
+          "t0": 1.0
         },
         {
           "type": "caption",
@@ -395,16 +387,16 @@
       "start": 56.52,
       "end": 64.88,
       "bg": {
+        "mode": "cosmos",
         "depth": 0.95,
-        "rays": false,
         "particleCount": 45
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": 25
+        "panX": 20
       },
       "fadeIn": 0,
       "fadeOut": 0.4,
@@ -418,21 +410,14 @@
           "box": true
         },
         {
-          "type": "reticle",
+          "type": "stamp",
+          "text": "THE SIGNAL NEVER RETURNED",
+          "color": "#ffd700",
           "x": 540,
-          "y": 850,
-          "r": 120,
-          "t0": 0.4
-        },
-        {
-          "type": "circle",
-          "x": 540,
-          "y": 850,
-          "rx": 260,
-          "ry": 260,
-          "color": "#f59e0b",
-          "width": 4,
-          "t0": 0.8
+          "y": 800,
+          "size": 48,
+          "rotate": -4,
+          "t0": 1.0
         },
         {
           "type": "caption",

@@ -1,14 +1,14 @@
 {
-  "preset": "abyss",
+  "preset": "canyon",
   "width": 1080,
   "height": 1920,
   "fps": 24,
   "grain": 0.04,
   "tokens": {
-    "top": "#1a332d",
-    "bottom": "#051310",
-    "hl": "#10b981",
-    "pill": "#0a1f1b"
+    "top": "#181410",
+    "bottom": "#060503",
+    "hl": "#00e5ff",
+    "pill": "#141916"
   },
   "audio": "/home/antigravity/Future786/cave-of-crystals-animation/audio/09_devils_kettle_final_audio.mp3",
   "shots": [
@@ -16,16 +16,16 @@
       "start": 0.0,
       "end": 8.14,
       "bg": {
+        "mode": "canyon",
         "depth": 0.4,
-        "rays": true,
         "particleCount": 45
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": -25
+        "panX": -20
       },
       "fadeIn": 0.35,
       "fadeOut": 0,
@@ -39,12 +39,16 @@
           "box": true
         },
         {
+          "type": "svg",
+          "markup": "\n                <g opacity=\"0.85\">\n                  <!-- Brule River Canyon Gorge -->\n                  <path d=\"M 220 450 L 320 850 L 460 850 L 460 1200\" stroke=\"#00e5ff\" stroke-width=\"12\" fill=\"none\"/>\n                  <path d=\"M 460 850 L 620 850 L 760 1200\" stroke=\"#00e5ff\" stroke-width=\"12\" fill=\"none\"/>\n                  <polygon points=\"540,780 480,920 600,920\" fill=\"#2d2218\" stroke=\"#78716c\" stroke-width=\"4\"/>\n                  <text x=\"540\" y=\"740\" font-family=\"Poppins\" font-size=\"28\" font-weight=\"800\" fill=\"#fff\" text-anchor=\"middle\">ROCK SPLITS RIVER</text>\n                </g>\n                "
+        },
+        {
           "type": "pill",
           "text": "BRULE RIVER \u2022 MINNESOTA",
           "x": 310,
-          "y": 800,
-          "size": 24,
-          "t0": 0.5
+          "y": 980,
+          "size": 26,
+          "t0": 0.6
         },
         {
           "type": "caption",
@@ -62,16 +66,16 @@
       "start": 8.14,
       "end": 15.57,
       "bg": {
+        "mode": "canyon",
         "depth": 0.48,
-        "rays": true,
         "particleCount": 45
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": 25
+        "panX": 20
       },
       "fadeIn": 0,
       "fadeOut": 0,
@@ -86,13 +90,23 @@
         },
         {
           "type": "stamp",
-          "text": "RIVER SPLITS IN TWO",
-          "color": "#10b981",
+          "text": "EAST FALLS TO LAKE SUPERIOR",
+          "color": "#00e5ff",
           "x": 540,
-          "y": 850,
-          "size": 52,
-          "rotate": -5,
+          "y": 780,
+          "size": 46,
+          "rotate": -4,
           "t0": 1.0
+        },
+        {
+          "type": "stamp",
+          "text": "WEST DISAPPEARS INTO POTHOLE",
+          "color": "#ff3b30",
+          "x": 540,
+          "y": 900,
+          "size": 44,
+          "rotate": 4,
+          "t0": 2.0
         },
         {
           "type": "caption",
@@ -110,20 +124,16 @@
       "start": 15.57,
       "end": 24.19,
       "bg": {
+        "mode": "canyon",
         "depth": 0.56,
-        "rays": false,
-        "particleCount": 45,
-        "spotlight": {
-          "x": 540,
-          "w": 420
-        }
+        "particleCount": 45
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": -25
+        "panX": -20
       },
       "fadeIn": 0,
       "fadeOut": 0,
@@ -137,12 +147,16 @@
           "box": true
         },
         {
+          "type": "svg",
+          "markup": "\n                <g opacity=\"0.85\">\n                  <!-- The Bottomless Pothole Abyss -->\n                  <ellipse cx=\"540\" cy=\"740\" rx=\"160\" ry=\"100\" fill=\"#000\" stroke=\"#00e5ff\" stroke-width=\"6\"/>\n                  <!-- Swirling Vortex -->\n                  <path d=\"M 420 740 Q 540 680 640 740 Q 540 800 460 740\" stroke=\"#00e5ff\" stroke-width=\"4\" fill=\"none\"/>\n                  <text x=\"540\" y=\"890\" font-family=\"Poppins\" font-size=\"28\" font-weight=\"800\" fill=\"#ff3b30\" text-anchor=\"middle\">THE KETTLE ABYSS</text>\n                </g>\n                "
+        },
+        {
           "type": "pill",
-          "text": "VOLCANIC RHYOLITE POTHOLE",
-          "x": 280,
-          "y": 820,
+          "text": "WATER VANISHES WITHOUT A TRACE",
+          "x": 260,
+          "y": 950,
           "size": 24,
-          "t0": 0.6
+          "t0": 0.8
         },
         {
           "type": "caption",
@@ -160,16 +174,16 @@
       "start": 24.19,
       "end": 37.79,
       "bg": {
+        "mode": "canyon",
         "depth": 0.64,
-        "rays": false,
         "particleCount": 45
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": 25
+        "panX": 20
       },
       "fadeIn": 0,
       "fadeOut": 0,
@@ -183,24 +197,20 @@
           "box": true
         },
         {
-          "type": "circle",
-          "x": 540,
-          "y": 820,
-          "rx": 280,
-          "ry": 280,
-          "color": "#10b981",
-          "width": 5,
-          "t0": 0.5
+          "type": "pill",
+          "text": "DYES, PING-PONG BALLS & GPS TAGS VANISHED",
+          "tone": "red",
+          "x": 190,
+          "y": 780,
+          "size": 24,
+          "t0": 0.6
         },
         {
-          "type": "stamp",
-          "text": "NO VISIBLE EXIT POINT",
-          "color": "#ffd166",
+          "type": "redx",
           "x": 540,
-          "y": 820,
-          "size": 50,
-          "rotate": -6,
-          "t0": 1.2
+          "y": 900,
+          "size": 80,
+          "t0": 1.4
         },
         {
           "type": "caption",
@@ -228,16 +238,16 @@
       "start": 37.79,
       "end": 46.64,
       "bg": {
+        "mode": "canyon",
         "depth": 0.71,
-        "rays": false,
         "particleCount": 45
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": -25
+        "panX": -20
       },
       "fadeIn": 0,
       "fadeOut": 0,
@@ -251,21 +261,24 @@
           "box": true
         },
         {
-          "type": "pill",
-          "text": "DYES \u2022 PING-PONG BALLS \u2022 GPS",
-          "x": 260,
-          "y": 820,
-          "size": 24,
-          "t0": 0.6
+          "type": "bignumber",
+          "from": 0,
+          "to": 123,
+          "suffix": " CFS",
+          "x": 540,
+          "y": 740,
+          "size": 130,
+          "color": "#00e5ff",
+          "dur": 2.2,
+          "t0": 0.3
         },
         {
-          "type": "stamp",
-          "text": "VANISHED COMPLETELY",
-          "color": "#ff3b30",
-          "x": 540,
-          "y": 940,
-          "size": 48,
-          "t0": 1.5
+          "type": "pill",
+          "text": "ACOUSTIC DOPPLER FLOW BALANCE: 123 IN = 123 OUT",
+          "x": 160,
+          "y": 860,
+          "size": 22,
+          "t0": 0.8
         },
         {
           "type": "caption",
@@ -283,16 +296,16 @@
       "start": 46.64,
       "end": 54.04,
       "bg": {
+        "mode": "canyon",
         "depth": 0.79,
-        "rays": false,
         "particleCount": 45
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": 25
+        "panX": 20
       },
       "fadeIn": 0,
       "fadeOut": 0,
@@ -306,12 +319,14 @@
           "box": true
         },
         {
-          "type": "pill",
-          "text": "ACOUSTIC DOPPLER VELOCIMETRY",
-          "x": 250,
-          "y": 820,
-          "size": 24,
-          "t0": 0.6
+          "type": "stamp",
+          "text": "SURGES UP IN PLUNGE POOL GRAVEL",
+          "color": "#00e5ff",
+          "x": 540,
+          "y": 800,
+          "size": 44,
+          "rotate": -3,
+          "t0": 1.0
         },
         {
           "type": "caption",
@@ -329,16 +344,16 @@
       "start": 54.04,
       "end": 62.21,
       "bg": {
+        "mode": "canyon",
         "depth": 0.87,
-        "rays": true,
         "particleCount": 45
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": -25
+        "panX": -20
       },
       "fadeIn": 0,
       "fadeOut": 0,
@@ -353,13 +368,13 @@
         },
         {
           "type": "stamp",
-          "text": "UNDERGROUND RESURGENCE",
-          "color": "#10b981",
+          "text": "SURGES UP IN PLUNGE POOL GRAVEL",
+          "color": "#00e5ff",
           "x": 540,
-          "y": 860,
-          "size": 48,
-          "rotate": -4,
-          "t0": 1.2
+          "y": 800,
+          "size": 44,
+          "rotate": -3,
+          "t0": 1.0
         },
         {
           "type": "caption",
@@ -377,16 +392,16 @@
       "start": 62.21,
       "end": 69.96,
       "bg": {
+        "mode": "canyon",
         "depth": 0.95,
-        "rays": false,
         "particleCount": 45
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": 25
+        "panX": 20
       },
       "fadeIn": 0,
       "fadeOut": 0.4,
@@ -400,21 +415,14 @@
           "box": true
         },
         {
-          "type": "reticle",
+          "type": "stamp",
+          "text": "SURGES UP IN PLUNGE POOL GRAVEL",
+          "color": "#00e5ff",
           "x": 540,
-          "y": 850,
-          "r": 120,
-          "t0": 0.4
-        },
-        {
-          "type": "circle",
-          "x": 540,
-          "y": 850,
-          "rx": 260,
-          "ry": 260,
-          "color": "#10b981",
-          "width": 4,
-          "t0": 0.8
+          "y": 800,
+          "size": 44,
+          "rotate": -3,
+          "t0": 1.0
         },
         {
           "type": "caption",

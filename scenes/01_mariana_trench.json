@@ -16,16 +16,17 @@
       "start": 0.0,
       "end": 6.99,
       "bg": {
+        "mode": "abyss",
         "depth": 0.4,
-        "rays": true,
-        "particleCount": 45
+        "particleCount": 45,
+        "rays": true
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": -25
+        "panX": -20
       },
       "fadeIn": 0.35,
       "fadeOut": 0,
@@ -39,28 +40,28 @@
           "box": true
         },
         {
+          "type": "svg",
+          "markup": "\n                <g opacity=\"0.85\">\n                  <path d=\"M 80 440 L 440 1150 L 640 1150 L 1000 440\" stroke=\"#00f2fe\" stroke-width=\"6\" fill=\"none\" opacity=\"0.5\"/>\n                  <path d=\"M 440 1150 L 540 1350 L 640 1150 Z\" fill=\"#00f2fe\" opacity=\"0.25\"/>\n                  <line x1=\"540\" y1=\"440\" x2=\"540\" y2=\"1350\" stroke=\"#ffd166\" stroke-width=\"3\" stroke-dasharray=\"14,10\" opacity=\"0.7\"/>\n                  <circle cx=\"540\" cy=\"1350\" r=\"14\" fill=\"#ff3b30\"/>\n                  <text x=\"540\" y=\"1400\" font-family=\"Poppins\" font-size=\"28\" font-weight=\"800\" fill=\"#ff3b30\" text-anchor=\"middle\">CHALLENGER DEEP: -10,994M</text>\n                </g>\n                "
+        },
+        {
           "type": "bignumber",
           "from": 0,
           "to": 10994,
           "suffix": " m",
           "x": 540,
-          "y": 780,
+          "y": 720,
           "size": 130,
           "color": "#00f2fe",
-          "dur": 3.0,
+          "dur": 2.8,
           "t0": 0.3
         },
         {
           "type": "pill",
           "text": "PACIFIC HADAL ZONE",
           "x": 310,
-          "y": 880,
-          "size": 24,
+          "y": 820,
+          "size": 26,
           "t0": 0.6
-        },
-        {
-          "type": "svg",
-          "markup": "\n                <g opacity=\"0.8\">\n                  <path d=\"M 120 400 L 460 1200 L 620 1200 L 960 400\" stroke=\"#00f2fe\" stroke-width=\"6\" fill=\"none\" opacity=\"0.4\"/>\n                  <line x1=\"540\" y1=\"400\" x2=\"540\" y2=\"1200\" stroke=\"#ffd166\" stroke-width=\"4\" stroke-dasharray=\"14,10\" opacity=\"0.6\"/>\n                  <circle cx=\"540\" cy=\"1180\" r=\"14\" fill=\"#ff3b30\"/>\n                  <rect x=\"510\" y=\"700\" width=\"60\" height=\"90\" fill=\"#081822\" stroke=\"#00f2fe\" stroke-width=\"4\" rx=\"10\"/>\n                </g>\n                "
         },
         {
           "type": "caption",
@@ -78,16 +79,17 @@
       "start": 6.99,
       "end": 13.34,
       "bg": {
+        "mode": "abyss",
         "depth": 0.49,
-        "rays": true,
-        "particleCount": 45
+        "particleCount": 45,
+        "rays": true
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": 25
+        "panX": 20
       },
       "fadeIn": 0,
       "fadeOut": 0,
@@ -101,23 +103,16 @@
           "box": true
         },
         {
-          "type": "bracket",
-          "x1": 240,
-          "y1": 550,
-          "x2": 840,
-          "y2": 550,
-          "label": "MOUNT EVEREST: 8,848M",
-          "color": "#ffd166"
+          "type": "svg",
+          "markup": "\n                <g opacity=\"0.9\">\n                  <!-- Bathyscaphe Trieste Submersible -->\n                  <rect x=\"360\" y=\"680\" width=\"360\" height=\"130\" rx=\"30\" fill=\"#e2e8f0\" stroke=\"#00f2fe\" stroke-width=\"4\"/>\n                  <circle cx=\"540\" cy=\"850\" r=\"70\" fill=\"#475569\" stroke=\"#ffd166\" stroke-width=\"6\"/>\n                  <circle cx=\"540\" cy=\"850\" r=\"28\" fill=\"#00f2fe\" opacity=\"0.8\"/>\n                  <!-- Searchlight Beams -->\n                  <polygon points=\"560,860 920,1100 840,1180 540,880\" fill=\"#00f2fe\" opacity=\"0.25\"/>\n                  <text x=\"540\" y=\"750\" font-family=\"Poppins\" font-size=\"30\" font-weight=\"900\" fill=\"#0f172a\" text-anchor=\"middle\">TRIESTE 1960</text>\n                </g>\n                "
         },
         {
-          "type": "stamp",
-          "text": "COMPLETELY SUBMERGED",
-          "color": "#ff3b30",
-          "x": 540,
-          "y": 950,
-          "size": 52,
-          "rotate": -5,
-          "t0": 1.8
+          "type": "pill",
+          "text": "DEEP SEA BATHYSCAPHE",
+          "x": 310,
+          "y": 980,
+          "size": 24,
+          "t0": 0.8
         },
         {
           "type": "caption",
@@ -135,9 +130,10 @@
       "start": 13.34,
       "end": 23.71,
       "bg": {
+        "mode": "abyss",
         "depth": 0.58,
-        "rays": false,
         "particleCount": 45,
+        "rays": false,
         "spotlight": {
           "x": 540,
           "w": 420
@@ -145,10 +141,10 @@
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": -25
+        "panX": -20
       },
       "fadeIn": 0,
       "fadeOut": 0,
@@ -162,25 +158,18 @@
           "box": true
         },
         {
-          "type": "meter",
-          "x": 160,
-          "y": 820,
-          "w": 760,
-          "value": 1.0,
-          "number": 1086,
-          "unit": " ATM",
-          "title": "WATER PRESSURE TELEMETRY",
-          "dur": 2.2,
-          "t0": 0.3
+          "type": "svg",
+          "markup": "\n                <g opacity=\"0.85\">\n                  <!-- Mount Everest Inverted Comparison -->\n                  <polygon points=\"540,650 360,1100 720,1100\" fill=\"none\" stroke=\"#ffd166\" stroke-width=\"5\" stroke-dasharray=\"10,6\"/>\n                  <line x1=\"280\" y1=\"520\" x2=\"800\" y2=\"520\" stroke=\"#00f2fe\" stroke-width=\"4\"/>\n                  <text x=\"540\" y=\"500\" font-family=\"Poppins\" font-size=\"28\" font-weight=\"700\" fill=\"#00f2fe\" text-anchor=\"middle\">SURFACE OCEAN LEVEL</text>\n                  <text x=\"540\" y=\"880\" font-family=\"Poppins\" font-size=\"34\" font-weight=\"800\" fill=\"#ffd166\" text-anchor=\"middle\">MT. EVEREST (8,848M)</text>\n                </g>\n                "
         },
         {
-          "type": "pill",
-          "text": "8 TONS PER SQUARE INCH",
-          "tone": "red",
-          "x": 280,
-          "y": 940,
-          "size": 26,
-          "t0": 1.5
+          "type": "stamp",
+          "text": "BURIED UNDER 2,000M WATER",
+          "color": "#ff3b30",
+          "x": 540,
+          "y": 1020,
+          "size": 44,
+          "rotate": -4,
+          "t0": 1.4
         },
         {
           "type": "caption",
@@ -208,16 +197,17 @@
       "start": 23.71,
       "end": 28.31,
       "bg": {
+        "mode": "abyss",
         "depth": 0.68,
-        "rays": false,
-        "particleCount": 45
+        "particleCount": 45,
+        "rays": false
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": 25
+        "panX": 20
       },
       "fadeIn": 0,
       "fadeOut": 0,
@@ -231,26 +221,25 @@
           "box": true
         },
         {
-          "type": "creature",
-          "kind": "squid",
-          "x": 540,
-          "y": 850,
-          "scale": 1.2,
-          "swim": {
-            "vx": 20,
-            "vy": -10
-          },
-          "bob": true
+          "type": "meter",
+          "x": 160,
+          "y": 740,
+          "w": 760,
+          "value": 1.0,
+          "number": 1080,
+          "unit": " ATM",
+          "title": "HYDROSTATIC WATER PRESSURE",
+          "dur": 2.2,
+          "t0": 0.3
         },
         {
-          "type": "circle",
-          "x": 540,
-          "y": 850,
-          "rx": 280,
-          "ry": 180,
-          "color": "#00f2fe",
-          "width": 4,
-          "t0": 1.0
+          "type": "pill",
+          "text": "8 TONS CRUSHING FORCE PER SQ INCH",
+          "tone": "red",
+          "x": 220,
+          "y": 860,
+          "size": 26,
+          "t0": 1.2
         },
         {
           "type": "caption",
@@ -268,16 +257,17 @@
       "start": 28.31,
       "end": 35.95,
       "bg": {
+        "mode": "abyss",
         "depth": 0.77,
-        "rays": false,
-        "particleCount": 45
+        "particleCount": 45,
+        "rays": false
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": -25
+        "panX": -20
       },
       "fadeIn": 0,
       "fadeOut": 0,
@@ -294,21 +284,21 @@
           "type": "creature",
           "kind": "fish",
           "x": 540,
-          "y": 820,
-          "scale": 1.6,
+          "y": 760,
+          "scale": 1.7,
           "mode": "ghost",
           "swim": {
-            "vx": 25,
-            "vy": 5
+            "vx": 22,
+            "vy": 6
           }
         },
         {
           "type": "pill",
-          "text": "TRANSLUCENT \u2022 ZERO SCALES",
-          "x": 270,
-          "y": 1050,
+          "text": "MARIANA SNAILFISH \u2022 CARTILAGE SKELETON",
+          "x": 200,
+          "y": 940,
           "size": 24,
-          "t0": 1.0
+          "t0": 0.8
         },
         {
           "type": "caption",
@@ -326,16 +316,17 @@
       "start": 35.95,
       "end": 43.4,
       "bg": {
+        "mode": "abyss",
         "depth": 0.86,
-        "rays": false,
-        "particleCount": 45
+        "particleCount": 45,
+        "rays": false
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": 25
+        "panX": 20
       },
       "fadeIn": 0,
       "fadeOut": 0,
@@ -349,13 +340,17 @@
           "box": true
         },
         {
+          "type": "svg",
+          "markup": "\n                <g opacity=\"0.85\">\n                  <!-- Giant Xenophyophore Cell -->\n                  <circle cx=\"540\" cy=\"780\" r=\"110\" fill=\"#00f2fe\" opacity=\"0.15\" stroke=\"#00f2fe\" stroke-width=\"4\"/>\n                  <circle cx=\"540\" cy=\"780\" r=\"60\" fill=\"#00f2fe\" opacity=\"0.3\"/>\n                  <line x1=\"430\" y1=\"780\" x2=\"650\" y2=\"780\" stroke=\"#ffd166\" stroke-width=\"3\"/>\n                  <line x1=\"540\" y1=\"670\" x2=\"540\" y2=\"890\" stroke=\"#ffd166\" stroke-width=\"3\"/>\n                </g>\n                "
+        },
+        {
           "type": "bignumber",
           "from": 1,
           "to": 20,
           "suffix": " cm",
           "x": 540,
-          "y": 800,
-          "size": 120,
+          "y": 750,
+          "size": 110,
           "color": "#ffd166",
           "dur": 2.0,
           "t0": 0.3
@@ -384,16 +379,17 @@
       "start": 43.4,
       "end": 50.56,
       "bg": {
+        "mode": "abyss",
         "depth": 0.95,
-        "rays": true,
-        "particleCount": 45
+        "particleCount": 45,
+        "rays": true
       },
       "camera": {
         "zoomFrom": 1.0,
-        "zoomTo": 1.14,
+        "zoomTo": 1.12,
         "x": 540,
         "y": 960,
-        "panX": -25
+        "panX": -20
       },
       "fadeIn": 0,
       "fadeOut": 0.4,
@@ -408,13 +404,13 @@
         },
         {
           "type": "stamp",
-          "text": "THE HADAL ABYSS",
+          "text": "LIFE CONQUERED THE ABYSS",
           "color": "#00f2fe",
           "x": 540,
-          "y": 850,
-          "size": 56,
-          "rotate": -4,
-          "t0": 1.2
+          "y": 800,
+          "size": 52,
+          "rotate": -3,
+          "t0": 1.0
         },
         {
           "type": "caption",

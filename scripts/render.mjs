@@ -19,9 +19,10 @@ const [specPath, outPath] = args;
 if (!specPath || !outPath) { console.error('usage: render.mjs scene.json out.mp4|sheet.png [--contact] [--scale s] [--fps n] [--from s] [--to s] [--audio f] [--music f]'); process.exit(1); }
 
 const spec = JSON.parse(fs.readFileSync(specPath, 'utf8'));
+const baseW = spec.width || 1080, baseH = spec.height || 1920;
 const scale = +flag('scale', 1), fps = +flag('fps', spec.fps || 30);
-const W = Math.round((spec.width || 1920) * scale / 2) * 2, H = Math.round((spec.height || 1080) * scale / 2) * 2;
-spec.width = W; spec.height = H;
+const W = Math.round(baseW * scale / 2) * 2, H = Math.round(baseH * scale / 2) * 2;
+spec.width = baseW; spec.height = baseH;
 const total = spec.shots.at(-1).end;
 
 const browser = await chromium.launch();
