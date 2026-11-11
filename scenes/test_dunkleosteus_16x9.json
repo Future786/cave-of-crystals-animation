@@ -1,0 +1,79 @@
+{
+  "preset": "abyss",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "tokens": {
+    "bgTop": "#102538",
+    "bgBot": "#040b12",
+    "highlight": "#f5a623"
+  },
+  "shots": [
+    {
+      "start": 0,
+      "end": 4.5,
+      "bg": { "depth": 0.3, "sun": { "x": 1400, "y": 200, "r": 600 } },
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.15, "x": 960, "y": 540 },
+      "elements": [
+        { "type": "tag", "text": "DEVONIAN PERIOD • 360 MILLION YEARS AGO", "x": 80, "y": 80 },
+        { "type": "creature", "kind": "dunkleosteus", "x": 960, "y": 540, "scale": 1.8, "swim": { "vx": 35 } },
+        { "type": "caption", "text": "360 million years ago, *Dunkleosteus* ruled the oceans.", "y": 950, "size": 34, "t0": 0.4 }
+      ]
+    },
+    {
+      "start": 4.5,
+      "end": 9.5,
+      "bg": { "depth": 0.6, "spotlight": { "x": 1050, "w": 650 } },
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.2, "x": 1050, "y": 540 },
+      "elements": [
+        { "type": "creature", "kind": "dunkleosteus", "mode": "silhouette", "x": 1050, "y": 480, "scale": 2.2 },
+        { "type": "creature", "kind": "shark", "x": 480, "y": 740, "scale": 0.9, "swim": { "vx": 20 } },
+        { "type": "creature", "kind": "diver", "x": 260, "y": 480, "scale": 0.8, "rotate": -10 },
+        { "type": "stamp", "text": "APEX HYPERPREDATOR", "color": "#ef4444", "x": 1500, "y": 220, "rotate": -6, "t0": 1.2 },
+        { "type": "caption", "text": "It grew up to *9 meters long* — dwarfing any modern shark.", "y": 950, "size": 34, "t0": 0.5 }
+      ]
+    },
+    {
+      "start": 9.5,
+      "end": 14.5,
+      "bg": { "depth": 0.8 },
+      "camera": { "zoomFrom": 1.1, "zoomTo": 1.25, "x": 1100, "y": 540 },
+      "elements": [
+        { "type": "creature", "kind": "dunkleosteus", "x": 880, "y": 520, "scale": 2.4 },
+        { "type": "circle", "cx": 1120, "cy": 500, "rx": 90, "ry": 70, "color": "#f5a623", "t0": 0.8 },
+        { "type": "factstack", "x": 1360, "y": 320, "w": 480, "items": [
+          { "text": "No true teeth: self-sharpening bone blades", "t0": 0.5 },
+          { "text": "Head encased in 5cm heavy dermal armor", "t0": 1.8 },
+          { "text": "Bite force rivals Tyrannosaurus Rex", "t0": 3.0, "tone": "red" }
+        ]},
+        { "type": "caption", "text": "Instead of teeth, it possessed *shearing blades of solid bone*.", "y": 950, "size": 34, "t0": 0.4 }
+      ]
+    },
+    {
+      "start": 14.5,
+      "end": 19.5,
+      "bg": { "depth": 0.95 },
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.08, "x": 960, "y": 540 },
+      "elements": [
+        { "type": "meter", "x": 480, "y": 480, "w": 960, "title": "BITE FORCE AT BLADE TIP", "value": 0.94, "number": 8000, "unit": " PSI", "sub": "Crushes ammonite shells instantly", "dur": 2.5, "t0": 0.3 },
+        { "type": "pill", "text": "Over 5,000 Newtons of force", "x": 750, "y": 640, "tone": "red", "t0": 1.8 },
+        { "type": "caption", "text": "Its jaws snapped shut in just *1/50th of a second*.", "y": 950, "size": 34, "t0": 0.5 }
+      ]
+    },
+    {
+      "start": 19.5,
+      "end": 24.5,
+      "bg": { "mode": "sonar" },
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.15, "x": 960, "y": 540 },
+      "elements": [
+        { "type": "sonar", "t0": 0, "blips": [
+          { "x": 960, "y": 500, "label": "DUNKLEOSTEUS (9M)", "t": 1.0 },
+          { "x": 1400, "y": 320, "label": "PRIMITIVE SHARK", "t": 1.8 },
+          { "x": 550, "y": 680, "label": "YOU", "t": 2.6 }
+        ]},
+        { "type": "creature", "kind": "dunkleosteus", "mode": "sonar", "x": 960, "y": 540, "scale": 1.9, "t0": 1.0 },
+        { "type": "caption", "text": "Nothing in the prehistoric sea was safe from this armored titan.", "y": 950, "size": 34, "t0": 0.5 }
+      ]
+    }
+  ]
+}

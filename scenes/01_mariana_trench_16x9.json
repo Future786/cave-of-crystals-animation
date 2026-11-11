@@ -1,0 +1,102 @@
+{
+  "preset": "abyss",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "tokens": {
+    "bgTop": "#0e2a3a",
+    "bgBot": "#02070c",
+    "highlight": "#00f2fe"
+  },
+  "audio": "/home/antigravity/Future786/cave-of-crystals-animation/audio/01_mariana_trench_final_audio.mp3",
+  "shots": [
+    {
+      "start": 0,
+      "end": 6.5,
+      "bg": { "depth": 0.2, "sun": { "x": 1300, "y": 180, "r": 650 }, "rays": true },
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.15, "x": 960, "y": 540 },
+      "elements": [
+        { "type": "tag", "text": "PACIFIC OCEAN • CHALLENGER DEEP", "x": 80, "y": 80 },
+        { "type": "creature", "kind": "diver", "x": 750, "y": 480, "scale": 1.2, "swim": { "vx": 30 } },
+        { "type": "school", "kind": "fish", "x": 1200, "y": 620, "w": 450, "h": 120, "count": 18, "scale": 0.15, "swim": { "vx": 40 } },
+        { "type": "caption", "text": "The *Mariana Trench* plunges nearly 11,000 meters into total darkness.", "y": 950, "size": 34, "t0": 0.4 }
+      ]
+    },
+    {
+      "start": 6.5,
+      "end": 13.0,
+      "bg": { "depth": 0.6, "spotlight": { "x": 960, "w": 600 } },
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.2, "x": 960, "y": 540 },
+      "elements": [
+        { "type": "creature", "kind": "submersible", "x": 960, "y": 480, "scale": 1.6, "swim": { "vx": 20 } },
+        { "type": "pill", "text": "Bathyscaphe Trieste (1960)", "x": 720, "y": 740, "t0": 1.0 },
+        { "type": "caption", "text": "In 1960, the *Trieste bathyscaphe* descended to the lowest point on Earth.", "y": 950, "size": 34, "t0": 0.5 }
+      ]
+    },
+    {
+      "start": 13.0,
+      "end": 19.5,
+      "bg": { "depth": 0.8 },
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.12, "x": 960, "y": 540 },
+      "elements": [
+        { "type": "svg", "markup": "<g opacity='0.85'><polygon points='650,250 350,850 950,850' fill='none' stroke='#ffd166' stroke-width='5' stroke-dasharray='12,8'/><text x='650' y='550' font-family='Poppins' font-size='32' font-weight='800' fill='#ffd166' text-anchor='middle'>MT. EVEREST (8,848M)</text><line x1='200' y1='150' x2='1720' y2='150' stroke='#00f2fe' stroke-width='4'/><text x='650' y='120' font-family='Poppins' font-size='24' font-weight='700' fill='#00f2fe' text-anchor='middle'>OCEAN SURFACE</text></g>" },
+        { "type": "stamp", "text": "BURIED UNDER 2,000M OF WATER", "color": "#ef4444", "x": 1350, "y": 450, "rotate": -6, "t0": 1.2 },
+        { "type": "caption", "text": "If Mount Everest were placed here, its peak would be *2,000 meters underwater*.", "y": 950, "size": 34, "t0": 0.5 }
+      ]
+    },
+    {
+      "start": 19.5,
+      "end": 26.0,
+      "bg": { "depth": 0.95 },
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.08, "x": 960, "y": 540 },
+      "elements": [
+        { "type": "meter", "x": 480, "y": 480, "w": 960, "title": "HYDROSTATIC PRESSURE AT 11,000M", "value": 0.98, "number": 1080, "unit": " ATM", "sub": "1,080 times atmospheric surface pressure", "dur": 2.2, "t0": 0.3 },
+        { "type": "pill", "text": "Crushes human lungs in a fraction of a second", "tone": "red", "x": 680, "y": 660, "t0": 1.8 },
+        { "type": "caption", "text": "At this depth, water pressure exceeds *1,080 atmospheres*.", "y": 950, "size": 34, "t0": 0.5 }
+      ]
+    },
+    {
+      "start": 26.0,
+      "end": 33.0,
+      "bg": { "depth": 0.98, "spotlight": { "x": 960, "w": 550 } },
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.25, "x": 960, "y": 540 },
+      "elements": [
+        { "type": "creature", "kind": "fish", "x": 960, "y": 500, "scale": 2.5, "swim": { "vx": 15 } },
+        { "type": "circle", "cx": 1020, "cy": 500, "rx": 180, "ry": 90, "color": "#00f2fe", "t0": 0.8 },
+        { "type": "factstack", "x": 1360, "y": 320, "w": 480, "items": [
+          { "text": "Mariana Snailfish: deepest living fish (8,000m)", "t0": 0.5 },
+          { "text": "Zero bones: flexible cartilage skeleton", "t0": 1.8 },
+          { "text": "Cellular chemical armor prevents protein collapse", "t0": 3.0, "tone": "green" }
+        ]},
+        { "type": "caption", "text": "Yet life thrives: the *Mariana snailfish* survives with zero bones.", "y": 950, "size": 34, "t0": 0.4 }
+      ]
+    },
+    {
+      "start": 33.0,
+      "end": 40.0,
+      "bg": { "depth": 1.0 },
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.15, "x": 960, "y": 540 },
+      "elements": [
+        { "type": "creature", "kind": "anglerfish", "x": 650, "y": 480, "scale": 1.7, "swim": { "vx": 18 } },
+        { "type": "creature", "kind": "squid", "x": 1350, "y": 520, "scale": 1.2, "swim": { "vx": -22 } },
+        { "type": "pill", "text": "Bioluminescent Abyssal Predators", "x": 780, "y": 760, "t0": 1.2 },
+        { "type": "caption", "text": "Alien hunters illuminate the void with *living bioluminescent light*.", "y": 950, "size": 34, "t0": 0.4 }
+      ]
+    },
+    {
+      "start": 40.0,
+      "end": 47.0,
+      "bg": { "mode": "sonar" },
+      "camera": { "zoomFrom": 1.0, "zoomTo": 1.12, "x": 960, "y": 540 },
+      "elements": [
+        { "type": "sonar", "t0": 0, "blips": [
+          { "x": 960, "y": 520, "label": "SUBMERSIBLE (-10,994M)", "t": 1.0 },
+          { "x": 1350, "y": 380, "label": "CHALLENGER DEEP TRENCH WALL", "t": 1.8 },
+          { "x": 600, "y": 680, "label": "HADAL ABYSS", "t": 2.5 }
+        ]},
+        { "type": "creature", "kind": "submersible", "mode": "sonar", "x": 960, "y": 540, "scale": 1.4, "t0": 1.0 },
+        { "type": "caption", "text": "At the bottom lies Earth's most mysterious, alien frontier.", "y": 950, "size": 34, "t0": 0.5 }
+      ]
+    }
+  ]
+}

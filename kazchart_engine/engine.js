@@ -172,12 +172,82 @@
     <path fill="#140d0b" d="M-84,20 C-40,34 40,34 84,20 C50,56 -50,56 -84,20 Z"/>
     <path fill="none" stroke="#fff" stroke-width="3" d="${teeth}"/>${eyes}`;
   };
+  C.dunkleosteus = (P, col, t, o) => {
+    const [b, armor, d] = col || ['#334155', '#94a3b8', '#1e293b'];
+    const sway = Math.sin(t * 2.8 + (o.phase || 0)) * 10;
+    const jawOpen = Math.max(0, Math.sin(t * 1.5)) * 14;
+    return `
+    <g transform="rotate(${sway} -180 0)">
+      <path ${sty(P, b)} d="M-170,0 L-260,-65 L-235,0 L-260,50 L-180,15 Z"/>
+    </g>
+    <path ${sty(P, d)} d="M-80,-25 L-110,-75 L-130,-20 Z"/>
+    <path ${sty(P, d)} d="M-50,30 L-80,85 L-95,30 Z"/>
+    <path ${sty(P, d)} d="M60,40 L30,105 L10,40 Z"/>
+    <path ${sty(P, b)} d="M140,-15 C100,-45 -40,-45 -180,-5 L-180,15 C-40,45 80,45 130,25 Z"/>
+    <path ${sty(P, armor)} d="M170,-10 C160,-50 30,-50 -20,-30 L-30,35 C30,45 120,40 160,20 Z"/>
+    <path fill="none" stroke="${d}" stroke-width="3" d="M30,-45 L20,38"/>
+    <path fill="none" stroke="${d}" stroke-width="3" d="M-20,-30 L80,-5"/>
+    <path fill="none" stroke="${d}" stroke-width="3" d="M80,-5 L80,35"/>
+    <circle cx="105" cy="-12" r="14" fill="${armor}" stroke="${d}" stroke-width="3"/>
+    <circle cx="105" cy="-12" r="7" fill="#111"/>
+    <path fill="#f4ecd8" stroke="${d}" stroke-width="3" d="M90,-2 L155,-2 L160,10 L145,10 L135,16 L120,8 L90,6 Z"/>
+    <g transform="rotate(${jawOpen} 90 15)">
+      <path fill="#f4ecd8" stroke="${d}" stroke-width="3" d="M90,14 L150,14 L142,6 L130,6 L120,-2 L110,6 L90,10 Z"/>
+    </g>`;
+  };
+  C.submersible = (P, col, t, o) => {
+    const [hull, sphere, light] = col || ['#f1f5f9', '#475569', '#ffd166'];
+    const bob = Math.sin(t * 1.8) * 8;
+    return `
+    <g transform="translate(0, ${bob})">
+      <polygon points="120,30 550,-60 600,180 120,50" fill="${light}" opacity="0.25"/>
+      <rect x="-160" y="-35" width="320" height="70" rx="30" fill="${hull}" stroke="#222" stroke-width="4"/>
+      <rect x="-20" y="-65" width="45" height="30" rx="6" fill="#e2e8f0" stroke="#222" stroke-width="4"/>
+      <path d="M-170,-20 L-185,-35 L-180,0 L-185,35 L-170,20 Z" fill="#64748b" stroke="#222" stroke-width="2"/>
+      <circle cx="60" cy="45" r="45" fill="${sphere}" stroke="#222" stroke-width="5"/>
+      <circle cx="75" cy="45" r="16" fill="#00f2fe" opacity="0.85" stroke="#222" stroke-width="3"/>
+    </g>`;
+  };
+  C.anglerfish = (P, col, t, o) => {
+    const [b, teethCol, lureCol] = col || ['#261c14', '#f1f5f9', '#ffd166'];
+    const sway = Math.sin(t * 3) * 6;
+    const lureGlow = 0.6 + Math.sin(t * 5) * 0.35;
+    return `
+    <g transform="rotate(${sway} -120 0)">
+      <path fill="${b}" stroke="#111" stroke-width="3" d="M-100,0 L-160,-40 L-145,0 L-160,40 Z"/>
+    </g>
+    <path fill="${b}" stroke="#111" stroke-width="4" d="M80,-20 C60,-80 -60,-70 -110,-10 C-110,60 40,80 80,30 Z"/>
+    <path fill="#0d0a08" stroke="#111" stroke-width="3" d="M80,-15 C40,0 40,20 80,30 L60,40 C10,30 10,-10 60,-25 Z"/>
+    <path fill="none" stroke="${teethCol}" stroke-width="3" stroke-linecap="round" d="M75,-16 L65,10 M60,-12 L50,15 M45,-6 L40,12 M35,-2 L35,8 M75,28 L65,4 M58,22 L48,2 M45,18 L40,5"/>
+    <path fill="none" stroke="#4a3728" stroke-width="4" d="M20,-60 Q60,-120 90,-80 Q110,-60 115,-40"/>
+    <circle cx="115" cy="-40" r="22" fill="${lureCol}" opacity="${lureGlow * 0.4}"/>
+    <circle cx="115" cy="-40" r="10" fill="${lureCol}" opacity="${lureGlow}"/>
+    <circle cx="115" cy="-40" r="5" fill="#fff"/>
+    <circle cx="50" cy="-35" r="8" fill="#111"/>
+    <circle cx="48" cy="-37" r="2.5" fill="#555"/>`;
+  };
   C.blob = (P, col) => `<ellipse rx="160" ry="50" ${sty(P, col[0])}/>`;
+
+  const DEFAULT_CREATURES = {
+    whale: ['#8f8e8a', '#6f6e6a', '#b5b4ae'],
+    shark: ['#5d6872', '#d9dcdc', '#2b3138'],
+    orca: ['#15181c', '#f1f1f1', '#000'],
+    squid: ['#b8453f', '#e07a6a', '#7a2620'],
+    fish: ['#7f97a6', '#c3d2da', '#4c606c'],
+    diver: ['#2b2f36', '#e8e8e8', '#f2b705'],
+    dunkleosteus: ['#334155', '#94a3b8', '#1e293b'],
+    submersible: ['#f8fafc', '#334155', '#ffd166'],
+    anglerfish: ['#261c14', '#f1f5f9', '#ffd166']
+  };
 
   function colorsFor(P, kind, mode) {
     if (mode && MODES[mode]) return MODES[mode]();
+    if (kind === 'dunkleosteus') return ['#334155', '#94a3b8', '#1e293b'];
+    if (kind === 'submersible') return ['#f8fafc', '#334155', '#ffd166'];
+    if (kind === 'anglerfish') return ['#261c14', '#f1f5f9', '#ffd166'];
     const base = kind === 'sharkFront' ? 'shark' : kind;
-    return P.creature[base] || P.creature.whale;
+    const pCreature = P.creature || DEFAULT_CREATURES;
+    return pCreature[base] || DEFAULT_CREATURES[base] || DEFAULT_CREATURES.whale;
   }
 
   /* ---------------- background ---------------- */
